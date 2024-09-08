@@ -62,3 +62,52 @@ eye for detail and a passion for technology and innovation.
 * Integrating with existing SaaS architecture in Azure’s cloud
 * Performance charting and analysis
 
+## 2011 – Present: Freelance Professional (Photography, 3D Graphics, Web Design, Architectural Visualization)
+
+
+* Built a versatile freelance career working across photography, 3D visualization, web design, and architectural rendering.
+* Worked on interactive, real-time 3D visualization projects using Unreal Engine 4 and Blender for both personal and client projects.
+* Developed custom software and visual content for architectural clients, real estate businesses, and various small enterprises.
+* Handled marketing, business negotiation, and client relations independently to maintain a diverse client base.
+
+
+### *Freelance Architectural visualizations*
+* Analyzing and interpreting plot schematics and regulations
+* Floor Plans accurate to the millimeter
+* Custom furniture design
+* Interior design
+* 3D modeling
+
+
+
+#### Interactive Architectural Visualization
+* Real-time interactive demo software using Unreal Engine 4
+* Hybrid lighting, using both real-time reflections and switchable dynamic lights, with pre-baked lightmaps
+
+<img src="../images/archviz-interactive/02.JPG" alt="image1" style="max-width:600px;">
+<img src="../images/archviz-interactive/03.JPG" alt="image2" style="max-width:600px;">
+<img src="../images/archviz-interactive/01.JPG" alt="image3" style="max-width:600px;">
+<img src="../images/archviz-interactive/keszhaz1.jpg" alt="image4" style="max-width:600px;">
+<img src="../images/archviz-interactive/keszhaz2.jpg" alt="image5" style="max-width:600px;">
+
+
+#### Realistic Architectural Visualization
+* Realistic rendering
+* Solar gain analysis 
+* Quick and dirty mockup from on-site photos and measurements
+
+<img src="../images/archviz-realistic/0002.jpg" alt="image1" style="max-width:600px;">
+<img src="../images/archviz-realistic/0004.jpg" alt="image2" style="max-width:600px;">
+<img src="../images/archviz-realistic/0006.jpg" alt="image3" style="max-width:600px;">
+<img src="../images/archviz-realistic/0007.jpg" alt="image4" style="max-width:600px;">
+<img src="../images/archviz-realistic/00062.jpg" alt="image5" style="max-width:600px;">
+
+#### *3D modelling and visual effects*
+* visualizing and rendering various natural disasters
+* distributed rendering locally on several machines
+* physics simulation including fluids, smoke, collisions, and destruction
+
+<img src="../images/3d-naturaldisasters/earthquake.jpg" alt="image1" style="max-width:600px;">
+<img src="../images/3d-naturaldisasters/erosion.jpg" alt="image1" style="max-width:600px;">
+<img src="../images/3d-naturaldisasters/flood.jpg" alt="image1" style="max-width:600px;">
+

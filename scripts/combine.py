@@ -7,6 +7,12 @@ def generate_github_link(language, section):
     return f'{base_url}/sections/{section}'
 
 
+def adjust_image_paths(content, current_depth, target_depth):
+    """ Adjust relative image paths in the content based on the depth difference between source and target. """
+    adjustment = "../" * (target_depth - current_depth)
+    return content.replace("../../../", f"../{adjustment}")
+
+
 def combine_index(profile='general'):
     # Load the configuration from the JSON file
     with open('cv_config.json', 'r') as config_file:
@@ -41,7 +47,14 @@ def combine_index(profile='general'):
                     if section.get('include', False):
                         # Include the content directly
                         with open(section_path, 'r') as section_content:
-                            index_file.write(section_content.read() + '\n\n')
+                            content = section_content.read()
+
+                            # Adjust image paths depending on where the original file is located
+                            current_depth = len(section["file"].split('/'))  # e.g., experience/pzartech-header -> 2
+                            target_depth = 1  # Since generated files are one level deep
+                            content = adjust_image_paths(content, current_depth, target_depth)
+
+                            index_file.write(content + '\n\n')
                     else:
                         # Add a link to the section
                         if section.get('externally-link', False):

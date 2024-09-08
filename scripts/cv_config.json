@@ -14,24 +14,44 @@
         "include": true
       },
       {
-        "file": "experience/pzartech-header",
+        "file": "experience/pzartech/pzartech-header",
         "include": true
       },
       {
-        "file": "experience/pzartech-summary",
+        "file": "experience/pzartech/pzartech-summary",
         "include": true
       },
       {
-        "file": "experience/pzartech-webdev",
+        "file": "experience/pzartech/pzartech-webdev",
         "include": true
       },
       {
-        "file": "experience/pzartech-ml",
-        "include": true,
-        "button-text": {
-          "_en": "\n ### [More on Machine Learning]",
-          "_hu": "\n ### [Többet a Gépi Tanulásról]"
-        }
+        "file": "experience/pzartech/pzartech-ml",
+        "include": true
+      },
+      {
+        "file": "experience/freelance/freelance-header",
+        "include": true
+      },
+      {
+        "file": "experience/freelance/freelance-summary",
+        "include": true
+      },
+      {
+        "file": "experience/freelance/freelance-archviz",
+        "include": true
+      },
+      {
+        "file": "experience/freelance/freelance-archviz-interactive",
+        "include": true
+      },
+      {
+        "file": "experience/freelance/freelance-archviz-realistic",
+        "include": true
+      },
+      {
+        "file": "experience/freelance/freelance-3d",
+        "include": true
       }
     ]
   },
@@ -50,15 +70,15 @@
         "include": true
       },
       {
-        "file": "experience/pzartech-header",
+        "file": "experience/pzartech/pzartech-header",
         "include": true
       },
       {
-        "file": "experience/pzartech-webdev",
+        "file": "experience/pzartech/pzartech-webdev",
         "include": true
       },
       {
-        "file": "experience/pzartech-ml",
+        "file": "experience/pzartech/pzartech-ml",
         "include": false,
         "button-text": {
           "_en": "\n ### [More on Machine Learning]",
@@ -82,15 +102,15 @@
         "include": true
       },
       {
-        "file": "experience/pzartech-header",
+        "file": "experience/pzartech/pzartech-header",
         "include": true
       },
       {
-        "file": "experience/pzartech-ml",
+        "file": "experience/pzartech/pzartech-ml",
         "include": true
       },
       {
-        "file": "experience/pzartech-webdev",
+        "file": "experience/pzartech/pzartech-webdev",
         "include": false,
         "button-text": {
           "_en": "\n ### [More on Web development]",

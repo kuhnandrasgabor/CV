@@ -34,4 +34,4 @@ Tapasztalt szakember, több mint egy évtizedes tapasztalattal a fotózás, 3D v
 * Teljesítmény diagramok és elemzések
 
 
- ### [Többet a Webes fejlesztésről](../sections/experience/pzartech-webdev_hu.md)
+ ### [Többet a Webes fejlesztésről](../sections/experience/pzartech/pzartech-webdev_hu.md)
