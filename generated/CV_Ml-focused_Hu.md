@@ -7,7 +7,7 @@
 **Vizualizációk:** [Galéria](https://drive.google.com/drive/u/1/folders/17BtC\_NqO1VWdKJ8OTOcvbAuNRcr1uOjr)
 
 
-![Profile Picture](../images/profile.jpg)
+<img src="../images/profile.jpg" alt="profile_picture" style="max-width:400px;">
 
 # Szakmai tapasztalat
 
