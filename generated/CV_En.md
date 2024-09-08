@@ -49,6 +49,6 @@ eye for detail and a passion for technology and innovation.
   * SAP integration prototype
 
 
- ### [More on Machine Learning](../en/sections/experience/pzartech-ml.md)
+ ### [More on Machine Learning](../sections/experience/pzartech-ml_en.md)
 
- ### [More on Machine Learning](https://github.com/kuhnandrasgabor/CV/blob/main/en/../en/sections/experience/pzartech-ml.md)
+ ### [More on Machine Learning](https://github.com/kuhnandrasgabor/CV/blob/main/sections/experience/pzartech-ml_en.md)

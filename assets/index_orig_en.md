@@ -6,7 +6,7 @@
 
 ## Personal Info
 
-[Personal Info](sections/personal-info.md)
+[Personal Info](../sections/personal-info_en)
 
 # Professional experience
 
