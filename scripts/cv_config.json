@@ -1,0 +1,102 @@
+{
+  "general": {
+    "sections": [
+      {
+        "file": "personal-info",
+        "include": true
+      },
+      {
+        "file": "experience",
+        "include": true
+      },
+      {
+        "file": "experience/experience-summary",
+        "include": true
+      },
+      {
+        "file": "experience/pzartech-header",
+        "include": true
+      },
+      {
+        "file": "experience/pzartech-summary",
+        "include": true
+      },
+      {
+        "file": "experience/pzartech-webdev",
+        "include": true
+      },
+      {
+        "file": "experience/pzartech-ml",
+        "include": true,
+        "button-text": {
+          "_en": "\n ### [More on Machine Learning]",
+          "_hu": "\n ### [Többet a Gépi Tanulásról]"
+        }
+      }
+    ]
+  },
+  "devops": {
+    "sections": [
+      {
+        "file": "personal-info",
+        "include": true
+      },
+      {
+        "file": "experience",
+        "include": true
+      },
+      {
+        "file": "experience/experience-summary",
+        "include": true
+      },
+      {
+        "file": "experience/pzartech-header",
+        "include": true
+      },
+      {
+        "file": "experience/pzartech-webdev",
+        "include": true
+      },
+      {
+        "file": "experience/pzartech-ml",
+        "include": false,
+        "button-text": {
+          "_en": "\n ### [More on Machine Learning]",
+          "_hu": "\n ### [Többet a Gépi Tanulásról]"
+        }
+      }
+    ]
+  },
+  "ml-focused": {
+    "sections": [
+      {
+        "file": "personal-info",
+        "include": true
+      },
+      {
+        "file": "experience",
+        "include": true
+      },
+      {
+        "file": "experience/experience-summary",
+        "include": true
+      },
+      {
+        "file": "experience/pzartech-header",
+        "include": true
+      },
+      {
+        "file": "experience/pzartech-ml",
+        "include": true
+      },
+      {
+        "file": "experience/pzartech-webdev",
+        "include": false,
+        "button-text": {
+          "_en": "\n ### [More on Web development]",
+          "_hu": "\n ### [Többet a Webes fejlesztésről]"
+        }
+      }
+    ]
+  }
+}

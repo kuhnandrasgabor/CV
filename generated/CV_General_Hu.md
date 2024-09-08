@@ -43,7 +43,17 @@ Tapasztalt szakember, több mint egy évtizedes tapasztalattal a fotózás, 3D v
     * Kép- és karakterfelismerés fejlesztése és integrációja
     * Reszponzív felhasználói felület MudBlazor-ral
 
+### *Gépi tanulás*
 
- ### [More on Machine Learning](../sections/experience/pzartech-ml_hu.md)
+* Gépi tanulási adatbázis generálás
+    * Nyers videó feldolgozás, szegmentálás, javítás, kiértékelés félig szintetikus adatokhoz
+    * Címkézett szintetikus képek valósághű generálása
+    * Adatbázis kezelés és eszközök
+* ML Képzés
+    * Képminőség értékelő hálózat képzési adatok kiértékeléséhez
+    * Bounding box generáló hálózat képzési adatok kiértékeléséhez
+    * Kép osztályozó hálózat ipari alkatrész felismeréshez
+    * Optikai karakterfelismerő rendszer
+* Integráció meglévő SaaS architektúrával az Azure felhőben
+* Teljesítmény diagramok és elemzések
 
- ### [More on Machine Learning](https://github.com/kuhnandrasgabor/CV/blob/main/sections/experience/pzartech-ml_hu.md)

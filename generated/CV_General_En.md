@@ -48,7 +48,17 @@ eye for detail and a passion for technology and innovation.
   * Media storage and streaming prototype
   * SAP integration prototype
 
+### *Machine learning and training*
 
- ### [More on Machine Learning](../sections/experience/pzartech-ml_en.md)
+* ML dataset generation
+  * Raw video processing, segmentation, enhancement, evaluation for semi-synth data
+  * Realistic generation of labelled synthetic images
+  * Dataset management and tooling
+* ML Training
+  * Image quality assessment network for training data evaluation
+  * Bounding box generation network for training data evaluation
+  * Image classifier network for industrial part recognition
+  * Optical character recognition system
+* Integrating with existing SaaS architecture in Azure’s cloud
+* Performance charting and analysis
 
- ### [More on Machine Learning](https://github.com/kuhnandrasgabor/CV/blob/main/sections/experience/pzartech-ml_en.md)
