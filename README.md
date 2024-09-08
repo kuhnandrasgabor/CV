@@ -1,5 +1,9 @@
-# English CV (magyarul lentebb)
-Main CV body: [CV](./en/index.md)
+# András Gábor Kühn - CV
 
-# Magyar CV
-Önéletrajz: [CV](./hu/index.md)
+This repository contains my CV in both English and Hungarian versions.
+
+## English Version
+[View English CV](./en/index_orig)
+
+## Hungarian Version
+[View Hungarian CV](./hu/index_orig)

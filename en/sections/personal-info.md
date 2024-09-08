@@ -8,8 +8,3 @@
 
 
 ![Profile Picture](../images/profile.jpg)
-
-
-
-
-
