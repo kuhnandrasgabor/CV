@@ -60,7 +60,7 @@ def combine_index(profile='general'):
                         if section.get('externally-link', False):
                             # Generate an external link to the GitHub version
                             index_file.write(
-                                f"\n ### [More on {section.get('title')}]({generate_github_link(language, section_file)})\n"
+                                f"{section.get('button-text')[language_suffix]}({generate_github_link(language, section_file)})\n"
                             )
                         else:
                             # Generate an internal relative link (relative to the generated file)

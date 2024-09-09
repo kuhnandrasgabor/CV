@@ -52,6 +52,29 @@
       {
         "file": "experience/freelance/freelance-3d",
         "include": true
+      },
+      {
+        "file": "experience/stoneglass/stoneglass-header",
+        "include": true
+      },
+      {
+        "file": "experience/stoneglass/stoneglass-summary",
+        "include": true
+      },
+      {
+        "file": "experience/stoneglass/stoneglass-starsend-header",
+        "include": true
+      },      {
+        "file": "experience/stoneglass/stoneglass-starsend-summary",
+        "include": true
+      },
+      {
+        "file": "experience/stoneglass/stoneglass-starsend-roles",
+        "include": true
+      } ,
+      {
+        "file": "experience/stoneglass/stoneglass-starsend-gallery",
+        "include": true
       }
     ]
   },
