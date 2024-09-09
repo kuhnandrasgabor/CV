@@ -2,110 +2,117 @@
   "general": {
     "sections": [
       {
-        "file": "personal-info",
-        "include": true
+        "file": "personal-info"
       },
       {
-        "file": "experience",
-        "include": true
+        "file": "experience"
       },
       {
-        "file": "experience/experience-summary",
-        "include": true
+        "file": "experience/experience-summary"
       },
       {
-        "file": "experience/pzartech/pzartech-header",
-        "include": true
+        "file": "experience/pzartech/pzartech-header"
       },
       {
-        "file": "experience/pzartech/pzartech-summary",
-        "include": true
+        "file": "experience/pzartech/pzartech-summary"
       },
       {
-        "file": "experience/pzartech/pzartech-webdev",
-        "include": true
+        "file": "experience/pzartech/pzartech-webdev"
       },
       {
-        "file": "experience/pzartech/pzartech-ml",
-        "include": true
+        "file": "experience/pzartech/pzartech-ml"
       },
       {
-        "file": "experience/freelance/freelance-header",
-        "include": true
+        "file": "experience/freelance/freelance-header"
       },
       {
-        "file": "experience/freelance/freelance-summary",
-        "include": true
+        "file": "experience/freelance/freelance-summary"
       },
       {
-        "file": "experience/freelance/freelance-archviz",
-        "include": true
+        "file": "experience/freelance/freelance-archviz"
       },
       {
         "file": "experience/freelance/freelance-archviz-interactive",
-        "include": true
+        "button-text": {
+          "_en": "\n #### [Interactive Archviz]",
+          "_hu": "\n #### [Interaktív Archviz]"
+        }
       },
       {
         "file": "experience/freelance/freelance-archviz-realistic",
-        "include": true
+        "button-text": {
+          "_en": "\n #### [Realistic Archviz]",
+          "_hu": "\n #### [Valósághű Archviz]"
+        }
       },
       {
-        "file": "experience/freelance/freelance-3d",
-        "include": true
+        "file": "experience/freelance/freelance-3d"
       },
       {
-        "file": "experience/stoneglass/stoneglass-header",
-        "include": true
+        "file": "experience/freelance/freelance-3d-gallery",
+        "button-text": {
+          "_en": "\n #### [3D gallery]",
+          "_hu": "\n #### [3D galéria]"
+        }
+      },
+      {
+        "file": "experience/stoneglass/stoneglass-header"
       },
       {
         "file": "experience/stoneglass/stoneglass-summary",
-        "include": true
+        "button-text": {
+          "_en": "\n #### [Stoneglass summary]",
+          "_hu": "\n #### [Stoneglass összefoglaló]"
+        }
       },
       {
-        "file": "experience/stoneglass/stoneglass-starsend-header",
-        "include": true
-      },      {
+        "file": "experience/stoneglass/stoneglass-starsend-header"
+      },
+      {
         "file": "experience/stoneglass/stoneglass-starsend-summary",
-        "include": true
+        "button-text": {
+          "_en": "\n #### [Starsend summary]",
+          "_hu": "\n #### [Starsend összefoglaló]"
+        }
       },
       {
         "file": "experience/stoneglass/stoneglass-starsend-roles",
-        "include": true
-      } ,
+        "button-text": {
+          "_en": "\n #### [Roles]",
+          "_hu": "\n #### [Szerepek]"
+        }
+      },
       {
         "file": "experience/stoneglass/stoneglass-starsend-gallery",
-        "include": true
+        "button-text": {
+          "_en": "\n #### [Starsend gallery]",
+          "_hu": "\n #### [Starsend galéria]"
+        }
       }
     ]
   },
   "devops": {
     "sections": [
       {
-        "file": "personal-info",
-        "include": true
+        "file": "personal-info"
       },
       {
-        "file": "experience",
-        "include": true
+        "file": "experience"
       },
       {
-        "file": "experience/experience-summary",
-        "include": true
+        "file": "experience/experience-summary"
       },
       {
-        "file": "experience/pzartech/pzartech-header",
-        "include": true
+        "file": "experience/pzartech/pzartech-header"
       },
       {
-        "file": "experience/pzartech/pzartech-webdev",
-        "include": true
+        "file": "experience/pzartech/pzartech-webdev"
       },
       {
         "file": "experience/pzartech/pzartech-ml",
-        "include": false,
         "button-text": {
-          "_en": "\n ### [More on Machine Learning]",
-          "_hu": "\n ### [Többet a Gépi Tanulásról]"
+          "_en": "\n #### [More on Machine Learning]",
+          "_hu": "\n #### [Többet a Gépi Tanulásról]"
         }
       }
     ]
@@ -113,31 +120,25 @@
   "ml-focused": {
     "sections": [
       {
-        "file": "personal-info",
-        "include": true
+        "file": "personal-info"
       },
       {
-        "file": "experience",
-        "include": true
+        "file": "experience"
       },
       {
-        "file": "experience/experience-summary",
-        "include": true
+        "file": "experience/experience-summary"
       },
       {
-        "file": "experience/pzartech/pzartech-header",
-        "include": true
+        "file": "experience/pzartech/pzartech-header"
       },
       {
-        "file": "experience/pzartech/pzartech-ml",
-        "include": true
+        "file": "experience/pzartech/pzartech-ml"
       },
       {
         "file": "experience/pzartech/pzartech-webdev",
-        "include": false,
         "button-text": {
-          "_en": "\n ### [More on Web development]",
-          "_hu": "\n ### [Többet a Webes fejlesztésről]"
+          "_en": "\n #### [More on Web development]",
+          "_hu": "\n #### [Többet a Webes fejlesztésről]"
         }
       }
     ]

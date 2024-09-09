@@ -80,80 +80,30 @@ eye for detail and a passion for technology and innovation.
 
 
 
-#### Interactive Architectural Visualization
-* Real-time interactive demo software using Unreal Engine 4
-* Hybrid lighting, using both real-time reflections and switchable dynamic lights, with pre-baked lightmaps
 
-<img src="../images/archviz-interactive/02.JPG" alt="image1" style="max-width:600px;">
-<img src="../images/archviz-interactive/03.JPG" alt="image2" style="max-width:600px;">
-<img src="../images/archviz-interactive/01.JPG" alt="image3" style="max-width:600px;">
-<img src="../images/archviz-interactive/keszhaz1.jpg" alt="image4" style="max-width:600px;">
-<img src="../images/archviz-interactive/keszhaz2.jpg" alt="image5" style="max-width:600px;">
+ #### [Interactive Archviz](../sections/experience/freelance/freelance-archviz-interactive_en.md)
 
-
-#### Realistic Architectural Visualization
-* Realistic rendering
-* Solar gain analysis 
-* Quick and dirty mockup from on-site photos and measurements
-
-<img src="../images/archviz-realistic/0002.jpg" alt="image1" style="max-width:600px;">
-<img src="../images/archviz-realistic/0004.jpg" alt="image2" style="max-width:600px;">
-<img src="../images/archviz-realistic/0006.jpg" alt="image3" style="max-width:600px;">
-<img src="../images/archviz-realistic/0007.jpg" alt="image4" style="max-width:600px;">
-<img src="../images/archviz-realistic/00062.jpg" alt="image5" style="max-width:600px;">
-
+ #### [Realistic Archviz](../sections/experience/freelance/freelance-archviz-realistic_en.md)
 #### *3D modelling and visual effects*
 * visualizing and rendering various natural disasters
 * distributed rendering locally on several machines
 * physics simulation including fluids, smoke, collisions, and destruction
 
-<img src="../images/3d-naturaldisasters/earthquake.jpg" alt="image1" style="max-width:600px;">
-<img src="../images/3d-naturaldisasters/erosion.jpg" alt="image1" style="max-width:600px;">
-<img src="../images/3d-naturaldisasters/flood.jpg" alt="image1" style="max-width:600px;">
 
+
+ #### [3D gallery](../sections/experience/freelance/freelance-3d-gallery_en.md)
 ## 2014\. – 2020\. Stoneglass Labs KFT., Szeged (CEO)
 
 
-Headed a software development team in a small company developing a game.
 
-* Corporate administration
-* Project management
-* Business negotiation
-* Software and hardware acquisition
-* Network and sysadmin tasks
-* Administrative tasks
-
+ #### [Stoneglass summary](../sections/experience/stoneglass/stoneglass-summary_en.md)
 ### *Stars End (MMORPG game software project)*
 
 
 
-Led development and design of an ambitious multiplayer online game involving large-scale, space-themed gameplay. I handled virtually all aspects of game logic, engine customization (Unity 3D and Unreal Engine 4) from AI logic to shader programming. Built over 300 custom icons, volumetric effects, and modular 3D spaceship models, UI elements and a myriad of tools. The project required self-learning of various skills from writing the background lore to refining of business models, creation pipeline of assets, including all graphics both 2D and 3D, procedural geometry generation logic, VFX and sound design.
 
-* Creative lead design
-* Software design and development
-  * Engine customization
-    * Unity 3D
-    * Unreal Engine 4
-  * Architecture
-  * Network communication
-  * Data security
-  * Scalability
-* Gamedesign
-  * Graphics design
-    * Brand
-    * 2D, 3D assets
-    * UI/UX
-    * VFX, shaders
-    * AI, FSM
-  * Sound and music
-  * Level design
-  * Story, missions and background info
-* Development of content generation tools and additional software
+ #### [Starsend summary](../sections/experience/stoneglass/stoneglass-starsend-summary_en.md)
 
+ #### [Roles](../sections/experience/stoneglass/stoneglass-starsend-roles_en.md)
 
-<img src="../images/starsend/gui.jpg" alt="image" style="max-width:600px;">
-<img src="../images/starsend/gui.png" alt="image" style="max-width:600px;">
-<img src="../images/starsend/shaders.jpg" alt="image" style="max-width:600px;">
-<img src="../images/starsend/ship2.png" alt="image" style="max-width:600px;">
-<img src="../images/starsend/station components.png" alt="image" style="max-width:600px;">
-
+ #### [Starsend gallery](../sections/experience/stoneglass/stoneglass-starsend-gallery_en.md)

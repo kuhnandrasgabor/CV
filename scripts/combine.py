@@ -44,7 +44,7 @@ def combine_index(profile='general'):
                 section_path = f'../sections/{section_file}'
 
                 if os.path.exists(section_path):
-                    if section.get('include', False):
+                    if section.get('button-text', False) is False:
                         # Include the content directly
                         with open(section_path, 'r') as section_content:
                             content = section_content.read()

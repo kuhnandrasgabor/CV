@@ -37,4 +37,4 @@ Tapasztalt szakember, több mint egy évtizedes tapasztalattal a fotózás, 3D v
     * Reszponzív felhasználói felület MudBlazor-ral
 
 
- ### [Többet a Gépi Tanulásról](../sections/experience/pzartech/pzartech-ml_hu.md)
+ #### [Többet a Gépi Tanulásról](../sections/experience/pzartech/pzartech-ml_hu.md)
