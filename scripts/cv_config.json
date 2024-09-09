@@ -2,58 +2,58 @@
   "demo": {
     "content": [
       {
-        "file": "included-file1"
+        "file": "demo/included-file1"
       },
       {
-        "file": "included-file2",
+        "file": "demo/included-file2",
         "content": [
           {
-            "file": "included-file3"
+            "file": "demo/included-file3"
           },
           {
-            "file": "included-file4"
+            "file": "demo/included-file4"
           }
         ]
       },
       {
-        "file": "linked-file1",
-        "link-text": {
+        "file": "demo/linked-file1",
+        "link": {
           "_en": "### [Link to linked-file1]",
           "_hu": "### [linked-file1 -re mutató link]"
         }
       },
       {
-        "file": "linked-file-with-included-content",
-        "link-text": {
+        "file": "demo/linked-file-with-included-content",
+        "link": {
           "_en": "### [Link to linked-file-with-included-content]",
           "_hu": "### [linked-file-with-included-content -re mutató link]"
         },
         "content": [
           {
-            "file": "included-file5"
+            "file": "demo/included-file5"
           },
           {
-            "file": "included-file6"
+            "file": "demo/included-file6"
           }
         ]
       },
       {
-        "file": "linked-file-with-linked-content",
-        "link-text": {
+        "file": "demo/linked-file-with-linked-content",
+        "link": {
           "_en": "### [Link to linked-file-with-linked-content]",
           "_hu": "### [linked-file-with-linked-content -re mutató link]"
         },
         "content": [
           {
-            "file": "linked-file2",
-            "link-text": {
+            "file": "demo/linked-file2",
+            "link": {
               "_en": "### [Link to linked-file2]",
               "_hu": "### [linked-file2 -re mutató link]"
             }
           },
           {
-            "file": "linked-file3",
-            "link-text": {
+            "file": "demo/linked-file3",
+            "link": {
               "_en": "### [Link to linked-file3]",
               "_hu": "### [linked-file3 -ra mutató link]"
             }
@@ -61,30 +61,81 @@
         ]
       },
       {
-
-
-        "file": "linked-file-with-linked-content-and-included-content",
-        "link-text": {
+        "file": "demo/linked-file-with-linked-content-and-included-content",
+        "link": {
           "_en": "### [Link to file with content and link text and included content]",
           "_hu": "### [Fájlra mutató link tartalommal és link szöveggel és tartalommal]"
         },
         "content": [
           {
-            "file": "linked-file4",
-            "link-text": {
+            "file": "demo/linked-file4",
+            "link": {
               "_en": "### [Link to linked-file4]",
               "_hu": "### [linked-file4 -re mutató link]"
             }
           },
           {
-            "file": "linked-file5",
-            "link-text": {
+            "file": "demo/linked-file5",
+            "link": {
               "_en": "### [Link to linked-file5]",
               "_hu": "### [linked-file5 -re mutató link]"
             }
           },
           {
-            "file": "included-file6"
+            "file": "demo/included-file6"
+          }
+        ]
+      },
+      {
+        "file": "demo/inside/linked-file-with-linked-content-and-included-content-inside",
+        "link": {
+          "_en": "### [Link to file with content and link text and included content]",
+          "_hu": "### [Fájlra mutató link tartalommal és link szöveggel és tartalommal]"
+        },
+        "content": [
+          {
+            "file": "demo/linked-file4",
+            "link": {
+              "_en": "### [Link to linked-file4]",
+              "_hu": "### [linked-file4 -re mutató link]"
+            }
+          },
+          {
+            "file": "demo/linked-file5",
+            "link": {
+              "_en": "### [Link to linked-file5]",
+              "_hu": "### [linked-file5 -re mutató link]"
+            }
+          },
+          {
+            "file": "demo/included-file6"
+          }
+        ]
+      },
+      {
+        "file": "demo/inside/stacked",
+        "link": {
+          "_en": "### [Link to stacked content]",
+          "_hu": "### [Stacked content -re mutató link]"
+        },
+        "content": [
+          {
+            "file": "demo/stacked/multi-linked-file",
+            "content": [
+              {
+                "file": "demo/included-file6"
+              },
+              {
+                "file": "demo/included-file5"
+              },
+              {
+                "file": "demo/included-file4"
+              }
+            ],
+            "link": {
+              "_en": "### [Link to multi-linked-file]",
+              "_hu": "### [multi-linked-file -re mutató link]"
+            }
           }
         ]
       }

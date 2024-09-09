@@ -1,72 +1,71 @@
 import os
 import json
+import shutil
 
-def generate_github_link(language, section, is_nested=False):
-    """Generate the correct link to the section. Handle nested files to avoid double ../generated/"""
+
+def generate_github_link(language, section, section_path, is_nested=False):
+    """Generate the correct link to the section, respecting the folder structure."""
     if is_nested:
-        return f'../sections/{section}'
-    return f'../generated/sections/{section}'
+        return f'../sections/{section_path}/{section}'
+    return f'../generated/sections/{section_path}/{section}'
+
 
 def adjust_image_paths(content, current_depth, target_depth):
     adjustment = "../" * (target_depth - current_depth)
     return content.replace("../../../", f"../{adjustment}")
 
-def process_content(content_list, language_suffix, index_file, depth=1, profile="", is_nested=False):
-    """Process the content recursively. Ensure that both linked and included content are handled correctly."""
+
+def process_content_list(content_list, language_suffix, index_file):
     for content in content_list:
-        if 'file' in content:
-            content_file = f'{content["file"]}{language_suffix}.md'
-            content_path = f'../sections/{content_file}'
-
-            if os.path.exists(content_path):
-                if 'link-text' not in content:
-                    # Include the content directly
-                    with open(content_path, 'r') as content_file:
-                        content_data = content_file.read()
-                        content_data = adjust_image_paths(content_data, len(content["file"].split('/')), depth)
-                        index_file.write(content_data + '\n\n')
-                else:
-                    # Link the content, generate section if necessary
-                    section_file = generate_section(content, language_suffix, profile)
-                    link = generate_github_link(language_suffix, os.path.basename(section_file), is_nested=is_nested)
-                    index_file.write(f"{content['link-text'][language_suffix]}({link})\n")
+        if 'link' not in content and 'content' not in content:
+            # the content is a simple file we need to include
+            # we need to make sure the file exists first
+            content_filepath = f'../sections/{content["file"]}{language_suffix}.md'
+            if os.path.exists(content_filepath):
+                with open(content_filepath, 'r') as content_file:
+                    content_text = content_file.read()
+                    content_text = adjust_image_paths(content_text, 10, 2)
+                    index_file.write(content_text)
             else:
-                print(f'Content file {content_file} does not exist')
+                current = os.getcwd()
+                print(f'File inclusion not found at ({content_filepath}) from {current}')
 
-        # Check if "content" exists and process it recursively
-        if 'content' in content:
-            if 'link-text' in content:
-                # Generate the content as a standalone section if it's to be linked
-                section_file = generate_section(content, language_suffix, profile)
-                link = generate_github_link(language_suffix, os.path.basename(section_file), is_nested=is_nested)
-                index_file.write(f"{content['link-text'][language_suffix]}({link})\n")
+        elif 'link' in content and 'content' not in content:
+            # the content is a simple file we need to link to
+            # we need to make sure the file exists first
+            content_filepath = f'../sections/{content["file"]}{language_suffix}.md'
+            if os.path.exists(content_filepath):
+                index_file.write(f'{content["link"][language_suffix]}({content_filepath})\n\n')
             else:
-                # Directly include the nested content
-                process_content(content['content'], language_suffix, index_file, depth + 1, profile, is_nested)
+                current = os.getcwd()
+                print(f'File linking not found at ({content_filepath}) from {current}')
 
-def generate_section(content, language_suffix, profile):
-    """Generate a section file dynamically and return the path"""
-    section_file = f'../generated/sections/{profile}_{content["file"]}{language_suffix}.md'
-    os.makedirs(os.path.dirname(section_file), exist_ok=True)  # Ensure the directory exists
+        elif 'link' not in content and 'content' in content:
+            # the content is a nested list of content
+            process_content_list(content['content'], language_suffix, index_file)
 
-    if os.path.exists(section_file):
-        os.remove(section_file)
+        elif 'link' in content and 'content' in content:
+            # the content is linking to a file and also has nested content
+            # the file in this case will be the filename of the section we will generate and link to
+            generated_section_path = generate_section(content['file'], language_suffix, content['content'])
 
-    with open(section_file, 'x') as section_index:
-        # If there is content, process it recursively
-        if 'content' in content:
-            process_content(content['content'], language_suffix, section_index, profile=profile, is_nested=True)
-        else:
-            # If there's no nested content, just include the section's own file content
-            content_file = f'../sections/{content["file"]}{language_suffix}.md'
-            if os.path.exists(content_file):
-                with open(content_file, 'r') as original_content:
-                    section_index.write(original_content.read() + '\n\n')
+            index_file.write(f'{content["link"][language_suffix]}({generated_section_path})\n\n')
 
-    return section_file
+
+def generate_section(filename, language_suffix, content):
+    """Generate a section file based on the section name and content."""
+    section_filepath = f'../generated/sections/{filename}{language_suffix}.md'
+    os.makedirs(os.path.dirname(section_filepath), exist_ok=True)
+
+    with open(section_filepath, 'x') as section_file:
+        section_file.write(f'# {filename}\n\n')
+        process_content_list(content, language_suffix, section_file)
+
+    return section_filepath
+
 
 def combine_index(profile='demo'):
-    """Main function to combine the content based on the profile and language"""
+    """Main function to combine the content based on the profile and language."""
     with open('cv_config.json', 'r') as config_file:
         config = json.load(config_file)
 
@@ -80,18 +79,19 @@ def combine_index(profile='demo'):
         language_suffix = language_suffixes[language]
         sections = config[profile]['content']
 
-        output_file = f'../generated/demo_output{language_suffix}.md'
+        output_file = os.path.join('../generated', f'{profile}_output{language_suffix}.md')
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
         if os.path.exists(output_file):
             os.remove(output_file)
 
         with open(output_file, 'x') as index_file:
-            # Process all content recursively
-            process_content(sections, language_suffix, index_file, profile=profile)
+            # Process all content recursively, passing the section path for folder structure
+            process_content_list(sections, language_suffix, index_file)
 
         print(f'Combined sections into {output_file}')
 
 
-# Example usage
+# delete generated folder
+shutil.rmtree('../generated', ignore_errors=True)
 combine_index(profile='demo')
