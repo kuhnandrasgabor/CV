@@ -1,20 +1,72 @@
 import os
 import json
 
-
-def generate_github_link(language, section):
-    base_url = 'https://github.com/kuhnandrasgabor/CV/blob/main'
-    return f'{base_url}/sections/{section}'
-
+def generate_github_link(language, section, is_nested=False):
+    """Generate the correct link to the section. Handle nested files to avoid double ../generated/"""
+    if is_nested:
+        return f'../sections/{section}'
+    return f'../generated/sections/{section}'
 
 def adjust_image_paths(content, current_depth, target_depth):
-    """ Adjust relative image paths in the content based on the depth difference between source and target. """
     adjustment = "../" * (target_depth - current_depth)
     return content.replace("../../../", f"../{adjustment}")
 
+def process_content(content_list, language_suffix, index_file, depth=1, profile="", is_nested=False):
+    """Process the content recursively. Ensure that both linked and included content are handled correctly."""
+    for content in content_list:
+        if 'file' in content:
+            content_file = f'{content["file"]}{language_suffix}.md'
+            content_path = f'../sections/{content_file}'
 
-def combine_index(profile='general'):
-    # Load the configuration from the JSON file
+            if os.path.exists(content_path):
+                if 'link-text' not in content:
+                    # Include the content directly
+                    with open(content_path, 'r') as content_file:
+                        content_data = content_file.read()
+                        content_data = adjust_image_paths(content_data, len(content["file"].split('/')), depth)
+                        index_file.write(content_data + '\n\n')
+                else:
+                    # Link the content, generate section if necessary
+                    section_file = generate_section(content, language_suffix, profile)
+                    link = generate_github_link(language_suffix, os.path.basename(section_file), is_nested=is_nested)
+                    index_file.write(f"{content['link-text'][language_suffix]}({link})\n")
+            else:
+                print(f'Content file {content_file} does not exist')
+
+        # Check if "content" exists and process it recursively
+        if 'content' in content:
+            if 'link-text' in content:
+                # Generate the content as a standalone section if it's to be linked
+                section_file = generate_section(content, language_suffix, profile)
+                link = generate_github_link(language_suffix, os.path.basename(section_file), is_nested=is_nested)
+                index_file.write(f"{content['link-text'][language_suffix]}({link})\n")
+            else:
+                # Directly include the nested content
+                process_content(content['content'], language_suffix, index_file, depth + 1, profile, is_nested)
+
+def generate_section(content, language_suffix, profile):
+    """Generate a section file dynamically and return the path"""
+    section_file = f'../generated/sections/{profile}_{content["file"]}{language_suffix}.md'
+    os.makedirs(os.path.dirname(section_file), exist_ok=True)  # Ensure the directory exists
+
+    if os.path.exists(section_file):
+        os.remove(section_file)
+
+    with open(section_file, 'x') as section_index:
+        # If there is content, process it recursively
+        if 'content' in content:
+            process_content(content['content'], language_suffix, section_index, profile=profile, is_nested=True)
+        else:
+            # If there's no nested content, just include the section's own file content
+            content_file = f'../sections/{content["file"]}{language_suffix}.md'
+            if os.path.exists(content_file):
+                with open(content_file, 'r') as original_content:
+                    section_index.write(original_content.read() + '\n\n')
+
+    return section_file
+
+def combine_index(profile='demo'):
+    """Main function to combine the content based on the profile and language"""
     with open('cv_config.json', 'r') as config_file:
         config = json.load(config_file)
 
@@ -22,64 +74,24 @@ def combine_index(profile='general'):
         print(f'Profile {profile} not found in configuration.')
         return
 
-    # Define the language suffixes
-    language_suffixes = {
-        'en': '_en',
-        'hu': '_hu'
-    }
+    language_suffixes = {'en': '_en', 'hu': '_hu'}
 
     for language in ['en', 'hu']:
         language_suffix = language_suffixes[language]
+        sections = config[profile]['content']
 
-        sections = config[profile]['sections']
-
-        output_file = f'../generated/CV_{profile.capitalize()}_{language.capitalize()}.md'
+        output_file = f'../generated/demo_output{language_suffix}.md'
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
         if os.path.exists(output_file):
             os.remove(output_file)
 
         with open(output_file, 'x') as index_file:
-            for section in sections:
-                section_file = f'{section["file"]}{language_suffix}.md'
-                section_path = f'../sections/{section_file}'
-
-                if os.path.exists(section_path):
-                    if section.get('button-text', False) is False:
-                        # Include the content directly
-                        with open(section_path, 'r') as section_content:
-                            content = section_content.read()
-
-                            # Adjust image paths depending on where the original file is located
-                            current_depth = len(section["file"].split('/'))  # e.g., experience/pzartech-header -> 2
-                            target_depth = 1  # Since generated files are one level deep
-                            content = adjust_image_paths(content, current_depth, target_depth)
-
-                            index_file.write(content + '\n\n')
-                    else:
-                        # Add a link to the section
-                        if section.get('externally-link', False):
-                            # Generate an external link to the GitHub version
-                            index_file.write(
-                                f"{section.get('button-text')[language_suffix]}({generate_github_link(language, section_file)})\n"
-                            )
-                        else:
-                            # Generate an internal relative link (relative to the generated file)
-                            relative_link = f'../sections/{section_file}'
-                            index_file.write(
-                                f"{section.get('button-text')[language_suffix]}({relative_link})\n"
-                            )
-                else:
-                    print(f'Section file {section_file} does not exist')
+            # Process all content recursively
+            process_content(sections, language_suffix, index_file, profile=profile)
 
         print(f'Combined sections into {output_file}')
 
 
-# Example usage to generate the 'general' profile
-combine_index(profile='general')
-combine_index(profile='devops')
-combine_index(profile='ml-focused')
-
-
-# You can generate other profiles like 'devops' or 'ml-focused' by changing the profile argument
-# combine_index(profile='devops')
-# combine_index(profile='ml-focused')
+# Example usage
+combine_index(profile='demo')
