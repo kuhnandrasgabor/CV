@@ -10,14 +10,13 @@
 
 # Professional experience
 
-## Summary:
+## Experience Summary:
 
-Professional with over a decade of diverse experience spanning photography, 3D visualization, software
-development, and machine learning. Track record in leadership roles, including CEO of a tech startup, where I led a
-complex project in multiplayer online game development and later as CTO of a startup doing AI powered industrial data management and SaaS solutions. Skilled in business negotiation, project management, and
-creative design, with a strong technical background in full-stack development and data science. I excel in multicultural
-environments and am adept at leading cross-functional teams. Committed to continuous learning and improvement, with an
-eye for detail and a passion for technology and innovation.
+I'm a professional with over a decade of diverse experience spanning various fields, ranging from professional photography, 3D visualization, full-stack software
+development, to machine learning. I have a track record in leadership roles, including CEO of a tech startup, where I led a
+complex multiplayer online game development project, later as CTO of a startup doing AI powered industrial data management and SaaS solutions. 
+I have experience in business negotiation, project management, but am my very best at creative design and problem-solving, aided by a strong technical background in full-stack development, graphics programming and data science. I excel in multicultural
+environments. Committed to continuous learning and improvement, with an eye for detail and a passion for technology and innovation.
 
 ## 2020 – Present: Data Science, Machine Learning, Full-Stack Developer & Acting CTO at Pzartech Ltd.
 
@@ -30,9 +29,9 @@ eye for detail and a passion for technology and innovation.
 * Key contributions include SAP integration prototype, ElasticSearch analytics, Azure storage management, development and implementation of visual search and OCR solutions.
 
 
-### [Go to web development projects](../sections/experience/pzartech/pzartech-webdev_en.md)
+#### [Go to web development projects](../sections/experience/pzartech/pzartech-webdev_en.md)
 
-### [Go to machine learning projects](../sections/experience/pzartech/pzartech-ml_en.md)
+#### [Go to machine learning projects](../sections/experience/pzartech/pzartech-ml_en.md)
 
 ## 2011 – Present: Freelance Professional (Photography, 3D Graphics, Web Design, Architectural Visualization)
 
@@ -43,5 +42,15 @@ eye for detail and a passion for technology and innovation.
 * Handled marketing, business negotiation, and client relations independently to maintain a diverse client base.
 
 
-### [Go to freelance projects](../generated/sections/experience/freelance/freelance-expanded_en.md)
+#### [Go to freelance projects](../generated/sections/experience/freelance/freelance-expanded_en.md)
+
+## 2014\. – 2020\. Stoneglass Labs KFT., Szeged (CEO)
+
+
+Headed a software development team in a small company developing an ambitious online multiplayer game.
+
+
+#### [Go to Stoneglass roles](../sections/experience/stoneglass/stoneglass-roles_en.md)
+
+#### [Go to Starsend project](../generated/sections/experience/starsend/starsend_en.md)
 

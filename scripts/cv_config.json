@@ -6,22 +6,22 @@
   "default": {
     "content": [
       {"file": "personal-info"},
-      {"file": "experience"},
+      {"file": "experience/experience-header"},
       {"file": "experience/experience-summary"},
       {"file": "experience/pzartech/pzartech-header"},
       {"file": "experience/pzartech/pzartech-summary"},
       {
         "file": "experience/pzartech/pzartech-webdev",
         "link": {
-          "_en": "### [Go to web development projects]",
-          "_hu": "### [webfejlesztési projektek]"
+          "_en": "#### [Go to web development projects]",
+          "_hu": "#### [webfejlesztési projektek]"
         }
       },
       {
         "file": "experience/pzartech/pzartech-ml",
         "link": {
-          "_en": "### [Go to machine learning projects]",
-          "_hu": "### [gépi tanulási projektek]"
+          "_en": "#### [Go to machine learning projects]",
+          "_hu": "#### [gépi tanulási projektek]"
         }
       },
       {"file": "experience/freelance/freelance-header"},
@@ -29,8 +29,8 @@
       {
         "file": "experience/freelance/freelance-expanded",
         "link": {
-          "_en": "### [Go to freelance projects]",
-          "_hu": "### [szabadúszó projektek]"
+          "_en": "#### [Go to freelance projects]",
+          "_hu": "#### [szabadúszó projektek]"
         },
         "content": [
           {"file": "experience/freelance/freelance-archviz-interactive"},
@@ -39,11 +39,28 @@
           {"file": "experience/freelance/freelance-3d-gallery"}
         ]
       },
-      {"file": "languages"},
-      {"file": "education"},
-      {"file": "skills"},
-      {"file": "interests"},
-      {"file": "references"}
+      {"file": "experience/stoneglass/stoneglass-header"},
+      {"file": "experience/stoneglass/stoneglass-summary"},
+      {"file": "experience/stoneglass/stoneglass-roles",
+        "link": {
+          "_en": "#### [Go to Stoneglass roles]",
+          "_hu": "#### [Ugrás a Stoneglass roles]"
+        }
+      },
+      {
+        "file": "experience/starsend/starsend",
+        "link": {
+          "_en": "#### [Go to Starsend project]",
+          "_hu": "#### [Ugrás a Starsend projekthez]"
+        },
+        "content": [
+          {"file": "experience/starsend/starsend-header"},
+          {"file": "experience/starsend/starsend-summary"},
+          {"file": "experience/starsend/starsend-roles"},
+          {"file": "experience/starsend/starsend-gallery"}
+        ]
+
+      }
     ]
   },
   "demo": {
