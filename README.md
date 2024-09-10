@@ -3,7 +3,7 @@
 This repository contains my CV in both English and Hungarian versions.
 
 ## English Version
-[View English CV](generated/CV_General_En.md)
+[View English CV](generated/default_output_en.md)
 
 ## Hungarian Version
-[View Hungarian CV](generated/CV_General_Hu.md)
+[View Hungarian CV](generated/default_output_hu.md)
