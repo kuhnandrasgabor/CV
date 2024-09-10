@@ -1,4 +1,35 @@
 {
+  "default": {
+    "content": [
+      {"file": "personal-info"},
+      {"file": "experience"},
+      {"file": "experience/experience-summary"},
+      {"file": "experience/pzartech/pzartech-header"},
+      {"file": "experience/pzartech/pzartech-summary"},
+      {"file": "experience/pzartech/pzartech-webdev"},
+      {"file": "experience/pzartech/pzartech-ml"},
+      {"file": "experience/freelance/freelance-header"},
+      {"file": "experience/freelance/freelance-summary"},
+      {
+        "file": "experience/freelance/freelance-expanded",
+        "link": {
+          "_en": "### [Go to freelance projects]",
+          "_hu": "### [szabadúszó projektek]"
+        },
+        "content": [
+          {"file": "experience/freelance/freelance-archviz-interactive"},
+          {"file": "experience/freelance/freelance-archviz-realistic"},
+          {"file": "experience/freelance/freelance-3d"},
+          {"file": "experience/freelance/freelance-3d-gallery"}
+        ]
+      },
+      {"file": "languages"},
+      {"file": "education"},
+      {"file": "skills"},
+      {"file": "interests"},
+      {"file": "references"}
+    ]
+  },
   "demo": {
     "content": [
       {
@@ -121,6 +152,10 @@
         "content": [
           {
             "file": "demo/stacked/multi-linked-file",
+            "link": {
+              "_en": "### [Link to multi-linked-file]",
+              "_hu": "### [multi-linked-file -re mutató link]"
+            },
             "content": [
               {
                 "file": "demo/included-file6"
@@ -131,11 +166,7 @@
               {
                 "file": "demo/included-file4"
               }
-            ],
-            "link": {
-              "_en": "### [Link to multi-linked-file]",
-              "_hu": "### [multi-linked-file -re mutató link]"
-            }
+            ]
           }
         ]
       }

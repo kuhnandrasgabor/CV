@@ -10,9 +10,22 @@ def generate_github_link(language, section, section_path, is_nested=False):
     return f'../generated/sections/{section_path}/{section}'
 
 
-def adjust_image_paths(content, current_depth, target_depth):
-    adjustment = "../" * (target_depth - current_depth)
-    return content.replace("../../../", f"../{adjustment}")
+def adjust_image_paths(content_text, index_file_path):
+    # we need to find all the image tags and replace the relative backsteps to point to the images folder from the new index file <img src="../images/profile.jpg" alt="profile_picture" style="max-width:400px;">
+    image_tags = content_text.split('<img')
+    for i, tag in enumerate(image_tags):
+        if i == 0:
+            continue
+        src_start = tag.find('src="') + 5
+        src_end = tag.find('" ', src_start)
+        original_src = tag[src_start:src_end]
+        removed_back_steps_src = original_src.replace('../', '')
+        depth_from_index = index_file_path.count('/')
+        back_steps = '../' * depth_from_index
+        new_src = f'{back_steps}{removed_back_steps_src}'
+        content_text = content_text.replace(original_src, new_src)
+
+    return content_text
 
 
 def process_content_list(content_list, language_suffix, index_file):
@@ -24,8 +37,9 @@ def process_content_list(content_list, language_suffix, index_file):
             if os.path.exists(content_filepath):
                 with open(content_filepath, 'r') as content_file:
                     content_text = content_file.read()
-                    content_text = adjust_image_paths(content_text, 10, 2)
-                    index_file.write(content_text)
+                    working_file_path = os.path.dirname(index_file.name)
+                    content_text = adjust_image_paths(content_text, working_file_path)
+                    index_file.write(content_text+'\n\n')
             else:
                 current = os.getcwd()
                 print(f'File inclusion not found at ({content_filepath}) from {current}')
@@ -35,7 +49,9 @@ def process_content_list(content_list, language_suffix, index_file):
             # we need to make sure the file exists first
             content_filepath = f'../sections/{content["file"]}{language_suffix}.md'
             if os.path.exists(content_filepath):
-                index_file.write(f'{content["link"][language_suffix]}({content_filepath})\n\n')
+                back_steps = index_file.name.count('/') - 2
+                steps = "../" * back_steps
+                index_file.write(f'{content["link"][language_suffix]}({steps}{content_filepath})\n\n')
             else:
                 current = os.getcwd()
                 print(f'File linking not found at ({content_filepath}) from {current}')
@@ -48,7 +64,6 @@ def process_content_list(content_list, language_suffix, index_file):
             # the content is linking to a file and also has nested content
             # the file in this case will be the filename of the section we will generate and link to
             generated_section_path = generate_section(content['file'], language_suffix, content['content'])
-
             index_file.write(f'{content["link"][language_suffix]}({generated_section_path})\n\n')
 
 
@@ -58,7 +73,7 @@ def generate_section(filename, language_suffix, content):
     os.makedirs(os.path.dirname(section_filepath), exist_ok=True)
 
     with open(section_filepath, 'x') as section_file:
-        section_file.write(f'# {filename}\n\n')
+        section_file.write(f'\n')
         process_content_list(content, language_suffix, section_file)
 
     return section_filepath
@@ -95,3 +110,4 @@ def combine_index(profile='demo'):
 # delete generated folder
 shutil.rmtree('../generated', ignore_errors=True)
 combine_index(profile='demo')
+combine_index(profile='default')
