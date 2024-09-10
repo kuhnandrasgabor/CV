@@ -25,36 +25,9 @@ Tapasztalt szakember, több mint egy évtizedes tapasztalattal a fotózás, 3D v
 * Stratégiai tervezésben, technikai döntéshozatalban és a jövőbeni vállalati növekedésben való együttműködés, beleértve a hozzájárulás alapján történő részvényopciós lehetőségeket.
 * Kulcsfontosságú hozzájárulások közé tartozik a SAP integrációs prototípus, ElasticSearch elemzések, Azure tárhely kezelés, vizuális keresés és OCR megoldások fejlesztése és megvalósítása.
 
-### *Webalapú adatkezelő szoftver*
+### [webfejlesztési projektek](../sections/experience/pzartech/pzartech-webdev_hu.md)
 
-* SaaS szoftver struktúra és design konzultáció ERP szoftverhez
-* Azure felhő erőforrás telepítés
-* Azure DevOps projektmenedzsment, CI/CD
-* .Net Blazor Razor oldalak alapú projekt MAUI többplatformos build célokkal
-    * SAP integrációs prototípus
-    * ElasticSearch alapú oldal analitika
-    * Azure tömeges tárhely integráció és kezelés
-    * MongoDB
-    * API kapcsolatok között
-        * frontend szerver
-        * core szerver
-        * különböző felismerési modul szerverek
-    * Kép- és karakterfelismerés fejlesztése és integrációja
-    * Reszponzív felhasználói felület MudBlazor-ral
-
-### *Gépi tanulás*
-
-* Gépi tanulási adatbázis generálás
-    * Nyers videó feldolgozás, szegmentálás, javítás, kiértékelés félig szintetikus adatokhoz
-    * Címkézett szintetikus képek valósághű generálása
-    * Adatbázis kezelés és eszközök
-* ML Képzés
-    * Képminőség értékelő hálózat képzési adatok kiértékeléséhez
-    * Bounding box generáló hálózat képzési adatok kiértékeléséhez
-    * Kép osztályozó hálózat ipari alkatrész felismeréshez
-    * Optikai karakterfelismerő rendszer
-* Integráció meglévő SaaS architektúrával az Azure felhőben
-* Teljesítmény diagramok és elemzések
+### [gépi tanulási projektek](../sections/experience/pzartech/pzartech-ml_hu.md)
 
 ### [szabadúszó projektek](../generated/sections/experience/freelance/freelance-expanded_hu.md)
 

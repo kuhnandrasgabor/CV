@@ -1,4 +1,8 @@
 {
+  "supported_languages": {
+    "en": "_en",
+    "hu": "_hu"
+  },
   "default": {
     "content": [
       {"file": "personal-info"},
@@ -6,8 +10,20 @@
       {"file": "experience/experience-summary"},
       {"file": "experience/pzartech/pzartech-header"},
       {"file": "experience/pzartech/pzartech-summary"},
-      {"file": "experience/pzartech/pzartech-webdev"},
-      {"file": "experience/pzartech/pzartech-ml"},
+      {
+        "file": "experience/pzartech/pzartech-webdev",
+        "link": {
+          "_en": "### [Go to web development projects]",
+          "_hu": "### [webfejlesztési projektek]"
+        }
+      },
+      {
+        "file": "experience/pzartech/pzartech-ml",
+        "link": {
+          "_en": "### [Go to machine learning projects]",
+          "_hu": "### [gépi tanulási projektek]"
+        }
+      },
       {"file": "experience/freelance/freelance-header"},
       {"file": "experience/freelance/freelance-summary"},
       {
@@ -32,18 +48,12 @@
   },
   "demo": {
     "content": [
-      {
-        "file": "demo/included-file1"
-      },
+      {"file": "demo/included-file1"},
       {
         "file": "demo/included-file2",
         "content": [
-          {
-            "file": "demo/included-file3"
-          },
-          {
-            "file": "demo/included-file4"
-          }
+          {"file": "demo/included-file3"},
+          {"file": "demo/included-file4"}
         ]
       },
       {

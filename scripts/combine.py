@@ -79,19 +79,23 @@ def generate_section(filename, language_suffix, content):
     return section_filepath
 
 
-def combine_index(profile='demo'):
+def combine_index(profile='demo', languages=None):
     """Main function to combine the content based on the profile and language."""
+    if languages is None:
+        languages = ['en']
     with open('cv_config.json', 'r') as config_file:
         config = json.load(config_file)
+
+    if 'supported_languages' not in config:
+        print(f'Language support and suffixes not found in configuration.')
+        return
 
     if profile not in config:
         print(f'Profile {profile} not found in configuration.')
         return
 
-    language_suffixes = {'en': '_en', 'hu': '_hu'}
-
-    for language in ['en', 'hu']:
-        language_suffix = language_suffixes[language]
+    for language in languages:
+        language_suffix = config['supported_languages'][language]
         sections = config[profile]['content']
 
         output_file = os.path.join('../generated', f'{profile}_output{language_suffix}.md')
@@ -110,4 +114,4 @@ def combine_index(profile='demo'):
 # delete generated folder
 shutil.rmtree('../generated', ignore_errors=True)
 combine_index(profile='demo')
-combine_index(profile='default')
+combine_index(profile='default', languages=['en', 'hu'])

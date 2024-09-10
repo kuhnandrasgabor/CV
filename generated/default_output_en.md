@@ -30,36 +30,9 @@ eye for detail and a passion for technology and innovation.
 * Key contributions include SAP integration prototype, ElasticSearch analytics, Azure storage management, development and implementation of visual search and OCR solutions.
 
 
-### *Web based data management software*
+### [Go to web development projects](../sections/experience/pzartech/pzartech-webdev_en.md)
 
-* SaaS software structure and design consultation for ERP software
-* Azure cloud resource deployment and management
-* Azure DevOps project management, CI/CD
-* .Net Blazor Razor pages based project with MAUI multiplatform build targets
-  * Azure bulk storage integration and management
-  * API connections between
-    * frontend server
-    * core server
-    * various recognition module servers
-  * Image and Character recognition development and integration
-  * Responsive UI with MudBlazor
-  * ElasticSearch based page and usage analytics prototype
-  * Media storage and streaming prototype
-  * SAP integration prototype
-
-### *Machine learning and training*
-
-* ML dataset generation
-  * Raw video processing, segmentation, enhancement, evaluation for semi-synth data
-  * Realistic generation of labelled synthetic images
-  * Dataset management and tooling
-* ML Training
-  * Image quality assessment network for training data evaluation
-  * Bounding box generation network for training data evaluation
-  * Image classifier network for industrial part recognition
-  * Optical character recognition system
-* Integrating with existing SaaS architecture in Azure’s cloud
-* Performance charting and analysis
+### [Go to machine learning projects](../sections/experience/pzartech/pzartech-ml_en.md)
 
 ## 2011 – Present: Freelance Professional (Photography, 3D Graphics, Web Design, Architectural Visualization)
 
