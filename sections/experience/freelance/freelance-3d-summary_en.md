@@ -1,3 +1,7 @@
-* visualizing and rendering various natural disasters
-* distributed rendering locally on several machines
-* physics simulation including fluids, smoke, collisions, and destruction
+### *General 3D modelling work*
+* 3D modeling, texturing, PBR and non-PBR materials
+* Lighting
+* Particle systems, environment effects
+* Physics simulation
+* Animation
+* Rendering
