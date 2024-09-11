@@ -2,6 +2,11 @@ import os
 import json
 import shutil
 
+import markdown2
+from xhtml2pdf import pisa
+
+
+
 def adjust_image_paths(content_text, index_file_path):
     # we need to find all the image tags and replace the relative backsteps to point to the images folder from the new index file <img src="../images/profile.jpg" alt="profile_picture" style="max-width:400px;">
     image_tags = content_text.split('<img')
@@ -118,7 +123,44 @@ def combine_index(profile='demo', languages=None):
         print(f'Combined sections into {output_file}')
 
 
-# delete generated folder
-shutil.rmtree('../generated', ignore_errors=True)
-combine_index(profile='demo')
-combine_index(profile='default', languages=['en', 'hu'])
+# # delete generated folder
+# shutil.rmtree('../generated', ignore_errors=True)
+# combine_index(profile='demo')
+# combine_index(profile='default', languages=['en', 'hu'])
+
+def convert_md_to_html(md_content):
+    """Convert markdown content to HTML."""
+    return markdown2.markdown(md_content)
+
+def convert_html_to_pdf(html_content, pdf_output_path):
+    """Convert HTML content to PDF using xhtml2pdf (pisa)."""
+    with open(pdf_output_path, "wb") as result_file:
+        pisa_status = pisa.CreatePDF(html_content, dest=result_file)
+    return pisa_status.err
+
+def generate_pdf_from_md(md_filepath, pdf_output_path):
+    """Convert a markdown file to PDF."""
+    # Read the markdown file with UTF-8 encoding
+    with open(md_filepath, 'r', encoding='utf-8') as md_file:
+        md_content = md_file.read()
+
+    # Convert Markdown to HTML
+    html_content = convert_md_to_html(md_content)
+
+    # Convert the HTML content to PDF
+    error = convert_html_to_pdf(html_content, pdf_output_path)
+
+    if not error:
+        print(f"PDF generated successfully at: {pdf_output_path}")
+    else:
+        print(f"Error generating PDF at: {pdf_output_path}")
+
+
+# Example usage
+md_filepath = '../generated/demo_output_en.md'
+pdf_output_path = md_filepath.replace('.md', '.pdf')
+generate_pdf_from_md(md_filepath, pdf_output_path)
+
+md_filepath = '../generated/default_output_en.md'
+pdf_output_path = md_filepath.replace('.md', '.pdf')
+generate_pdf_from_md(md_filepath, pdf_output_path)
