@@ -6,7 +6,6 @@ import markdown2
 from xhtml2pdf import pisa
 
 
-
 def adjust_image_paths(content_text, index_file_path):
     # we need to find all the image tags and replace the relative backsteps to point to the images folder from the new index file <img src="../images/profile.jpg" alt="profile_picture" style="max-width:400px;">
     image_tags = content_text.split('<img')
@@ -123,14 +122,23 @@ def combine_index(profile='demo', languages=None):
         print(f'Combined sections into {output_file}')
 
 
-# # delete generated folder
-# shutil.rmtree('../generated', ignore_errors=True)
-# combine_index(profile='demo')
-# combine_index(profile='default', languages=['en', 'hu'])
+# delete generated folder
+shutil.rmtree('../generated', ignore_errors=True)
+combine_index(profile='demo')
+combine_index(profile='default', languages=['en', 'hu'])
+
+
+def convert_local_links_to_web_links(content_text, github_repo_url):
+    """Convert local file references to absolute GitHub links."""
+    # Replace local relative links with GitHub URLs
+    content_text = content_text.replace("../generated/sections/", f"{github_repo_url}/blob/main/generated/sections/")
+    return content_text
+
 
 def convert_md_to_html(md_content):
     """Convert markdown content to HTML."""
     return markdown2.markdown(md_content)
+
 
 def convert_html_to_pdf(html_content, pdf_output_path):
     """Convert HTML content to PDF using xhtml2pdf (pisa)."""
@@ -138,11 +146,30 @@ def convert_html_to_pdf(html_content, pdf_output_path):
         pisa_status = pisa.CreatePDF(html_content, dest=result_file)
     return pisa_status.err
 
-def generate_pdf_from_md(md_filepath, pdf_output_path):
+
+def convert_local_links(content_text, github_repo_url):
+    """Convert local file references to appropriate GitHub links."""
+    # Replace links to the original files in `/sections/`
+    content_text = content_text.replace("../sections/", f"{github_repo_url}/blob/main/sections/")
+
+    # Replace links to the generated files in `/generated/sections/`
+    content_text = content_text.replace("../generated/sections/", f"{github_repo_url}/blob/main/generated/sections/")
+
+    # # Ensure the links point to .pdf versions instead of .md
+    # content_text = content_text.replace(".md", ".pdf")
+
+    return content_text
+
+
+def generate_pdf_from_md(md_filepath, pdf_output_path, github_repo_url):
     """Convert a markdown file to PDF."""
     # Read the markdown file with UTF-8 encoding
     with open(md_filepath, 'r', encoding='utf-8') as md_file:
         md_content = md_file.read()
+
+    # Optionally replace local links with web-based links
+    if github_repo_url:
+        md_content = convert_local_links(md_content, github_repo_url)
 
     # Convert Markdown to HTML
     html_content = convert_md_to_html(md_content)
@@ -159,8 +186,8 @@ def generate_pdf_from_md(md_filepath, pdf_output_path):
 # Example usage
 md_filepath = '../generated/demo_output_en.md'
 pdf_output_path = md_filepath.replace('.md', '.pdf')
-generate_pdf_from_md(md_filepath, pdf_output_path)
+generate_pdf_from_md(md_filepath, pdf_output_path, "https://github.com/kuhnandrasgabor/CV")
 
 md_filepath = '../generated/default_output_en.md'
 pdf_output_path = md_filepath.replace('.md', '.pdf')
-generate_pdf_from_md(md_filepath, pdf_output_path)
+generate_pdf_from_md(md_filepath, pdf_output_path,"https://github.com/kuhnandrasgabor/CV")
