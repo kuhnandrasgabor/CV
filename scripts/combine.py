@@ -2,14 +2,6 @@ import os
 import json
 import shutil
 
-
-def generate_github_link(language, section, section_path, is_nested=False):
-    """Generate the correct link to the section, respecting the folder structure."""
-    if is_nested:
-        return f'../sections/{section_path}/{section}'
-    return f'../generated/sections/{section_path}/{section}'
-
-
 def adjust_image_paths(content_text, index_file_path):
     # we need to find all the image tags and replace the relative backsteps to point to the images folder from the new index file <img src="../images/profile.jpg" alt="profile_picture" style="max-width:400px;">
     image_tags = content_text.split('<img')
