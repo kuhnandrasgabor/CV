@@ -33,10 +33,28 @@
           "_hu": "#### [szabadúszó projektek]"
         },
         "content": [
-          {"file": "experience/freelance/freelance-archviz-interactive"},
-          {"file": "experience/freelance/freelance-archviz-realistic"},
-          {"file": "experience/freelance/freelance-3d"},
-          {"file": "experience/freelance/freelance-3d-gallery"}
+          {"file": "experience/freelance/freelance-archviz-interactive-header"},
+          {"file": "experience/freelance/freelance-archviz-interactive-summary"},
+          {"file": "experience/freelance/freelance-archviz-interactive-gallery",
+          "link": {
+            "_en": "#### [Go to gallery]",
+            "_hu": "#### [Galéria]"
+          }
+          },
+          {"file": "experience/freelance/freelance-archviz-realistic-header"},
+          {"file": "experience/freelance/freelance-archviz-realistic-summary"},
+          {"file": "experience/freelance/freelance-archviz-realistic-gallery",
+          "link": {
+            "_en": "#### [Go to gallery]",
+            "_hu": "#### [Galéria]"
+          }},
+          {"file": "experience/freelance/freelance-3d-header"},
+          {"file": "experience/freelance/freelance-3d-summary"},
+          {"file": "experience/freelance/freelance-3d-gallery",
+          "link": {
+            "_en": "#### [Go to gallery]",
+            "_hu": "#### [Galéria]"
+          }}
         ]
       },
       {"file": "experience/stoneglass/stoneglass-header"},
