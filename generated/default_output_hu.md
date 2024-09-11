@@ -25,7 +25,7 @@ Tapasztalt szakember, több mint egy évtizedes tapasztalattal a fotózás, 3D v
 * Stratégiai tervezésben, technikai döntéshozatalban és a jövőbeni vállalati növekedésben való együttműködés, beleértve a hozzájárulás alapján történő részvényopciós lehetőségeket.
 * Kulcsfontosságú hozzájárulások közé tartozik a SAP integrációs prototípus, ElasticSearch elemzések, Azure tárhely kezelés, vizuális keresés és OCR megoldások fejlesztése és megvalósítása.
 
-#### [webfejlesztési projektek](../sections/experience/pzartech/pzartech-webdev_hu.md)
+#### [webfejlesztési projekt](../sections/experience/pzartech/pzartech-webdev_hu.md)
 
 #### [gépi tanulási projektek](../sections/experience/pzartech/pzartech-ml_hu.md)
 

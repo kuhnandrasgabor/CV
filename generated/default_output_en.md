@@ -29,7 +29,7 @@ environments. Committed to continuous learning and improvement, with an eye for 
 * Key contributions include SAP integration prototype, ElasticSearch analytics, Azure storage management, development and implementation of visual search and OCR solutions.
 
 
-#### [Go to web development projects](../sections/experience/pzartech/pzartech-webdev_en.md)
+#### [Go to web development project](../sections/experience/pzartech/pzartech-webdev_en.md)
 
 #### [Go to machine learning projects](../sections/experience/pzartech/pzartech-ml_en.md)
 

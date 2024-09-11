@@ -30,41 +30,54 @@ def adjust_image_paths(content_text, index_file_path):
 
 def process_content_list(content_list, language_suffix, index_file):
     for content in content_list:
-        if 'link' not in content and 'content' not in content:
-            # the content is a simple file we need to include
-            # we need to make sure the file exists first
-            content_filepath = f'../sections/{content["file"]}{language_suffix}.md'
-            if os.path.exists(content_filepath):
-                with open(content_filepath, 'r') as content_file:
-                    content_text = content_file.read()
-                    working_file_path = os.path.dirname(index_file.name)
-                    content_text = adjust_image_paths(content_text, working_file_path)
-                    index_file.write(content_text+'\n\n')
-            else:
-                current = os.getcwd()
-                print(f'File inclusion not found at ({content_filepath}) from {current}')
+        if 'generate' in content and 'file' not in content:
+            if 'link' in content and 'content' in content:
+                # the content is linking to a file and also has nested content,
+                # the 'generate' section will be used to place and generate the content
 
-        elif 'link' in content and 'content' not in content:
-            # the content is a simple file we need to link to
-            # we need to make sure the file exists first
-            content_filepath = f'../sections/{content["file"]}{language_suffix}.md'
-            if os.path.exists(content_filepath):
-                back_steps = index_file.name.count('/') - 2
-                steps = "../" * back_steps
-                index_file.write(f'{content["link"][language_suffix]}({steps}{content_filepath})\n\n')
-            else:
-                current = os.getcwd()
-                print(f'File linking not found at ({content_filepath}) from {current}')
+                generated_section_path = generate_section(content['generate'], language_suffix, content['content'])
+                index_file.write(f'{content["link"][language_suffix]}({generated_section_path})\n\n')
 
-        elif 'link' not in content and 'content' in content:
-            # the content is a nested list of content
-            process_content_list(content['content'], language_suffix, index_file)
+        elif 'generate' in content and 'file' in content:
+            # the config file has both a 'generate' section and a 'file' section that's not supported
+            print(f'Both generate and file sections are not supported in the same content at '
+                  f'content:{content['content']}'
+                  f'file:{content['file']}')
 
-        elif 'link' in content and 'content' in content:
-            # the content is linking to a file and also has nested content
-            # the file in this case will be the filename of the section we will generate and link to
-            generated_section_path = generate_section(content['file'], language_suffix, content['content'])
-            index_file.write(f'{content["link"][language_suffix]}({generated_section_path})\n\n')
+        elif 'generate' not in content and 'file' not in content:
+            # the config file is missing a 'generate' section and a 'file' section that's not supported
+            print(f'Both generate and file sections are missing in the same content at {content}')
+
+        elif 'generate' not in content and 'file' in content:
+            if 'link' not in content and 'content' not in content:
+                # the content is a simple file we need to include
+                # we need to make sure the file exists first
+                content_filepath = f'../sections/{content["file"]}{language_suffix}.md'
+                if os.path.exists(content_filepath):
+                    with open(content_filepath, 'r') as content_file:
+                        content_text = content_file.read()
+                        working_file_path = os.path.dirname(index_file.name)
+                        content_text = adjust_image_paths(content_text, working_file_path)
+                        index_file.write(content_text+'\n\n')
+                else:
+                    current = os.getcwd()
+                    print(f'File inclusion not found at ({content_filepath}) from {current}')
+
+            elif 'link' in content and 'content' not in content:
+                # the content is a simple file we need to link to
+                # we need to make sure the file exists first
+                content_filepath = f'../sections/{content["file"]}{language_suffix}.md'
+                if os.path.exists(content_filepath):
+                    back_steps = index_file.name.count('/') - 2
+                    steps = "../" * back_steps
+                    index_file.write(f'{content["link"][language_suffix]}({steps}{content_filepath})\n\n')
+                else:
+                    current = os.getcwd()
+                    print(f'File linking not found at ({content_filepath}) from {current}')
+
+            elif 'link' not in content and 'content' in content:
+                # the content is a nested list of content
+                process_content_list(content['content'], language_suffix, index_file)
 
 
 def generate_section(filename, language_suffix, content):

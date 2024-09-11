@@ -13,8 +13,8 @@
       {
         "file": "experience/pzartech/pzartech-webdev",
         "link": {
-          "_en": "#### [Go to web development projects]",
-          "_hu": "#### [webfejlesztési projektek]"
+          "_en": "#### [Go to web development project]",
+          "_hu": "#### [webfejlesztési projekt]"
         }
       },
       {
@@ -27,7 +27,7 @@
       {"file": "experience/freelance/freelance-header"},
       {"file": "experience/freelance/freelance-summary"},
       {
-        "file": "experience/freelance/freelance-expanded",
+        "generate": "experience/freelance/freelance-expanded",
         "link": {
           "_en": "#### [Go to freelance projects]",
           "_hu": "#### [szabadúszó projektek]"
@@ -66,7 +66,7 @@
         }
       },
       {
-        "file": "experience/starsend/starsend",
+        "generate": "experience/starsend/starsend",
         "link": {
           "_en": "#### [Go to Starsend project]",
           "_hu": "#### [Ugrás a Starsend projekthez]"
@@ -114,10 +114,10 @@
         ]
       },
       {
-        "file": "demo/linked-file-with-linked-content",
+        "generate": "demo/generated-file1",
         "link": {
-          "_en": "### [Link to linked-file-with-linked-content]",
-          "_hu": "### [linked-file-with-linked-content -re mutató link]"
+          "_en": "### [Link to generated-file1]",
+          "_hu": "### [generated-file1 -re mutató link]"
         },
         "content": [
           {
@@ -163,10 +163,10 @@
         ]
       },
       {
-        "file": "demo/inside/linked-file-with-linked-content-and-included-content-inside",
+        "generate": "demo/inside/generated-file2",
         "link": {
-          "_en": "### [Link to file with content and link text and included content]",
-          "_hu": "### [Fájlra mutató link tartalommal és link szöveggel és tartalommal]"
+          "_en": "### [Link to generated-file2 with content and link text and included content]",
+          "_hu": "### [generated-file2 -re mutató link tartalommal és link szöveggel és tartalommal]"
         },
         "content": [
           {
@@ -189,17 +189,17 @@
         ]
       },
       {
-        "file": "demo/inside/stacked",
+        "generate": "demo/inside/generated-file3",
         "link": {
-          "_en": "### [Link to stacked content]",
-          "_hu": "### [Stacked content -re mutató link]"
+          "_en": "### [Link to generated-file3 content]",
+          "_hu": "### [generated-file3 -ra mutató link]"
         },
         "content": [
           {
-            "file": "demo/stacked/multi-linked-file",
+            "generate": "demo/generated-file4",
             "link": {
-              "_en": "### [Link to multi-linked-file]",
-              "_hu": "### [multi-linked-file -re mutató link]"
+              "_en": "### [Link to generated-file4]",
+              "_hu": "### [generated-file4 -re mutató link]"
             },
             "content": [
               {

@@ -10,8 +10,11 @@ You define the structure of it in the [cv_config.json](scripts/cv_config.json) f
 A content-element has the following properties:
 * `"file": "demo/included-file1"`
 * **files:** relative path to the file that contains the content block we wish to use 
-    * either a path to the file that will be copied into the body of the CV if no content array is defined
-    * or the location and name of a sub-document that will be generated based on the content array 
+    * a path to the file that will be copied into the body of the CV if no content array is defined
+* `"generate": "demo/linked-file-with-linked-content",`
+* **generate:** instructs the code to generate a sub-document in the specified path
+  * the contents will be content array elements
+  * linked into the body of the CV and the content array will be used to generate a sub-document
 * `"link": {
   "_en": "### [Link to linked-file1]",
   "_hu": "### [linked-file1 -re mutató link]"

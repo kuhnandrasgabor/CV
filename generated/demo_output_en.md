@@ -12,13 +12,9 @@ This file is included inside included-content.
 
 ### [Link to linked-file1](../sections/demo/linked-file1_en.md)
 
-### [Link to linked-file-with-included-content](../generated/sections/demo/linked-file-with-included-content_en.md)
+### [Link to generated-file1](../generated/sections/demo/generated-file1_en.md)
 
-### [Link to linked-file-with-linked-content](../generated/sections/demo/linked-file-with-linked-content_en.md)
+### [Link to generated-file2 with content and link text and included content](../generated/sections/demo/inside/generated-file2_en.md)
 
-### [Link to file with content and link text and included content](../generated/sections/demo/linked-file-with-linked-content-and-included-content_en.md)
-
-### [Link to file with content and link text and included content](../generated/sections/demo/inside/linked-file-with-linked-content-and-included-content-inside_en.md)
-
-### [Link to stacked content](../generated/sections/demo/inside/stacked_en.md)
+### [Link to generated-file3 content](../generated/sections/demo/inside/generated-file3_en.md)
 
