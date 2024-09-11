@@ -36,7 +36,9 @@ def process_content_list(content_list, language_suffix, index_file):
                 # the 'generate' section will be used to place and generate the content
 
                 generated_section_path = generate_section(content['generate'], language_suffix, content['content'])
-                index_file.write(f'{content["link"][language_suffix]}({generated_section_path})\n\n')
+                back_steps = index_file.name.count('/') - 2
+                steps = "../" * back_steps
+                index_file.write(f'{content["link"][language_suffix]}({steps}{generated_section_path})\n\n')
 
         elif 'generate' in content and 'file' in content:
             # the config file has both a 'generate' section and a 'file' section that's not supported
