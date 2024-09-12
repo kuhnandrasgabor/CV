@@ -5,11 +5,11 @@ It has a [link](https://github.com/kuhnandrasgabor/CV/blob/main/README.md) to th
 
 It also has images of various sizes: 
 
-<img src="../images/demo/meme.jpg" alt="meme" style="max-width:50px;">
+<img src="../images/demo/meme.jpg" alt="meme" width="50">
 
-<img src="../images/demo/meme.jpg" alt="meme" style="max-width:100px;">
+<img src="../images/demo/meme.jpg" alt="meme" width="100">
 
-<img src="../images/demo/meme.jpg" alt="meme" style="max-width:200px;">
+<img src="../images/demo/meme.jpg" alt="meme" width="200">
 
 # Included File 3
 This file is included inside included-content.
