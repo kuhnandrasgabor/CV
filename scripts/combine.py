@@ -148,9 +148,10 @@ def convert_local_links_to_hosted_pdfs(content_text, github_repo_url):
         # If the link is to a markdown file, adjust it to point to the hosted PDF
         if link_url.startswith("../sections/") or link_url.startswith("../generated/sections/"):
             hosted_link = link_url.replace("../", "").replace("generated/", "")
-            hosted_link = hosted_link.replace("sections/", f"{github_repo_url}/blob/main/generated/sections/")
+            # blob/main/sections/ -> raw/main/generated/sections/ so that the link points to the PDF file download instead of the GitHub preview
+            hosted_link = hosted_link.replace("sections/", f"{github_repo_url}/raw/main/generated/sections/")
             hosted_link = hosted_link.replace(".md", ".pdf")
-            return f'[{link_text}]({hosted_link})'
+            return f'[{link_text}]({hosted_link}) [↓]'
 
         # Otherwise, return the original link (e.g., external links)
         return match.group(0)

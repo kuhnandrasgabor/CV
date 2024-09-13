@@ -14,15 +14,15 @@
       {
         "file": "experience/pzartech/pzartech-webdev",
         "link": {
-          "_en": "#### [Go to web development project]",
-          "_hu": "#### [webfejlesztési projekt]"
+          "_en": "### [Go to web development project]",
+          "_hu": "### [webfejlesztési projekt]"
         }
       },
       {
         "file": "experience/pzartech/pzartech-ml",
         "link": {
-          "_en": "#### [Go to machine learning projects]",
-          "_hu": "#### [gépi tanulási projektek]"
+          "_en": "### [Go to machine learning projects]",
+          "_hu": "### [gépi tanulási projektek]"
         }
       },
       {"file": "experience/freelance/freelance-header"},
@@ -30,8 +30,8 @@
       {
         "generate": "experience/freelance/freelance-expanded",
         "link": {
-          "_en": "#### [Go to freelance projects]",
-          "_hu": "#### [szabadúszó projektek]"
+          "_en": "### [Go to freelance projects]",
+          "_hu": "### [szabadúszó projektek]"
         },
         "content": [
           {"file": "experience/freelance/freelance-3d-summary"},
@@ -39,24 +39,24 @@
           {"file": "experience/freelance/3d/freelance-3d-summary"},
           {"file": "experience/freelance/3d/freelance-3d-gallery",
           "link": {
-            "_en": "#### [Go to gallery]",
-            "_hu": "#### [Galéria]"
+            "_en": "### [Go to gallery]",
+            "_hu": "### [Galéria]"
           }},
           {"file": "experience/freelance/freelance-archviz-summary"},
           {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-header"},
           {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-summary"},
           {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-gallery",
           "link": {
-            "_en": "#### [Go to gallery]",
-            "_hu": "#### [Galéria]"
+            "_en": "### [Go to gallery]",
+            "_hu": "### [Galéria]"
           }
           },
           {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-header"},
           {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-summary"},
           {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-gallery",
           "link": {
-            "_en": "#### [Go to gallery]",
-            "_hu": "#### [Galéria]"
+            "_en": "### [Go to gallery]",
+            "_hu": "### [Galéria]"
           }}
         ]
       },
@@ -64,15 +64,15 @@
       {"file": "experience/stoneglass/stoneglass-summary"},
       {"file": "experience/stoneglass/stoneglass-roles",
         "link": {
-          "_en": "#### [Go to Stoneglass roles]",
-          "_hu": "#### [Ugrás a Stoneglass roles]"
+          "_en": "### [Go to Stoneglass roles]",
+          "_hu": "### [Ugrás a Stoneglass roles]"
         }
       },
       {
         "generate": "experience/starsend/starsend",
         "link": {
-          "_en": "#### [Go to Starsend project]",
-          "_hu": "#### [Ugrás a Starsend projekthez]"
+          "_en": "### [Go to Starsend project]",
+          "_hu": "### [Ugrás a Starsend projekthez]"
         },
         "content": [
           {"file": "experience/starsend/starsend-header"},

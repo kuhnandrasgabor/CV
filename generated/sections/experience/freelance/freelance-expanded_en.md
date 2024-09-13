@@ -15,7 +15,7 @@
 * physics simulation including fluids, smoke, collisions, and destruction
 
 
-#### [Go to gallery](../../../../sections/experience/freelance/3d/freelance-3d-gallery_en.md)
+### [Go to gallery](../../../../sections/experience/freelance/3d/freelance-3d-gallery_en.md)
 
 ### *Freelance Architectural visualizations*
 * Analyzing and interpreting plot schematics and regulations
@@ -32,7 +32,7 @@
 * Hybrid lighting, using both real-time reflections and switchable dynamic lights, with pre-baked lightmaps
 
 
-#### [Go to gallery](../../../../sections/experience/freelance/archviz-interactive/freelance-archviz-interactive-gallery_en.md)
+### [Go to gallery](../../../../sections/experience/freelance/archviz-interactive/freelance-archviz-interactive-gallery_en.md)
 
 #### Realistic Architectural Visualization
 
@@ -41,5 +41,5 @@
 * Quick and dirty mockup from on-site photos and measurements
 
 
-#### [Go to gallery](../../../../sections/experience/freelance/archviz-realistic/freelance-archviz-realistic-gallery_en.md)
+### [Go to gallery](../../../../sections/experience/freelance/archviz-realistic/freelance-archviz-realistic-gallery_en.md)
 

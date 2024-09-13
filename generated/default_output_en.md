@@ -29,9 +29,9 @@ environments. Committed to continuous learning and improvement, with an eye for 
 * Key contributions include SAP integration prototype, ElasticSearch analytics, Azure storage management, development and implementation of visual search and OCR solutions.
 
 
-#### [Go to web development project](../sections/experience/pzartech/pzartech-webdev_en.md)
+### [Go to web development project](../sections/experience/pzartech/pzartech-webdev_en.md)
 
-#### [Go to machine learning projects](../sections/experience/pzartech/pzartech-ml_en.md)
+### [Go to machine learning projects](../sections/experience/pzartech/pzartech-ml_en.md)
 
 ## 2011 – Present: Freelance Professional (Photography, 3D Graphics, Web Design, Architectural Visualization)
 
@@ -42,7 +42,7 @@ environments. Committed to continuous learning and improvement, with an eye for 
 * Handled marketing, business negotiation, and client relations independently to maintain a diverse client base.
 
 
-#### [Go to freelance projects](../generated/sections/experience/freelance/freelance-expanded_en.md)
+### [Go to freelance projects](../generated/sections/experience/freelance/freelance-expanded_en.md)
 
 ## 2014\. – 2020\. Stoneglass Labs KFT., Szeged (CEO)
 
@@ -50,7 +50,7 @@ environments. Committed to continuous learning and improvement, with an eye for 
 Headed a software development team in a small company developing an ambitious online multiplayer game.
 
 
-#### [Go to Stoneglass roles](../sections/experience/stoneglass/stoneglass-roles_en.md)
+### [Go to Stoneglass roles](../sections/experience/stoneglass/stoneglass-roles_en.md)
 
-#### [Go to Starsend project](../generated/sections/experience/starsend/starsend_en.md)
+### [Go to Starsend project](../generated/sections/experience/starsend/starsend_en.md)
 
