@@ -1,4 +1,6 @@
-## Kühn András Gábor
+# Kühn András Gábor
+
+## Personal info
 
 **Contact info:**  
 **Phone:** +36-30/8526596    

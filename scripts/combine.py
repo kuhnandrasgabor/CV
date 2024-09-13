@@ -140,17 +140,66 @@ def combine_index(profile='demo', languages=None):
 
 # Ensure HTML is converted and encoded correctly in UTF-8
 def convert_md_to_html(md_content):
-    """Convert markdown content to HTML with embedded DejaVu Sans font."""
+    """Convert markdown content to HTML with styles matching GitHub's markdown rendering."""
     html_content = markdown2.markdown(md_content)
 
-    # Ensure all elements use DejaVuSans
+    # Generate HTML output with GitHub-like font styles
     html_output = f"""
     <html>
     <head>
         <meta charset="UTF-8">
         <style>
+            /* Use system fonts similar to GitHub */
             body {{
-                font-family: 'Roboto', sans-serif;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+                font-size: 16px;
+                line-height: 1.5;
+                color: #24292e;
+                background-color: white;
+            }}
+            h1 {{
+                font-size: 28px;
+                color: #434343;
+                font-weight: 600;
+                margin-bottom: 16px;
+                line-height: 1.25;
+            }}
+            h2 {{
+                font-size: 20px;
+                color: #434343;
+                font-weight: 350;
+                margin-bottom: 16px;
+                line-height: 1.25;
+            }}
+            h3 {{
+                font-size: 16px;
+                font-weight: 300;
+                margin-bottom: 16px;
+                line-height: 1.25;
+            }}
+            h4 {{
+                font-size: 14px;
+                font-weight: 250;
+                margin-bottom: 16px;
+                line-height: 1.25;
+            }}
+            p {{
+                margin-bottom: 16px;
+            }}
+            code {{
+                font-family: Consolas, 'Courier New', monospace;
+                background-color: #f6f8fa;
+                padding: 2px 4px;
+                font-size: 13px;
+                border-radius: 3px;
+            }}
+            pre {{
+                background-color: #f6f8fa;
+                padding: 16px;
+                border-radius: 6px;
+                font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+                font-size: 13px;
+                line-height: 1.45;
             }}
         </style>
     </head>
@@ -160,6 +209,7 @@ def convert_md_to_html(md_content):
     </html>
     """
     return html_output
+
 
 
 def convert_local_links_to_hosted_pdfs(content_text, github_repo_url):
