@@ -4,23 +4,38 @@ import shutil
 import re
 
 import markdown2
-from xhtml2pdf import pisa
+import pdfkit
+import base64
 
 
-def adjust_image_paths(content_text, index_file_path):
-    # we need to find all the image tags and replace the relative backsteps to point to the images folder from the new index file <img src="../images/profile.jpg" alt="profile_picture" width="400">
+def embed_image_as_base64(image_path):
+    """Convert an image file to base64."""
+    with open(image_path, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
+    return f'data:image/jpeg;base64,{encoded_string}'
+
+
+def adjust_image_paths(content_text, index_file_path, embed_images=False):
+    """Adjust image paths in the HTML content to use absolute file paths."""
     image_tags = content_text.split('<img')
     for i, tag in enumerate(image_tags):
         if i == 0:
             continue
         src_start = tag.find('src="') + 5
-        src_end = tag.find('" ', src_start)
+        src_end = tag.find('"', src_start)
         original_src = tag[src_start:src_end]
-        removed_back_steps_src = original_src.replace('../', '')
-        depth_from_index = index_file_path.count('/')
-        back_steps = '../' * depth_from_index
-        new_src = f'{back_steps}{removed_back_steps_src}'
-        content_text = content_text.replace(original_src, new_src)
+
+        if embed_images:
+            # Embed images as base64
+            absolute_src = os.path.abspath(os.path.join(os.path.dirname(index_file_path), original_src))
+            embedded_image = embed_image_as_base64(absolute_src)
+            content_text = content_text.replace(original_src, embedded_image)
+        else:
+            removed_back_steps_src = original_src.replace('../', '')
+            depth_from_index = index_file_path.count('/')
+            back_steps = '../' * depth_from_index
+            new_src = f'{back_steps}{removed_back_steps_src}'
+            content_text = content_text.replace(original_src, new_src)
 
     return content_text
 
@@ -123,16 +138,28 @@ def combine_index(profile='demo', languages=None):
         print(f'Combined sections into {output_file}')
 
 
+# Ensure HTML is converted and encoded correctly in UTF-8
 def convert_md_to_html(md_content):
-    """Convert markdown content to HTML."""
-    return markdown2.markdown(md_content)
+    """Convert markdown content to HTML with embedded DejaVu Sans font."""
+    html_content = markdown2.markdown(md_content)
 
-
-def convert_html_to_pdf(html_content, pdf_output_path):
-    """Convert HTML content to PDF using xhtml2pdf (pisa)."""
-    with open(pdf_output_path, "wb") as result_file:
-        pisa_status = pisa.CreatePDF(html_content, dest=result_file)
-    return pisa_status.err
+    # Ensure all elements use DejaVuSans
+    html_output = f"""
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            body {{
+                font-family: 'Roboto', sans-serif;
+            }}
+        </style>
+    </head>
+    <body>
+    {html_content}
+    </body>
+    </html>
+    """
+    return html_output
 
 
 def convert_local_links_to_hosted_pdfs(content_text, github_repo_url):
@@ -171,18 +198,19 @@ def generate_pdf_from_md(md_filepath, pdf_output_path, github_repo_url=None):
     # Optionally replace local links with web-based links
     if github_repo_url:
         md_content = convert_local_links_to_hosted_pdfs(md_content, github_repo_url)
-        md_content_adjusted = adjust_image_paths(md_content, md_filepath)
+        md_content_adjusted = adjust_image_paths(md_content, md_filepath, embed_images=True)
 
     # Convert Markdown to HTML
     html_content = convert_md_to_html(md_content_adjusted)
 
-    # Convert the HTML content to PDF
-    error = convert_html_to_pdf(html_content, pdf_output_path)
+    # Path to the wkhtmltopdf executable
+    path_to_wkhtmltopdf = os.path.abspath(r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
+    pdfkit_config = pdfkit.configuration(wkhtmltopdf=path_to_wkhtmltopdf)
 
-    if not error:
-        print(f"PDF generated successfully at: {pdf_output_path}")
-    else:
-        print(f"Error generating PDF at: {pdf_output_path}")
+    # Generate the PDF using pdfkit
+    pdfkit.from_string(input=html_content, output_path=pdf_output_path, configuration=pdfkit_config)
+
+    print(f"PDF generated successfully at: {pdf_output_path}")
 
 
 def traverse_and_generate_pdfs(source_dir, target_dir, github_repo_url=None):
@@ -225,6 +253,7 @@ target_dir = '../generated/sections'
 
 source_dir2 = '../generated'
 target_dir2 = '../generated'
+
 
 with open('cv_config.json', 'r') as config_file:
     config = json.load(config_file)

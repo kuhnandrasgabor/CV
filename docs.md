@@ -28,3 +28,5 @@ A content-element has the following properties:
 * **content:** an array of the content for the section used to
     * include multiple files
     * or build a subpage*
+
+You can check out the [interactive demo md file](generated/demo_output_en.md) and it's [pdf version](generated/demo_output_en.pdf) to see how the content is structured.
