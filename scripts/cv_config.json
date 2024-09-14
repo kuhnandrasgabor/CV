@@ -1,5 +1,5 @@
 {
-  "github-repo-url":"https://github.com/kuhnandrasgabor/CV",
+  "github-repo-url": "https://github.com/kuhnandrasgabor/CV",
   "supported_languages": {
     "en": "_en",
     "hu": "_hu"
@@ -37,32 +37,38 @@
           {"file": "experience/freelance/freelance-3d-summary"},
           {"file": "experience/freelance/3d/freelance-3d-header"},
           {"file": "experience/freelance/3d/freelance-3d-summary"},
-          {"file": "experience/freelance/3d/freelance-3d-gallery",
-          "link": {
-            "_en": "### [Go to gallery]",
-            "_hu": "### [Galéria]"
-          }},
+          {
+            "file": "experience/freelance/3d/freelance-3d-gallery",
+            "link": {
+              "_en": "### [Go to gallery]",
+              "_hu": "### [Galéria]"
+            }
+          },
           {"file": "experience/freelance/freelance-archviz-summary"},
           {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-header"},
           {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-summary"},
-          {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-gallery",
-          "link": {
-            "_en": "### [Go to gallery]",
-            "_hu": "### [Galéria]"
-          }
+          {
+            "file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-gallery",
+            "link": {
+              "_en": "### [Go to gallery]",
+              "_hu": "### [Galéria]"
+            }
           },
           {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-header"},
           {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-summary"},
-          {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-gallery",
-          "link": {
-            "_en": "### [Go to gallery]",
-            "_hu": "### [Galéria]"
-          }}
+          {
+            "file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-gallery",
+            "link": {
+              "_en": "### [Go to gallery]",
+              "_hu": "### [Galéria]"
+            }
+          }
         ]
       },
       {"file": "experience/stoneglass/stoneglass-header"},
       {"file": "experience/stoneglass/stoneglass-summary"},
-      {"file": "experience/stoneglass/stoneglass-roles",
+      {
+        "file": "experience/stoneglass/stoneglass-roles",
         "link": {
           "_en": "### [Go to Stoneglass roles]",
           "_hu": "### [Ugrás a Stoneglass roles]"
@@ -80,8 +86,23 @@
           {"file": "experience/starsend/starsend-roles"},
           {"file": "experience/starsend/starsend-gallery"}
         ]
+      },
+      {"file": "projects/projects-header"},
+      {
+        "file": "projects/projects-summary",
+        "link": {
+          "_en": "### [Go to projects]",
+          "_hu": "### [Ugrás a projektekhez]"
+        }
+      },
+      {"file": "studies/studies-header"},
+      {"file": "studies/studies-summary"},
+      {"file": "skills/skills-header"},
+      {"file": "skills/skills-technical"},
+      {"file": "skills/skills-professional"},
+      {"file": "skills/skills-soft"},
+      {"file": "interests/interests"}
 
-      }
     ]
   },
   "demo": {

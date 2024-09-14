@@ -56,3 +56,95 @@ Headed a software development team in a small company developing an ambitious on
 
 ### [Go to Starsend project](../generated/sections/experience/starsend/starsend_en.md)
 
+# Selected Projects
+
+### [Go to projects](../sections/projects/projects-summary_en.md)
+
+# Studies
+
+
+* **Business Coaching** *(2013 – 2014\)*
+  Basic business workflow and management training through Támop 2.3.6 grant.
+* **Tripont Light Academy 1-2-3** *(2011 – 2013\)*
+  Comprehensive training in lighting techniques, various photography disciplines, and project management.
+* **SZTE JGYPK, Web Programmer Certificate** *(2010 – 2011, Incomplete)*
+  Gained foundational skills in web development, including HTML, Java, SQL, and graphic design. Lost interest and
+  shifted to photography and entrepreneurship.
+* **SZTE TTIK, Computer Engineering BSc.** *(2008 – 2010, Incomplete)*
+  Attended courses in programming (C, Assembly), computer architecture, discrete mathematics, and algorithms. Did not
+  complete the degree, switched career focus.
+
+# Personal skills and competencies
+
+## Technical Skills:
+
+* **Programming Languages:**
+
+  * **Experienced**: C\#, Blazor,Razor, Python,
+  * **Proficient**: C++, HTML, CSS, Angular, SQL, PHP
+  * **Familiar**: Java, Javascript, C, Assembly, Google Script, TypeScript,
+* **Software and Tools:**
+
+  * **Experienced**: Adobe Lightroom & Photoshop, Blender 3D, Unreal Engine 4, Unity 3D, .NET Core, Blazor, Azure
+    DevOps, MongoDB
+  * **Proficient**: Substance Painter, Substance Designer, ZBrush, SketchUp, V-Ray
+  * **Familiar**: SolidWorks CAD, ArchiCAD, Catia, Fusion 360
+* **Machine Learning and Data Science:**
+
+  * Practical experience with synthetic data generation, data preprocessing, and augmentation using industry-standard tools.
+  * Proficient in developing and optimizing ML models for image recognition, object detection, and classification, with hands-on experience in model evaluation and tuning.
+  * Regularly utilize AI tools (ChatGPT, Copilot) for hyperparameter tuning, training optimization, and debugging.
+  * Adept at deploying and integrating ML models with Azure cloud services and aligning them with SaaS architecture.
+* **Web Development:**
+
+  * Full-stack development (Blazor, .NET, PHP, Angular)
+  * Responsive UI design (MudBlazor),
+  * Database management (MongoDB, SQL)
+  * API integration and server-client communication
+  * Azure cloud services and DevOps deployment
+* **Creative Design:**
+
+  * 2D/3D asset creation
+  * UI/UX design
+  * Visual storytelling
+  * VFX, shaders, and procedural/parametric modeling
+
+## Professional Skills:
+
+* **Project Management:**
+  Experience managing projects from conception to completion, including software development, marketing campaigns, and
+  creative projects. Familiar with Agile methodologies and Azure DevOps for CI/CD pipeline management.
+* **Business and Negotiation:**
+  Experience in business negotiation, client management, and corporate administration. Skilled in developing and
+  executing strategic business plans.
+* **Creative and Design Skills:**
+  Strong background in creative design, including 2D/3D asset creation, UI/UX design, and visual storytelling for gaming
+  and simulation. Experienced in VFX, shaders, and procedural/parametric modelling.
+
+## Soft Skills:
+
+* **Leadership:**
+  Proven leadership experience managing cross-functional teams in mostly startup environments. Capable of mediating
+  conflicts and fostering a collaborative workplace.
+* **Communication:**
+  Fluent in English (C2) and beginner in German (A1). Skilled in clear and effective communication with both technical
+  and non-technical stakeholders.
+* **Problem-Solving and Adaptability:**
+  Strong analytical skills with a demonstrated ability to solve complex problems and adapt to new challenges.
+  Comfortable learning new technologies and tools independently.
+
+# Interests
+
+## Creativity and Design
+
+A strong passion for creativity, from early engagement with legos to advanced 3D visualization and design. This passion drives my innovative approach in software development and digital design.
+
+## Mechanics and Electronics
+
+Enthusiastically build functional machines, robots, and electronic devices. This hands-on experience enhances my understanding of hardware-software integration and IoT development.
+
+## Technology and Futurism
+
+Deeply interested in emerging technologies and their potential impacts on society, such as AI, quantum computing, and green technology. This forward-thinking mindset informs my approach to software development and data science.
+
+
