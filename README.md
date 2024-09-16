@@ -2,15 +2,13 @@
 
 This repository contains my CV in both English and Hungarian versions.
 
-## English Version
-[View interactive English CV](generated/default_output_en.md)
+## Magyar Verzió [itt](READMEHUN.md)
 
-[Download pdf](generated/default_output_en.pdf)
-
-## Magyar Verzió
-[Önéletrajz megtekintése](generated/default_output_hu.md)
-
-[PDF letöltése](generated/default_output_hu.pdf)
+## English Versions:
+ * [Short CV - online](generated/short_output_en.md) or [Download pdf](generated/short_output_en.pdf)
+ * [Bulletpoints-only CV - online](generated/bulletpoints-only_output_en.md) or [Download pdf](generated/bulletpoints-only_output_en.pdf)
+ * [Wall-of-text CV - online](generated/wall-of-text_output_en.md) or [Download pdf](generated/wall-of-text_output_en.pdf)
+ * [Everything-included CV - online](generated/everything-included_output_en.md) or [Download pdf](generated/everything-included_output_en.pdf)
 
 ### But... why Markdown on GitHub?
  * I got tired of trying to keep my various CVs in sync.
