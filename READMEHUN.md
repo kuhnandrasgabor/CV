@@ -5,13 +5,13 @@ Ez a repository tartalmazza az önéletrajzomat angol és magyar nyelven is.
 ## English Version [here](README.md)
 
 ## Magyar Önéletrajzok: (hamarosan)
- * [rövid önéletrajz - online](generated/short_output_hu.md)  vagy [PDF letöltése](generated/short_output_hu.pdf)
+ * [rövid önéletrajz - online](generated/short_output_hu.md)  vagy [PDF letöltése](https://github.com/kuhnandrasgabor/CV/raw/main/generated/short_output_hu.pdf)
 
- * [csupán felsorolások - online](generated/bulletpoints-only_output_hu.md) vagy [PDF letöltése](generated/bulletpoints-only_output_hu.pdf)
+ * [csupán felsorolások - online](generated/bulletpoints-only_output_hu.md) vagy [PDF letöltése](https://github.com/kuhnandrasgabor/CV/raw/main/generated/bulletpoints-only_output_hu.pdf)
 
- * [sok szöveg - online](generated/wall-of-text_output_hu.md) vagy [PDF letöltése](generated/wall-of-text_output_hu.pdf)
+ * [sok szöveg - online](generated/wall-of-text_output_hu.md) vagy [PDF letöltése](https://github.com/kuhnandrasgabor/CV/raw/main/generated/wall-of-text_output_hu.pdf)
 
- * [minden-egyben - online](generated/everything-included_output_hu.md) vagy [PDF letöltése](generated/everything-included_output_hu.pdf)
+ * [minden-egyben - online](generated/everything-included_output_hu.md) vagy [PDF letöltése](https://github.com/kuhnandrasgabor/CV/raw/main/generated/everything-included_output_hu.pdf)
 
 ### De... miért markdown? Miért GitHubon?
 

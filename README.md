@@ -5,10 +5,10 @@ This repository contains my CV in both English and Hungarian versions.
 ## Magyar Verzió [itt](READMEHUN.md)
 
 ## English Versions:
- * [Short CV - online](generated/short_output_en.md) or [Download pdf](generated/short_output_en.pdf)
- * [Bulletpoints-only CV - online](generated/bulletpoints-only_output_en.md) or [Download pdf](generated/bulletpoints-only_output_en.pdf)
- * [Wall-of-text CV - online](generated/wall-of-text_output_en.md) or [Download pdf](generated/wall-of-text_output_en.pdf)
- * [Everything-included CV - online](generated/everything-included_output_en.md) or [Download pdf](generated/everything-included_output_en.pdf)
+ * [Short CV - online](generated/short_output_en.md) or [Download pdf](https://github.com/kuhnandrasgabor/CV/raw/main/generated/short_output_en.pdf)
+ * [Bulletpoints-only CV - online](generated/bulletpoints-only_output_en.md) or [Download pdf](https://github.com/kuhnandrasgabor/CV/raw/main/generated/bulletpoints-only_output_en.pdf)
+ * [Wall-of-text CV - online](generated/wall-of-text_output_en.md) or [Download pdf](https://github.com/kuhnandrasgabor/CV/raw/main/generated/wall-of-text_output_en.pdf)
+ * [Everything-included CV - online](generated/everything-included_output_en.md) or [Download pdf](https://github.com/kuhnandrasgabor/CV/raw/main/generated/everything-included_output_en.pdf)
 
 ### But... why Markdown on GitHub?
  * I got tired of trying to keep my various CVs in sync.
