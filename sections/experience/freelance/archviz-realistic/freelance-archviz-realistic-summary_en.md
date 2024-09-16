@@ -1,3 +1,1 @@
-* Realistic rendering
-* Solar gain analysis 
-* Quick and dirty mockup from on-site photos and measurements
+I had been designing and rendering my house for some time when an opportunity to do do some freelance work came up. I had a 1-day deadline to create 3D renderings to apply to a government grant for renovating a condo's yard. I took some photos of the sites, measured them and sketched it out in Blender, quickly made some materials and textures, and rendered it out in Cycles. The result was a realistic rendering of the yard. The grant was won, and the yard was renovated for two different buildings.

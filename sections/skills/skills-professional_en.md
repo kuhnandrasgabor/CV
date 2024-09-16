@@ -8,4 +8,4 @@
   executing strategic business plans.
 * **Creative and Design Skills:**
   Strong background in creative design, including 2D/3D asset creation, UI/UX design, and visual storytelling for gaming
-  and simulation. Experienced in VFX, shaders, and procedural/parametric modelling.
+  and simulation. Experienced in VFX, shaders, and procedural/parametric modeling.

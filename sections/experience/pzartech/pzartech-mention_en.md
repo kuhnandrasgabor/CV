@@ -1,0 +1,1 @@
+Initially a freelance developer, ended up as acting CTO, in charge of all development and architecture decisions.

@@ -1,0 +1,1 @@
+Worked on a multilanguage checklist app for iOS, a PHP Magento-based online store, interactive, real-time 3D architectural visualization projects, 3D modeling and animation, branding, advertising, logo and web design and as a freelance photographer.

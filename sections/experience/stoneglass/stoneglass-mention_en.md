@@ -1,0 +1,1 @@
+Headed a software development team in a small company developing an ambitious online multiplayer game.

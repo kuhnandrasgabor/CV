@@ -1,0 +1,1 @@
+I had the opportunity to work on some 3D visualizations for interactive training material related to natural disasters.

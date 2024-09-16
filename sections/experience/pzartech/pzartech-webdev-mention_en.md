@@ -1,0 +1,1 @@
+I was in charge of developing a web-based data management system, focusing on MRO and industrial clients, enhanced by Ai search tools.

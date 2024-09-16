@@ -182,9 +182,31 @@ def convert_md_to_html(md_content):
                 font-weight: 250;
                 margin-bottom: 16px;
                 line-height: 1.25;
+            }}      
+            h5 {{
+                font-size: 12px;
+                font-weight: 220;
+                margin-bottom: 16px;
+                line-height: 1.25;
             }}
             p {{
+                margin-top: 0;
                 margin-bottom: 16px;
+            }}
+            /* Reset margins and paddings for lists */
+            ul, ol {{
+                margin-top: 0;
+                margin-bottom: 16px;
+                padding-left: 2em;
+            }}
+            li {{
+                margin-top: 0;
+                margin-bottom: 0;
+            }}
+            /* Remove extra margins from paragraphs inside list items */
+            li > p {{
+                margin-top: 0;
+                margin-bottom: 0;
             }}
             code {{
                 font-family: Consolas, 'Courier New', monospace;
@@ -209,6 +231,7 @@ def convert_md_to_html(md_content):
     </html>
     """
     return html_output
+
 
 
 
@@ -294,8 +317,12 @@ def traverse_and_generate_pdfs(source_dir, target_dir, github_repo_url=None):
 shutil.rmtree('../generated', ignore_errors=True)
 
 # Combine sections for the demo profile and default languages
-combine_index(profile='demo')
-combine_index(profile='default', languages=['en', 'hu'])
+combine_index(profile="everything-included", languages=['en'])
+combine_index(profile="wall-of-text", languages=['en'])
+combine_index(profile="bulletpoints-only", languages=['en'])
+combine_index(profile="short", languages=['en'])
+# combine_index(profile='demo')
+# combine_index(profile='default', languages=['en', 'hu'])
 
 # Generate PDFs for all markdown files
 source_dir = '../sections'

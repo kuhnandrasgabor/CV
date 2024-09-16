@@ -1,6 +1,7 @@
-* Initially joined as a freelance developer; currently acting as CTO, overseeing all technical development and architecture.
-* Leading the development of web-based data management software and SaaS solutions for ERP systems.
-* Responsible for Azure cloud resource deployment, DevOps project management, and CI/CD pipeline implementation.
-* Spearheading .NET Blazor Razor pages projects with MAUI multiplatform build targets.
-* Collaborating on strategic planning, technical decision-making, and future company growth, including a potential equity stake based on contributions.
-* Key contributions include SAP integration prototype, ElasticSearch analytics, Azure storage management, development and implementation of visual search and OCR solutions.
+I Initially joined as a freelance developer, wound up acting as CTO, overseeing all development and architecture decisions.
+
+I was tasked with the re-development of a data management software prototype and subsequent deployment as an SaaS solution designed for aerospace MRO's and heavy industry.
+
+During my tenure I was collaborating on strategic planning, technical decision-making, and future company growth, including equity stake for my contributions.
+
+A few bigger milestones iclude an SAP S4/HANA integration prototype, ElasticSearch analytics prototype, Azure storage management with media services video streaming prototype, and the project's core value add: development and implementation of visual search and OCR solutions.

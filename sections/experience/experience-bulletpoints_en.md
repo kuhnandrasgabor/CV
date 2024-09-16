@@ -1,0 +1,11 @@
+- Over a decade of diverse professional experience spanning various fields:
+  - **Machine learning**
+  - **Web development**
+  - **3D visualizations**
+  - Professional **photography**
+- Experience in leadership roles in **smaller teams**, including:
+  - CEO of a tech startup, leading a complex multiplayer **online game development** project
+  - CTO of a startup providing **AI-powered industrial data management** and SaaS solutions for aviation MROs and heavy industries
+- Very best at **creative design and problem-solving**
+- Excel in multicultural environments due to strong English skills
+- Eye for detail and passion for technology and innovation

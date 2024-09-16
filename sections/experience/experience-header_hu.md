@@ -1,1 +1,0 @@
-# Szakmai tapasztalat

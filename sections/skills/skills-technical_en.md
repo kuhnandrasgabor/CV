@@ -1,32 +1,59 @@
-## Technical Skills:
+## Technical Skills
 
-* **Programming Languages:**
+### Programming Languages
+  * **Experienced:** C#, Python
+  * **Proficient:** C++, HTML, CSS, SQL, PHP
+  * **Familiar:** Java, JavaScript, TypeScript, C, Google Script, assembly
 
-  * **Experienced**: C\#, Blazor,Razor, Python,
-  * **Proficient**: C++, HTML, CSS, Angular, SQL, PHP
-  * **Familiar**: Java, Javascript, C, Assembly, Google Script, TypeScript,
-* **Software and Tools:**
+### Frameworks and Technologies
+  * **Web Development Frameworks:**
+    * **Experienced:** .NET Core, Blazor, Razor, MAUI, MudBlazor
+    * **Proficient:** Angular
+    * **Familiar:** Flask
 
-  * **Experienced**: Adobe Lightroom & Photoshop, Blender 3D, Unreal Engine 4, Unity 3D, .NET Core, Blazor, Azure
-    DevOps, MongoDB
-  * **Proficient**: Substance Painter, Substance Designer, ZBrush, SketchUp, V-Ray
-  * **Familiar**: SolidWorks CAD, ArchiCAD, Catia, Fusion 360
-* **Machine Learning and Data Science:**
+  * **Machine Learning Frameworks and Tools:**
+    * **Familiar:** FastAI, PyTorch, TensorFlow, Scikit, Jupyter Notebooks, Paperspace Gradient
 
-  * Practical experience with synthetic data generation, data preprocessing, and augmentation using industry-standard tools.
-  * Proficient in developing and optimizing ML models for image recognition, object detection, and classification, with hands-on experience in model evaluation and tuning.
-  * Regularly utilize AI tools (ChatGPT, Copilot) for hyperparameter tuning, training optimization, and debugging.
-  * Adept at deploying and integrating ML models with Azure cloud services and aligning them with SaaS architecture.
-* **Web Development:**
+  * **DevOps and Containerization:**
+    * **Experienced:** Azure DevOps
+    * **Proficient:** CI/CD pipeline implementation
+    * **Familiar:** Docker, Docker Compose
 
-  * Full-stack development (Blazor, .NET, PHP, Angular)
-  * Responsive UI design (MudBlazor),
-  * Database management (MongoDB, SQL)
-  * API integration and server-client communication
-  * Azure cloud services and DevOps deployment
-* **Creative Design:**
+  * **Data Analysis and Visualization:**
+    * **Familiar:** Pandas, NumPy, Matplotlib, Seaborn
 
-  * 2D/3D asset creation
-  * UI/UX design
-  * Visual storytelling
-  * VFX, shaders, and procedural/parametric modeling
+### Databases and Data Management
+
+* **Proficient:** MongoDB, SQL databases (e.g., MySQL, SQL Server)
+* **Familiar:** ElasticSearch
+
+### Cloud Services and DevOps
+
+* **Experienced:** Azure DevOps, Portal, Storage, App services and VMs
+* **Proficient:** Azure Resource Management, CI/CD pipeline implementation
+* **Familiar:** Docker, Docker Compose, Azure Media Services
+
+### Software and Tools
+
+* **Version Control:**
+  * **Experienced:** with Git (Azure DevOps, GitHub)
+  * **Familiar:** with SVN
+
+* **3D Graphics and Modeling:**
+  * **Experienced:** Blender 3D, Unreal Engine 4, Unity 3D
+  * **Proficient:** Substance Painter, Substance Designer, SketchUp, V*Ray
+  * **Familiar:** Houdini, SolidWorks CAD, ArchiCAD, CATIA, Fusion 360
+
+* **Adobe Creative Suite:**
+  * Experienced with Adobe Photoshop and Adobe Lightroom
+
+### Creative Design and Game Development
+
+* 2D/3D asset creation
+* UI/UX design for web and applications
+* Visual storytelling and game design
+* VFX, shaders, and procedural/parametric modeling
+* Experience with game development and engine customization in Unity 3D and Unreal Engine 4
+* 3D modeling, texturing, lighting, and rendering
+* Animation and physics simulation
+* Architectural visualization and development of interactive demos

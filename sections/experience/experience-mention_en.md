@@ -1,0 +1,1 @@
+I'm a professional with over a decade of diverse experience spanning various fields, ranging from **machine learning** and **web development** through **3D visualizations** to professional **photography**, leadership experience, and a wide range of technical skills.
