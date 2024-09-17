@@ -37,7 +37,7 @@ Committed to **continuous learning and improvement**, with an eye for detail and
   - Professional **photography**
 - Experience in leadership roles in **smaller teams**, including:
   - CEO of a tech startup, leading a complex multiplayer **online game development** project
-  - CTO of a startup providing **AI-powered industrial data management** and SaaS solutions for aviation MROs and heavy industries
+  - CTO of a startup providing **AI-powered data management** and SaaS solutions for aviation and heavy industries
 - Very best at **creative design and problem-solving**
 - Excel in multicultural environments due to strong English skills
 - Eye for detail and passion for technology and innovation
@@ -50,11 +50,11 @@ I'm a professional with over a decade of diverse experience spanning various fie
 
 I Initially joined as a freelance developer, wound up acting as CTO, overseeing all development and architecture decisions.
 
-I was tasked with the re-development of a data management software prototype and subsequent deployment as an SaaS solution designed for aerospace MRO's and heavy industry.
+I was tasked with the **re-development** of a **data management software** prototype and subsequent deployment as an **SaaS solution** designed for aerospace MRO's and heavy industry.
 
 During my tenure I was collaborating on strategic planning, technical decision-making, and future company growth, including equity stake for my contributions.
 
-A few bigger milestones iclude an SAP S4/HANA integration prototype, ElasticSearch analytics prototype, Azure storage management with media services video streaming prototype, and the project's core value add: development and implementation of visual search and OCR solutions.
+A few bigger milestones iclude an **SAP S4/HANA** integration prototype, **ElasticSearch** analytics prototype, **Azure storage** management with media services **video streaming** prototype, and the project's core value add: development and implementation of **visual search and OCR** solutions.
 
 
 * Full-stack web development on .Net Core, Blazor, Razor, MongoDB, MAUI
@@ -65,11 +65,11 @@ A few bigger milestones iclude an SAP S4/HANA integration prototype, ElasticSear
 
 Initially a freelance developer, ended up as acting CTO, in charge of all development and architecture decisions.
 
-### *Web based data management software*
+### Web based data management software
 
-The project was managed in Azure DevOps using a CI/CD pipeline implementation, hosted in Azure.
-We decided on .Net Core with Blazor Razor pages, MongoDB for database and MAUI for Android and WebClient build targets.
-The project was a complete rewrite of the existing software, with a focus on modularity and scalability, so we used 
+The project was managed in **Azure DevOps** using a **CI/CD** pipeline implementation, hosted in Azure.
+We decided on **.Net Core** with **Blazor Razor** pages, **MongoDB** for database and **MAUI** for Android and WebClient build targets.
+The project was a complete rewrite of the existing software, with a focus on **modularity** and **scalability**, so we used 
 a microservice architecture with a frontend server, core server, and various recognition module servers.
 
 * SaaS software structure and design consultation for ERP software
@@ -95,19 +95,19 @@ I was in charge of developing a web-based data management system, focusing on MR
   * Azure DevOps, Azure Portal, CI/CD
   * Version control with Git through Azure DevOps
 
-### *Machine learning and training*
+### Machine learning and training
 
-I was tasked with improving the results and scope of the image classifier network we were using for industrial part recognition. The original idea proved to be too difficult to optimize in the long term, so with a little push from a consulting expert I began to train a new network from scratch, marking my foray into the world of machine learning.
+I was tasked with improving the results and scope of the **image classifier network** we were using for **industrial part recognition**. The original idea proved to be too difficult to optimize in the long term, so with a little push from a consulting expert I began to train a new network from scratch, marking my foray into the world of machine learning.
 
-Increasing the difficulty was the fact that the data quality was sporadic, without a realistic chance to re-capture any video footage, and several mislabellings both in the training and testing data, so I had to put a lot of effort into visualizing the performance of each training run to find out what the issues were.
+Increasing the difficulty was the fact that the **data quality was sporadic**, **without** a realistic **chance to re-capture any video** footage, and several mislabellings both in the training and testing data, so I had to put a lot of effort into visualizing the performance of each training run to find out what the issues were.
 
-Uncovering these errors in the datasets forced me to engineer various ways to detect and fix them, ultimately creating an ingestion and processing toolchain in python, utilizing several steps of quality assurance along the way, like custom neural networks trained to detect issues and mark files before handing them off to later processing steps.
+Uncovering these errors in the datasets forced me to engineer various ways to detect and fix them, ultimately creating an **ingestion and processing toolchain** in python, utilizing several steps of **quality assurance** along the way, like custom neural networks trained to detect issues and mark files before handing them off to later processing steps.
 
-The result was a model which proved capable in real-world tests and performed well above expectations: 84% accuracy in single-image top-4 scenarios, and perceptually 100% accuracy as the system was upgraded to enable multi-image prediction.
+The result was a model that proved capable in real-world tests and performed well above the expectations: 84% accuracy in single-image top-4 scenarios, and **perceptually 100% accuracy** as the system was upgraded to enable multi-image prediction.
 
-Another task of mine was the prototyping of an OCR software solution, where we had to detect writing from stamped machine parts to hand-engraved dotmatrix serial numbers.
+Another task of mine was the prototyping of an **OCR software** solution, where we had to detect writing from stamped machine parts to hand-engraved dotmatrix serial numbers.
 
-While this project never got out of the prototype phase, the solution I came up with, (along with the pre-processing, hyperparameters, and prospective fine-tuning method) resulted in our version mostly keeping up with, and in some more niche and difficult cases even surpassing industry standard solutions, such as Azure's AI Vision.
+While this project never got out of the prototype phase, the solution I came up with, (along with the pre-processing, hyperparameters, and prospective fine-tuning method) resulted in our version mostly keeping up with, and in some more niche and difficult cases even surpassing industry standard solutions, such as Azure's AI Vision. The fine-tuning solution's prototype was also completed: a **synthetic data generation script** written from scratch for Blender, opening the gateway to fine-tune the model incredibly well for specific scenarios if needed.
 
 * ML dataset generation
   * Raw video processing, segmentation, enhancement, evaluation for semi-synth data
@@ -139,15 +139,15 @@ Another task of mine was the prototyping of an OCR software solution, where we h
 ## 2011 – Present: Freelance Professional (Photography, 3D Graphics, Webdesign, Architectural Visualization)
 
 
-I have over the years gathered experience across various industries from photography, and programming to real-estate renovation.
+I have over the years gathered experience across various industries from **photography**, and **programming** to real-estate **renovation**.
 
-On the computer side of things I was part of a team tasked with building a multilanguage checklist app for iOs, and I had worked on a Magento based online furniture store mostly written in PHP.
+On the computer side of things I was part of a team tasked with building a multilanguage **checklist app for iOs**, and I had worked on a **Magento based online** furniture **store** mostly written in PHP.
 
-On the visuals front, I worked on interactive, real-time 3D architectural visualization projects using Unreal Engine 4 and Blender for both personal and client projects. 
+On the visuals front, I worked on interactive, real-time **3D architectural visualization** projects using **Unreal Engine 4 and Blender** for both personal and client projects. 
 
-I did 3D modeling and animation work in Blender, and branding, advertising, logo and web design work in Adobe Creative Suite.
+I did **3D modeling and animation** work in Blender, and **branding, advertising, logo and web design** work in Adobe Creative Suite.
 
-For personal projects and changing things up, I did some remodeling and renovation work, and also worked for quite some time as a freelance photographer just for fun and to keep my skills sharp.
+For personal projects and changing things up, I did some remodeling and renovation work, and also worked for quite some time as a freelance **photographer** just for fun and to keep my skills sharp.
 
 * Designing and modeling houses and environments
 * Creating 3D models and animations
@@ -162,9 +162,9 @@ Worked on a multilanguage checklist app for iOS, a PHP Magento-based online stor
 #### *3D modelling and visual effects*
 
 I had the opportunity to work on some 3D visualizations for interactive training material related to natural disasters.
-I had to come up with ways to illustrate, then model and render various natural disasters, such as floods, earthquakes, wildfires and wildfires. 
-To do this, I used Blender's physics simulation for fluids, and smoke, along with rigidbody collisions, and destruction. 
-In order to meet tight deadlines, I had the rendering running on seven computers in the office simultaneously after baking the sims.
+I had to come up with ways to illustrate, then model and render various **natural disasters**, such as floods, earthquakes, wildfires and wildfires. 
+To do this, I used **Blender's physics simulation** for **fluids**, and **smoke**, along with **rigidbody** **collisions**, and destruction. 
+In order to meet tight deadlines, I had the **rendering** running on seven computers in the office **simultaneously** after baking the sims.
 
 * visualizing and rendering various natural disasters
 * distributed rendering locally on several machines
@@ -177,9 +177,9 @@ I had the opportunity to work on some 3D visualizations for interactive training
 
 #### Interactive Architectural Visualization
 
-A contractor friend of mine approached me with an offer to help him with a family house he was building soon. We decided to see if prototyping a realistic interactive 3D walk around showcase for the project was worth it. 
+A contractor friend of mine approached me with an offer to help him with a family house he was building soon. We decided to see if prototyping a realistic **interactive 3D walk around showcase** for the project was worth it. 
 
-I was provided some CAD drawings and a floorplan on which I modeled the house in Blender, designed some realistic PBR materials and textures, and set up a scene in Unreal Engine 4. The result was a realistic interactive 3D walk around showcase of the house, that you can still try out [here](https://drive.google.com/file/d/18HLLP1rOycEmTNhTGDjkPf6v8MJuqwSk/view?usp=sharing) or just watch another one of these projects [on youtube](https://youtu.be/XRm1u-OF0CA). I even built custom model generators for kitchen cabinets and a solar gain based 3D plant-growth model in Houdini, just for giggles.
+I was provided some CAD drawings and a floorplan on which I modeled the house in **Blender**, designed some **realistic PBR materials and textures**, and set up a scene in Unreal Engine 4. The result was a realistic interactive 3D walk around showcase of the house, that you can still try out [here](https://drive.google.com/file/d/18HLLP1rOycEmTNhTGDjkPf6v8MJuqwSk/view?usp=sharing) or just watch another one of these projects [on youtube](https://youtu.be/XRm1u-OF0CA). I even built custom model generators for kitchen cabinets and a solar gain based 3D plant-growth model in **Houdini**, just for giggles.
 
 
 * Real-time interactive demo software using Unreal Engine 4
@@ -193,7 +193,7 @@ Real-time walking simulation in Unreal Engine 4, with interactive elements.
 
 #### Realistic Architectural Visualization
 
-I had been designing and rendering my house for some time when an opportunity to do do some freelance work came up. I had a 1-day deadline to create 3D renderings to apply to a government grant for renovating a condo's yard. I took some photos of the sites, measured them and sketched it out in Blender, quickly made some materials and textures, and rendered it out in Cycles. The result was a realistic rendering of the yard. The grant was won, and the yard was renovated for two different buildings.
+I had been designing and rendering my house for some time when an opportunity to do do some freelance work came up. I had a 1-day deadline to create 3D renderings to apply to a government grant for renovating a condo's yard. I took some photos of the sites, measured them and sketched it out in **Blender**, quickly made some materials and textures, and rendered it out in **Cycles**. The result was a realistic rendering of the yard. The grant was won, and the yard was renovated for two different buildings.
 
 * Realistic rendering
 * Solar gain analysis 
@@ -223,7 +223,7 @@ Headed a software development team in a small company developing an ambitious on
 
 
 
-Led development and design of an ambitious multiplayer online game involving large-scale, space-themed gameplay. I handled virtually all aspects of game logic, engine customization (Unity 3D and Unreal Engine 4) from AI logic to shader programming. Built over 300 custom icons, volumetric effects, and modular 3D spaceship models, UI elements and a myriad of tools. The project required self-learning of various skills from writing the background lore to refining of business models, creation pipeline of assets, including all graphics both 2D and 3D, procedural geometry generation logic, VFX and sound design.
+Led development and design of an ambitious **multiplayer online game** involving large-scale, space-themed gameplay. I handled virtually all aspects of **game logic, engine customization (Unity 3D and Unreal Engine 4) from AI logic to shader programming**. Built over 300 custom **icons, volumetric effects, and modular 3D spaceship models, UI elements** and a myriad of tools. The project required self-learning of various skills from writing the background lore to refining of business models for monetization, a creation pipeline for assets, including all **graphics both 2D and 3D, procedural geometry generation logic, VFX and sound design**.
 
 * Creative lead design
 * Software design and development
@@ -346,14 +346,12 @@ We were developing a real-time Sci-Fi massively multiplayer online role-playing 
 
 ### Creative Design and Game Development
 
-* 2D/3D asset creation
+* 2D/3D asset creation, vector graphics, modeling, texturing, lighting, and rendering
 * UI/UX design for web and applications
 * Visual storytelling and game design
 * VFX, shaders, and procedural/parametric modeling
 * Experience with game development and engine customization in Unity 3D and Unreal Engine 4
-* 3D modeling, texturing, lighting, and rendering
 * Animation and physics simulation
-* Architectural visualization and development of interactive demos
 
 
 ## Professional Skills:

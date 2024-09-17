@@ -30,16 +30,18 @@ Thanks to my english skills, I excel in multicultural environments.
 Committed to **continuous learning and improvement**, with an eye for detail and a passion for technology and innovation, I try to use technology to improve all aspects of my personal and professional life, such as using AI tools when justified/appropriate.
 
 
+<!-- PAGEBREAK -->
+
 ## 2020 – Present: Data Science, Machine Learning, Full-Stack Developer & Acting CTO at Pzartech Ltd.
 
 
 I Initially joined as a freelance developer, wound up acting as CTO, overseeing all development and architecture decisions.
 
-I was tasked with the re-development of a data management software prototype and subsequent deployment as an SaaS solution designed for aerospace MRO's and heavy industry.
+I was tasked with the **re-development** of a **data management software** prototype and subsequent deployment as an **SaaS solution** designed for aerospace MRO's and heavy industry.
 
 During my tenure I was collaborating on strategic planning, technical decision-making, and future company growth, including equity stake for my contributions.
 
-A few bigger milestones iclude an SAP S4/HANA integration prototype, ElasticSearch analytics prototype, Azure storage management with media services video streaming prototype, and the project's core value add: development and implementation of visual search and OCR solutions.
+A few bigger milestones iclude an **SAP S4/HANA** integration prototype, **ElasticSearch** analytics prototype, **Azure storage** management with media services **video streaming** prototype, and the project's core value add: development and implementation of **visual search and OCR** solutions.
 
 
 * Full-stack web development on .Net Core, Blazor, Razor, MongoDB, MAUI
@@ -48,11 +50,11 @@ A few bigger milestones iclude an SAP S4/HANA integration prototype, ElasticSear
 * CI/CD with Azure DevOps, Azure Portal
 * Version control with Git through Azure DevOps
 
-### *Web based data management software*
+### Web based data management software
 
-The project was managed in Azure DevOps using a CI/CD pipeline implementation, hosted in Azure.
-We decided on .Net Core with Blazor Razor pages, MongoDB for database and MAUI for Android and WebClient build targets.
-The project was a complete rewrite of the existing software, with a focus on modularity and scalability, so we used 
+The project was managed in **Azure DevOps** using a **CI/CD** pipeline implementation, hosted in Azure.
+We decided on **.Net Core** with **Blazor Razor** pages, **MongoDB** for database and **MAUI** for Android and WebClient build targets.
+The project was a complete rewrite of the existing software, with a focus on **modularity** and **scalability**, so we used 
 a microservice architecture with a frontend server, core server, and various recognition module servers.
 
 * SaaS software structure and design consultation for ERP software
@@ -76,7 +78,7 @@ a microservice architecture with a frontend server, core server, and various rec
   * Azure DevOps, Azure Portal, CI/CD
   * Version control with Git through Azure DevOps
 
-### *Machine learning and training*
+### Machine learning and training
 
 #### Image Classifier
 
@@ -105,9 +107,9 @@ I had the opportunity to work on some 3D visualizations for interactive training
 
 #### Interactive Architectural Visualization
 
-A contractor friend of mine approached me with an offer to help him with a family house he was building soon. We decided to see if prototyping a realistic interactive 3D walk around showcase for the project was worth it. 
+A contractor friend of mine approached me with an offer to help him with a family house he was building soon. We decided to see if prototyping a realistic **interactive 3D walk around showcase** for the project was worth it. 
 
-I was provided some CAD drawings and a floorplan on which I modeled the house in Blender, designed some realistic PBR materials and textures, and set up a scene in Unreal Engine 4. The result was a realistic interactive 3D walk around showcase of the house, that you can still try out [here](https://drive.google.com/file/d/18HLLP1rOycEmTNhTGDjkPf6v8MJuqwSk/view?usp=sharing) or just watch another one of these projects [on youtube](https://youtu.be/XRm1u-OF0CA). I even built custom model generators for kitchen cabinets and a solar gain based 3D plant-growth model in Houdini, just for giggles.
+I was provided some CAD drawings and a floorplan on which I modeled the house in **Blender**, designed some **realistic PBR materials and textures**, and set up a scene in Unreal Engine 4. The result was a realistic interactive 3D walk around showcase of the house, that you can still try out [here](https://drive.google.com/file/d/18HLLP1rOycEmTNhTGDjkPf6v8MJuqwSk/view?usp=sharing) or just watch another one of these projects [on youtube](https://youtu.be/XRm1u-OF0CA). I even built custom model generators for kitchen cabinets and a solar gain based 3D plant-growth model in **Houdini**, just for giggles.
 
 
 * Real-time interactive demo software using Unreal Engine 4
@@ -123,6 +125,8 @@ Quick and dirty, but still reasonably realistic renders of two gardens on a two-
 
 ### [Go to realistic gallery](../sections/experience/freelance/archviz-realistic/freelance-archviz-realistic-gallery_en.md)
 
+<!-- PAGEBREAK -->
+
 ## 2014\. – 2020\. Stoneglass Labs KFT., Szeged (CEO)
 
 
@@ -133,7 +137,7 @@ Headed a software development team in a small company developing an ambitious on
 
 
 
-Led development and design of an ambitious multiplayer online game involving large-scale, space-themed gameplay. I handled virtually all aspects of game logic, engine customization (Unity 3D and Unreal Engine 4) from AI logic to shader programming. Built over 300 custom icons, volumetric effects, and modular 3D spaceship models, UI elements and a myriad of tools. The project required self-learning of various skills from writing the background lore to refining of business models, creation pipeline of assets, including all graphics both 2D and 3D, procedural geometry generation logic, VFX and sound design.
+Led development and design of an ambitious **multiplayer online game** involving large-scale, space-themed gameplay. I handled virtually all aspects of **game logic, engine customization (Unity 3D and Unreal Engine 4) from AI logic to shader programming**. Built over 300 custom **icons, volumetric effects, and modular 3D spaceship models, UI elements** and a myriad of tools. The project required self-learning of various skills from writing the background lore to refining of business models for monetization, a creation pipeline for assets, including all **graphics both 2D and 3D, procedural geometry generation logic, VFX and sound design**.
 
 * Creative lead design
 * Software design and development
@@ -241,14 +245,12 @@ Led development and design of an ambitious multiplayer online game involving lar
 
 ### Creative Design and Game Development
 
-* 2D/3D asset creation
+* 2D/3D asset creation, vector graphics, modeling, texturing, lighting, and rendering
 * UI/UX design for web and applications
 * Visual storytelling and game design
 * VFX, shaders, and procedural/parametric modeling
 * Experience with game development and engine customization in Unity 3D and Unreal Engine 4
-* 3D modeling, texturing, lighting, and rendering
 * Animation and physics simulation
-* Architectural visualization and development of interactive demos
 
 
 ## Professional Skills:

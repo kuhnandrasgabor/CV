@@ -173,7 +173,7 @@ def convert_md_to_html(md_content):
             }}
             h3 {{
                 font-size: 16px;
-                font-weight: 300;
+                font-weight: 310;
                 margin-bottom: 16px;
                 line-height: 1.25;
             }}
@@ -270,9 +270,13 @@ def generate_pdf_from_md(md_filepath, pdf_output_path, github_repo_url=None):
     if github_repo_url:
         md_content = convert_local_links_to_hosted_pdfs(md_content, github_repo_url)
         md_content_adjusted = adjust_image_paths(md_content, md_filepath, embed_images=True)
+        md_content = md_content_adjusted
 
     # Convert Markdown to HTML
-    html_content = convert_md_to_html(md_content_adjusted)
+    html_content = convert_md_to_html(md_content)
+
+    # Replace the page break comment with a page break div
+    html_content = html_content.replace('<!-- PAGEBREAK -->', '<div style="page-break-after: always;"></div>')
 
     # Path to the wkhtmltopdf executable
     path_to_wkhtmltopdf = os.path.abspath(r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
@@ -320,6 +324,7 @@ combine_index(profile="everything-included", languages=['en'])
 combine_index(profile="programming-oriented", languages=['en'])
 combine_index(profile="machine-learning-oriented", languages=['en'])
 combine_index(profile="graphics-oriented", languages=['en'])
+combine_index(profile="long-winded", languages=['en'])
 combine_index(profile="wall-of-text", languages=['en'])
 combine_index(profile="bulletpoints-only", languages=['en'])
 combine_index(profile="short", languages=['en'])

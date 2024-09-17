@@ -35,11 +35,11 @@ Committed to **continuous learning and improvement**, with an eye for detail and
 
 I Initially joined as a freelance developer, wound up acting as CTO, overseeing all development and architecture decisions.
 
-I was tasked with the re-development of a data management software prototype and subsequent deployment as an SaaS solution designed for aerospace MRO's and heavy industry.
+I was tasked with the **re-development** of a **data management software** prototype and subsequent deployment as an **SaaS solution** designed for aerospace MRO's and heavy industry.
 
 During my tenure I was collaborating on strategic planning, technical decision-making, and future company growth, including equity stake for my contributions.
 
-A few bigger milestones iclude an SAP S4/HANA integration prototype, ElasticSearch analytics prototype, Azure storage management with media services video streaming prototype, and the project's core value add: development and implementation of visual search and OCR solutions.
+A few bigger milestones iclude an **SAP S4/HANA** integration prototype, **ElasticSearch** analytics prototype, **Azure storage** management with media services **video streaming** prototype, and the project's core value add: development and implementation of **visual search and OCR** solutions.
 
 
 * Full-stack web development on .Net Core, Blazor, Razor, MongoDB, MAUI
@@ -48,7 +48,7 @@ A few bigger milestones iclude an SAP S4/HANA integration prototype, ElasticSear
 * CI/CD with Azure DevOps, Azure Portal
 * Version control with Git through Azure DevOps
 
-### *Web based data management software*
+### Web based data management software
 
 I was in charge of developing a web-based data management system, focusing on MRO and industrial clients, enhanced by Ai search tools.
 
@@ -58,19 +58,19 @@ I was in charge of developing a web-based data management system, focusing on MR
   * Azure DevOps, Azure Portal, CI/CD
   * Version control with Git through Azure DevOps
 
-### *Machine learning and training*
+### Machine learning and training
 
-I was tasked with improving the results and scope of the image classifier network we were using for industrial part recognition. The original idea proved to be too difficult to optimize in the long term, so with a little push from a consulting expert I began to train a new network from scratch, marking my foray into the world of machine learning.
+I was tasked with improving the results and scope of the **image classifier network** we were using for **industrial part recognition**. The original idea proved to be too difficult to optimize in the long term, so with a little push from a consulting expert I began to train a new network from scratch, marking my foray into the world of machine learning.
 
-Increasing the difficulty was the fact that the data quality was sporadic, without a realistic chance to re-capture any video footage, and several mislabellings both in the training and testing data, so I had to put a lot of effort into visualizing the performance of each training run to find out what the issues were.
+Increasing the difficulty was the fact that the **data quality was sporadic**, **without** a realistic **chance to re-capture any video** footage, and several mislabellings both in the training and testing data, so I had to put a lot of effort into visualizing the performance of each training run to find out what the issues were.
 
-Uncovering these errors in the datasets forced me to engineer various ways to detect and fix them, ultimately creating an ingestion and processing toolchain in python, utilizing several steps of quality assurance along the way, like custom neural networks trained to detect issues and mark files before handing them off to later processing steps.
+Uncovering these errors in the datasets forced me to engineer various ways to detect and fix them, ultimately creating an **ingestion and processing toolchain** in python, utilizing several steps of **quality assurance** along the way, like custom neural networks trained to detect issues and mark files before handing them off to later processing steps.
 
-The result was a model which proved capable in real-world tests and performed well above expectations: 84% accuracy in single-image top-4 scenarios, and perceptually 100% accuracy as the system was upgraded to enable multi-image prediction.
+The result was a model that proved capable in real-world tests and performed well above the expectations: 84% accuracy in single-image top-4 scenarios, and **perceptually 100% accuracy** as the system was upgraded to enable multi-image prediction.
 
-Another task of mine was the prototyping of an OCR software solution, where we had to detect writing from stamped machine parts to hand-engraved dotmatrix serial numbers.
+Another task of mine was the prototyping of an **OCR software** solution, where we had to detect writing from stamped machine parts to hand-engraved dotmatrix serial numbers.
 
-While this project never got out of the prototype phase, the solution I came up with, (along with the pre-processing, hyperparameters, and prospective fine-tuning method) resulted in our version mostly keeping up with, and in some more niche and difficult cases even surpassing industry standard solutions, such as Azure's AI Vision.
+While this project never got out of the prototype phase, the solution I came up with, (along with the pre-processing, hyperparameters, and prospective fine-tuning method) resulted in our version mostly keeping up with, and in some more niche and difficult cases even surpassing industry standard solutions, such as Azure's AI Vision. The fine-tuning solution's prototype was also completed: a **synthetic data generation script** written from scratch for Blender, opening the gateway to fine-tune the model incredibly well for specific scenarios if needed.
 
 * ML dataset generation
   * Raw video processing, segmentation, enhancement, evaluation for semi-synth data
@@ -84,6 +84,8 @@ While this project never got out of the prototype phase, the solution I came up 
 * Integrating with existing SaaS architecture in Azure’s cloud
 * Performance charting and analysis
 
+
+<!-- PAGEBREAK -->
 
 #### Skills used/developed
   * C# for the API, but mostly Python for training and inference
@@ -140,6 +142,8 @@ We were developing a real-time Sci-Fi massively multiplayer online role-playing 
   Attended courses in programming (C, Assembly), computer architecture, discrete mathematics, and algorithms. Did not
   complete the degree, switched career focus.
 
+<!-- PAGEBREAK -->
+
 # Skills and competencies
 
 ## Technical Skills
@@ -193,14 +197,12 @@ We were developing a real-time Sci-Fi massively multiplayer online role-playing 
 
 ### Creative Design and Game Development
 
-* 2D/3D asset creation
+* 2D/3D asset creation, vector graphics, modeling, texturing, lighting, and rendering
 * UI/UX design for web and applications
 * Visual storytelling and game design
 * VFX, shaders, and procedural/parametric modeling
 * Experience with game development and engine customization in Unity 3D and Unreal Engine 4
-* 3D modeling, texturing, lighting, and rendering
 * Animation and physics simulation
-* Architectural visualization and development of interactive demos
 
 
 ## Professional Skills:

@@ -1,1 +1,1 @@
-### *Machine learning and training*
+### Machine learning and training

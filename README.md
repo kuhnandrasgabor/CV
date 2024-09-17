@@ -11,6 +11,8 @@ This repository contains my CV in both English and Hungarian versions.
       or [Download pdf](https://github.com/kuhnandrasgabor/CV/raw/main/generated/short_output_en.pdf)
     * [Bulletpoints-only CV - online](generated/bulletpoints-only_output_en.md)
       or [Download pdf](https://github.com/kuhnandrasgabor/CV/raw/main/generated/bulletpoints-only_output_en.pdf)
+    * [Long-winded CV - online](generated/long-winded_output_en.md)
+      or [Download pdf](https://github.com/kuhnandrasgabor/CV/raw/main/generated/long-winded_output_en.pdf)
     * [Wall-of-text CV - online](generated/wall-of-text_output_en.md)
       or [Download pdf](https://github.com/kuhnandrasgabor/CV/raw/main/generated/wall-of-text_output_en.pdf)
     * [Everything-included CV - online](generated/everything-included_output_en.md)
@@ -22,8 +24,6 @@ This repository contains my CV in both English and Hungarian versions.
       or [Download pdf](https://github.com/kuhnandrasgabor/CV/raw/main/generated/machine-learning-oriented_output_en.pdf)
     * [Graphics-Oriented CV - online](generated/graphics-oriented_output_en.md)
       or [Download pdf](https://github.com/kuhnandrasgabor/CV/raw/main/generated/graphics-oriented_output_en.pdf)
-    * [Photography-Oriented CV - online](generated/photography-oriented_output_en.md)
-      or [Download pdf](https://github.com/kuhnandrasgabor/CV/raw/main/generated/photography-oriented_output_en.pdf)
 
 ### But... why Markdown on GitHub?
 

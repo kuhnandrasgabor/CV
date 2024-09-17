@@ -25,7 +25,7 @@
   - Professional **photography**
 - Experience in leadership roles in **smaller teams**, including:
   - CEO of a tech startup, leading a complex multiplayer **online game development** project
-  - CTO of a startup providing **AI-powered industrial data management** and SaaS solutions for aviation MROs and heavy industries
+  - CTO of a startup providing **AI-powered data management** and SaaS solutions for aviation and heavy industries
 - Very best at **creative design and problem-solving**
 - Excel in multicultural environments due to strong English skills
 - Eye for detail and passion for technology and innovation
@@ -40,7 +40,7 @@
 * CI/CD with Azure DevOps, Azure Portal
 * Version control with Git through Azure DevOps
 
-### *Web based data management software*
+### Web based data management software
 
 * SaaS software structure and design consultation for ERP software
 * Azure cloud resource deployment and management
@@ -63,7 +63,7 @@
   * Azure DevOps, Azure Portal, CI/CD
   * Version control with Git through Azure DevOps
 
-### *Machine learning and training*
+### Machine learning and training
 
 * ML dataset generation
   * Raw video processing, segmentation, enhancement, evaluation for semi-synth data
@@ -159,6 +159,8 @@
 
 ### [Go to starsend gallery](../sections/experience/starsend/starsend-gallery_en.md)
 
+<!-- PAGEBREAK -->
+
 # Studies
 * **Business Coaching** *(2013 – 2014\)*
   Basic business workflow and management training through Támop 2.3.6 grant.
@@ -224,14 +226,12 @@
 
 ### Creative Design and Game Development
 
-* 2D/3D asset creation
+* 2D/3D asset creation, vector graphics, modeling, texturing, lighting, and rendering
 * UI/UX design for web and applications
 * Visual storytelling and game design
 * VFX, shaders, and procedural/parametric modeling
 * Experience with game development and engine customization in Unity 3D and Unreal Engine 4
-* 3D modeling, texturing, lighting, and rendering
 * Animation and physics simulation
-* Architectural visualization and development of interactive demos
 
 
 ## Professional Skills:

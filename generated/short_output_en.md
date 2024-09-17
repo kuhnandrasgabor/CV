@@ -25,11 +25,11 @@ I'm a professional with over a decade of diverse experience spanning various fie
 
 Initially a freelance developer, ended up as acting CTO, in charge of all development and architecture decisions.
 
-### *Web based data management software*
+### Web based data management software
 
 I was in charge of developing a web-based data management system, focusing on MRO and industrial clients, enhanced by Ai search tools.
 
-### *Machine learning and training*
+### Machine learning and training
 
 #### Image Classifier
 
@@ -141,14 +141,12 @@ We were developing a real-time Sci-Fi massively multiplayer online role-playing 
 
 ### Creative Design and Game Development
 
-* 2D/3D asset creation
+* 2D/3D asset creation, vector graphics, modeling, texturing, lighting, and rendering
 * UI/UX design for web and applications
 * Visual storytelling and game design
 * VFX, shaders, and procedural/parametric modeling
 * Experience with game development and engine customization in Unity 3D and Unreal Engine 4
-* 3D modeling, texturing, lighting, and rendering
 * Animation and physics simulation
-* Architectural visualization and development of interactive demos
 
 
 ## Professional Skills:

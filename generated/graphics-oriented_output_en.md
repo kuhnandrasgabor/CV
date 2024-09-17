@@ -30,16 +30,18 @@ Thanks to my english skills, I excel in multicultural environments.
 Committed to **continuous learning and improvement**, with an eye for detail and a passion for technology and innovation, I try to use technology to improve all aspects of my personal and professional life, such as using AI tools when justified/appropriate.
 
 
+<!-- PAGEBREAK -->
+
 ## 2020 – Present: Data Science, Machine Learning, Full-Stack Developer & Acting CTO at Pzartech Ltd.
 
 
 Initially a freelance developer, ended up as acting CTO, in charge of all development and architecture decisions.
 
-### *Web based data management software*
+### Web based data management software
 
 I was in charge of developing a web-based data management system, focusing on MRO and industrial clients, enhanced by Ai search tools.
 
-### *Machine learning and training*
+### Machine learning and training
 
 * ML dataset generation
   * Raw video processing, segmentation, enhancement, evaluation for semi-synth data
@@ -57,22 +59,22 @@ I was in charge of developing a web-based data management system, focusing on MR
 ## 2011 – Present: Freelance Professional (Photography, 3D Graphics, Webdesign, Architectural Visualization)
 
 
-I have over the years gathered experience across various industries from photography, and programming to real-estate renovation.
+I have over the years gathered experience across various industries from **photography**, and **programming** to real-estate **renovation**.
 
-On the computer side of things I was part of a team tasked with building a multilanguage checklist app for iOs, and I had worked on a Magento based online furniture store mostly written in PHP.
+On the computer side of things I was part of a team tasked with building a multilanguage **checklist app for iOs**, and I had worked on a **Magento based online** furniture **store** mostly written in PHP.
 
-On the visuals front, I worked on interactive, real-time 3D architectural visualization projects using Unreal Engine 4 and Blender for both personal and client projects. 
+On the visuals front, I worked on interactive, real-time **3D architectural visualization** projects using **Unreal Engine 4 and Blender** for both personal and client projects. 
 
-I did 3D modeling and animation work in Blender, and branding, advertising, logo and web design work in Adobe Creative Suite.
+I did **3D modeling and animation** work in Blender, and **branding, advertising, logo and web design** work in Adobe Creative Suite.
 
-For personal projects and changing things up, I did some remodeling and renovation work, and also worked for quite some time as a freelance photographer just for fun and to keep my skills sharp.
+For personal projects and changing things up, I did some remodeling and renovation work, and also worked for quite some time as a freelance **photographer** just for fun and to keep my skills sharp.
 
 #### *3D modelling and visual effects*
 
 I had the opportunity to work on some 3D visualizations for interactive training material related to natural disasters.
-I had to come up with ways to illustrate, then model and render various natural disasters, such as floods, earthquakes, wildfires and wildfires. 
-To do this, I used Blender's physics simulation for fluids, and smoke, along with rigidbody collisions, and destruction. 
-In order to meet tight deadlines, I had the rendering running on seven computers in the office simultaneously after baking the sims.
+I had to come up with ways to illustrate, then model and render various **natural disasters**, such as floods, earthquakes, wildfires and wildfires. 
+To do this, I used **Blender's physics simulation** for **fluids**, and **smoke**, along with **rigidbody** **collisions**, and destruction. 
+In order to meet tight deadlines, I had the **rendering** running on seven computers in the office **simultaneously** after baking the sims.
 
 * visualizing and rendering various natural disasters
 * distributed rendering locally on several machines
@@ -81,11 +83,13 @@ In order to meet tight deadlines, I had the rendering running on seven computers
 
 ### [Go to 3D gallery](../sections/experience/freelance/3d/freelance-3d-gallery_en.md)
 
+<!-- PAGEBREAK -->
+
 #### Interactive Architectural Visualization
 
-A contractor friend of mine approached me with an offer to help him with a family house he was building soon. We decided to see if prototyping a realistic interactive 3D walk around showcase for the project was worth it. 
+A contractor friend of mine approached me with an offer to help him with a family house he was building soon. We decided to see if prototyping a realistic **interactive 3D walk around showcase** for the project was worth it. 
 
-I was provided some CAD drawings and a floorplan on which I modeled the house in Blender, designed some realistic PBR materials and textures, and set up a scene in Unreal Engine 4. The result was a realistic interactive 3D walk around showcase of the house, that you can still try out [here](https://drive.google.com/file/d/18HLLP1rOycEmTNhTGDjkPf6v8MJuqwSk/view?usp=sharing) or just watch another one of these projects [on youtube](https://youtu.be/XRm1u-OF0CA). I even built custom model generators for kitchen cabinets and a solar gain based 3D plant-growth model in Houdini, just for giggles.
+I was provided some CAD drawings and a floorplan on which I modeled the house in **Blender**, designed some **realistic PBR materials and textures**, and set up a scene in Unreal Engine 4. The result was a realistic interactive 3D walk around showcase of the house, that you can still try out [here](https://drive.google.com/file/d/18HLLP1rOycEmTNhTGDjkPf6v8MJuqwSk/view?usp=sharing) or just watch another one of these projects [on youtube](https://youtu.be/XRm1u-OF0CA). I even built custom model generators for kitchen cabinets and a solar gain based 3D plant-growth model in **Houdini**, just for giggles.
 
 
 * Real-time interactive demo software using Unreal Engine 4
@@ -97,7 +101,7 @@ I was provided some CAD drawings and a floorplan on which I modeled the house in
 
 #### Realistic Architectural Visualization
 
-I had been designing and rendering my house for some time when an opportunity to do do some freelance work came up. I had a 1-day deadline to create 3D renderings to apply to a government grant for renovating a condo's yard. I took some photos of the sites, measured them and sketched it out in Blender, quickly made some materials and textures, and rendered it out in Cycles. The result was a realistic rendering of the yard. The grant was won, and the yard was renovated for two different buildings.
+I had been designing and rendering my house for some time when an opportunity to do do some freelance work came up. I had a 1-day deadline to create 3D renderings to apply to a government grant for renovating a condo's yard. I took some photos of the sites, measured them and sketched it out in **Blender**, quickly made some materials and textures, and rendered it out in **Cycles**. The result was a realistic rendering of the yard. The grant was won, and the yard was renovated for two different buildings.
 
 * Realistic rendering
 * Solar gain analysis 
@@ -116,7 +120,7 @@ Headed a software development team in a small company developing an ambitious on
 
 
 
-Led development and design of an ambitious multiplayer online game involving large-scale, space-themed gameplay. I handled virtually all aspects of game logic, engine customization (Unity 3D and Unreal Engine 4) from AI logic to shader programming. Built over 300 custom icons, volumetric effects, and modular 3D spaceship models, UI elements and a myriad of tools. The project required self-learning of various skills from writing the background lore to refining of business models, creation pipeline of assets, including all graphics both 2D and 3D, procedural geometry generation logic, VFX and sound design.
+Led development and design of an ambitious **multiplayer online game** involving large-scale, space-themed gameplay. I handled virtually all aspects of **game logic, engine customization (Unity 3D and Unreal Engine 4) from AI logic to shader programming**. Built over 300 custom **icons, volumetric effects, and modular 3D spaceship models, UI elements** and a myriad of tools. The project required self-learning of various skills from writing the background lore to refining of business models for monetization, a creation pipeline for assets, including all **graphics both 2D and 3D, procedural geometry generation logic, VFX and sound design**.
 
 * Creative lead design
 * Software design and development
@@ -237,14 +241,12 @@ Led development and design of an ambitious multiplayer online game involving lar
 
 ### Creative Design and Game Development
 
-* 2D/3D asset creation
+* 2D/3D asset creation, vector graphics, modeling, texturing, lighting, and rendering
 * UI/UX design for web and applications
 * Visual storytelling and game design
 * VFX, shaders, and procedural/parametric modeling
 * Experience with game development and engine customization in Unity 3D and Unreal Engine 4
-* 3D modeling, texturing, lighting, and rendering
 * Animation and physics simulation
-* Architectural visualization and development of interactive demos
 
 
 ## Professional Skills:
