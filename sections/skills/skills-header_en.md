@@ -1,1 +1,1 @@
-# Personal skills and competencies
+# Skills and competencies

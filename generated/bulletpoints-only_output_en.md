@@ -171,7 +171,7 @@
   Attended courses in programming (C, Assembly), computer architecture, discrete mathematics, and algorithms. Did not
   complete the degree, switched career focus.
 
-# Personal skills and competencies
+# Skills and competencies
 
 ## Technical Skills
 

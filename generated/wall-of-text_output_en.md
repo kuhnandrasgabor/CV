@@ -125,7 +125,7 @@ Led development and design of an ambitious multiplayer online game involving lar
 
 ### [Go to starsend gallery](../sections/experience/starsend/starsend-gallery_en.md)
 
-# Favorite Projects
+# Relevant Projects
 
 ## Homing Szeged - Real Estate Agency (2017 – Present)
 
@@ -168,7 +168,7 @@ Led development and design of an ambitious multiplayer online game involving lar
   Attended courses in programming (C, Assembly), computer architecture, discrete mathematics, and algorithms. Did not
   complete the degree, switched career focus.
 
-# Personal skills and competencies
+# Skills and competencies
 
 ## Technical Skills
 

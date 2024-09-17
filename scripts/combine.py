@@ -233,8 +233,6 @@ def convert_md_to_html(md_content):
     return html_output
 
 
-
-
 def convert_local_links_to_hosted_pdfs(content_text, github_repo_url):
     """Convert local markdown links to GitHub-hosted PDF links, while leaving image src untouched."""
 
@@ -316,13 +314,15 @@ def traverse_and_generate_pdfs(source_dir, target_dir, github_repo_url=None):
 # clean generated folder
 shutil.rmtree('../generated', ignore_errors=True)
 
-# Combine sections for the demo profile and default languages
+# combine_index(profile='demo')
+# combine_index(profile='default', languages=['en', 'hu'])
 combine_index(profile="everything-included", languages=['en'])
+combine_index(profile="programming-oriented", languages=['en'])
+combine_index(profile="machine-learning-oriented", languages=['en'])
+combine_index(profile="graphics-oriented", languages=['en'])
 combine_index(profile="wall-of-text", languages=['en'])
 combine_index(profile="bulletpoints-only", languages=['en'])
 combine_index(profile="short", languages=['en'])
-# combine_index(profile='demo')
-# combine_index(profile='default', languages=['en', 'hu'])
 
 # Generate PDFs for all markdown files
 source_dir = '../sections'

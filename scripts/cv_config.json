@@ -4,7 +4,7 @@
     "en": "_en",
     "hu": "_hu"
   },
-  "everything-included": {
+    "everything-included": {
     "content": [
       {"file":  "cv-profile/everything-included"},
       {"file": "personal-info"},
@@ -92,6 +92,212 @@
       {"file": "interests/interests"}
     ]
   },
+
+  "programming-oriented": {
+    "content": [
+      {"file":  "cv-profile/programming-oriented"},
+      {"file": "personal-info"},
+      {"file": "experience/experience-header"},
+      {"file": "experience/experience-summary"},
+
+      {"file": "experience/pzartech/pzartech-header"},
+      {"file": "experience/pzartech/pzartech-summary"},
+      {"file": "experience/pzartech/pzartech-bulletpoints"},
+
+      {"file": "experience/pzartech/pzartech-webdev-header"},
+      {"file": "experience/pzartech/pzartech-webdev-summary"},
+      {"file": "experience/pzartech/pzartech-webdev-bulletpoints"},
+      {"file": "experience/pzartech/pzartech-webdev-skills"},
+
+      {"file": "experience/pzartech/pzartech-ml-header"},
+      {"file": "experience/pzartech/pzartech-ml-mention"},
+      {"file": "experience/pzartech/pzartech-ml-skills"},
+
+      {"file": "experience/freelance/freelance-header"},
+      {"file": "experience/freelance/freelance-mention"},
+
+      {"file": "experience/freelance/3d/freelance-3d-header"},
+      {"file": "experience/freelance/3d/freelance-3d-mention"},
+      {
+        "file": "experience/freelance/3d/freelance-3d-gallery",
+        "link": {"_en": "### [Go to 3D gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-header"},
+      {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-summary"},
+      {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-bulletpoints"},
+      {
+        "file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-gallery",
+        "link": {"_en": "### [Go to interactive gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-header"},
+      {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-mention"},
+      {
+        "file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-gallery",
+        "link": {"_en": "### [Go to realistic gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "experience/stoneglass/stoneglass-header"},
+      {"file": "experience/stoneglass/stoneglass-mention"},
+
+      {"file": "experience/starsend/starsend-header"},
+      {"file": "experience/starsend/starsend-summary"},
+      {"file": "experience/starsend/starsend-bulletpoints"},
+      {
+        "file": "experience/starsend/starsend-gallery",
+        "link": {"_en": "### [Go to starsend gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "projects/projects-header"},
+      {"file": "projects/projects-starsend"},
+      {"file": "projects/projects-unreal-archviz"},
+
+      {"file": "studies"},
+
+      {"file": "skills/skills-header"},
+      {"file": "skills/skills-technical"},
+      {"file": "skills/skills-professional"},
+      {"file": "skills/skills-soft"},
+
+      {"file": "interests/interests"}
+    ]
+  },
+  "machine-learning-oriented": {
+    "content": [
+      {"file":  "cv-profile/machine-learning-oriented"},
+      {"file": "personal-info"},
+      {"file": "experience/experience-header"},
+      {"file": "experience/experience-summary"},
+
+      {"file": "experience/pzartech/pzartech-header"},
+      {"file": "experience/pzartech/pzartech-summary"},
+      {"file": "experience/pzartech/pzartech-bulletpoints"},
+
+      {"file": "experience/pzartech/pzartech-webdev-header"},
+      {"file": "experience/pzartech/pzartech-webdev-mention"},
+      {"file": "experience/pzartech/pzartech-webdev-skills"},
+
+      {"file": "experience/pzartech/pzartech-ml-header"},
+      {"file": "experience/pzartech/pzartech-ml-summary"},
+      {"file": "experience/pzartech/pzartech-ml-bulletpoints"},
+      {"file": "experience/pzartech/pzartech-ml-skills"},
+
+      {"file": "experience/freelance/freelance-header"},
+      {"file": "experience/freelance/freelance-mention"},
+
+      {"file": "experience/freelance/3d/freelance-3d-header"},
+      {"file": "experience/freelance/3d/freelance-3d-mention"},
+      {
+        "file": "experience/freelance/3d/freelance-3d-gallery",
+        "link": {"_en": "### [Go to 3D gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-header"},
+      {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-mention"},
+      {
+        "file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-gallery",
+        "link": {"_en": "### [Go to interactive gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-header"},
+      {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-mention"},
+      {
+        "file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-gallery",
+        "link": {"_en": "### [Go to realistic gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "experience/stoneglass/stoneglass-header"},
+      {"file": "experience/stoneglass/stoneglass-mention"},
+
+      {"file": "experience/starsend/starsend-header"},
+      {"file": "experience/starsend/starsend-mention"},
+      {
+        "file": "experience/starsend/starsend-gallery",
+        "link": {"_en": "### [Go to starsend gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "studies"},
+
+      {"file": "skills/skills-header"},
+      {"file": "skills/skills-technical"},
+      {"file": "skills/skills-professional"},
+      {"file": "skills/skills-soft"},
+
+      {"file": "interests/interests"}
+    ]
+  },
+  "graphics-oriented": {
+    "content": [
+      {"file":  "cv-profile/graphics-oriented"},
+      {"file": "personal-info"},
+      {"file": "experience/experience-header"},
+      {"file": "experience/experience-summary"},
+
+      {"file": "experience/pzartech/pzartech-header"},
+      {"file": "experience/pzartech/pzartech-mention"},
+
+      {"file": "experience/pzartech/pzartech-webdev-header"},
+      {"file": "experience/pzartech/pzartech-webdev-mention"},
+
+      {"file": "experience/pzartech/pzartech-ml-header"},
+      {"file": "experience/pzartech/pzartech-ml-bulletpoints"},
+
+      {"file": "experience/freelance/freelance-header"},
+      {"file": "experience/freelance/freelance-summary"},
+
+      {"file": "experience/freelance/3d/freelance-3d-header"},
+      {"file": "experience/freelance/3d/freelance-3d-summary"},
+      {"file": "experience/freelance/3d/freelance-3d-bulletpoints"},
+      {
+        "file": "experience/freelance/3d/freelance-3d-gallery",
+        "link": {"_en": "### [Go to 3D gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-header"},
+      {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-summary"},
+      {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-bulletpoints"},
+      {
+        "file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-gallery",
+        "link": {"_en": "### [Go to interactive gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-header"},
+      {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-summary"},
+      {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-bulletpoints"},
+      {
+        "file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-gallery",
+        "link": {"_en": "### [Go to realistic gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "experience/stoneglass/stoneglass-header"},
+      {"file": "experience/stoneglass/stoneglass-mention"},
+
+      {"file": "experience/starsend/starsend-header"},
+      {"file": "experience/starsend/starsend-summary"},
+      {"file": "experience/starsend/starsend-bulletpoints"},
+      {
+        "file": "experience/starsend/starsend-gallery",
+        "link": {"_en": "### [Go to starsend gallery]", "_hu": "### [Galéria]"}
+      },
+
+      {"file": "projects/projects-header"},
+      {"file": "projects/projects-homing"},
+      {"file": "projects/projects-starsend"},
+      {"file": "projects/projects-unreal-archviz"},
+      {"file": "projects/projects-waterfront"},
+
+      {"file": "studies"},
+
+      {"file": "skills/skills-header"},
+      {"file": "skills/skills-technical"},
+      {"file": "skills/skills-professional"},
+      {"file": "skills/skills-soft"},
+
+      {"file": "interests/interests"}
+    ]
+  },
+
   "wall-of-text": {
     "content": [
       {"file":  "cv-profile/wall-of-text"},
@@ -278,6 +484,7 @@
       {"file": "skills/skills-soft"}
     ]
   },
+
   "default": {
     "content": [
       {"file": "cv-profile/default"},
