@@ -1,5 +1,5 @@
-Eredetileg szabadúszó fejlesztőként kezdtem, végül a cég CTO-jaként találtam magam, ahol minden fejlesztési és architekturális döntésért én voltam a felelős.
-Fel lettem kérve egy **adatkezelő szoftver** prototípusának **újrafejlesztésére** és az **SaaS megoldásként** való bevezetésére, amelyet a repülőgép ipari MRO-k és a nehézipar számára terveztek.
+Eredetileg szabadúszó fejlesztőként kezdtem, végül a cég CTO-ja lettem, ahol minden fejlesztési és architekturális döntésért én voltam a felelős.
+Felkértek egy **adatkezelő szoftver** prototípusának **újrafejlesztésére** és az **SaaS megoldásként** való bevezetésére, amelyet a repülőgép ipari MRO-k és a nehézipar számára terveztek.
 
 A cég stratégiai tervezésében, technikai döntéshozatalában és jövőbeli növekedésében is kollaboráltam, aminek köszönhetően részesedést ajánlottak a cégben a hozzájárulásomért.
 

@@ -47,7 +47,7 @@
 * **Adobe Creative Suite:**
   * Tapasztalt vagyok a Photoshop és Lightroom használatában
 
-### Kreatív design és játékfejlesztés
+### Kreatív dizájn és játékfejlesztés
 
 * 2D/3D tartalomkészítés, vektorgrafika, modellezés, textúrázás, világítás és renderelés
 * Web és alkalmazások UI/UX tervezése
