@@ -4,24 +4,40 @@ Ez a repository tartalmazza az önéletrajzomat angol és magyar nyelven is.
 
 ## English Version [here](README.md)
 
-## Magyar Önéletrajzok: (hamarosan)
- * [rövid önéletrajz - online](generated/short_output_hu.md)  vagy [PDF letöltése](https://github.com/kuhnandrasgabor/CV/raw/main/generated/short_output_hu.pdf)
+## Magyar Önéletrajzok:
 
- * [csupán felsorolások - online](generated/bulletpoints-only_output_hu.md) vagy [PDF letöltése](https://github.com/kuhnandrasgabor/CV/raw/main/generated/bulletpoints-only_output_hu.pdf)
+* **Fókuszált önéletrajzok**
+  * [Programozás-orientált önéletrajz - online](generated/programming-oriented_output_hu.md) vagy [Letöltés pdf-ben](https://github.com/kuhnandrasgabor/CV/raw/main/generated/programming-oriented_output_hu.pdf)
+  * [Gépi tanulás-orientált önéletrajz - online](generated/machine-learning-oriented_output_hu.md) vagy [Letöltés pdf-ben](https://github.com/kuhnandrasgabor/CV/raw/main/generated/machine-learning-oriented_output_hu.pdf)
+  * [Grafika-orientált önéletrajz - online](generated/graphics-oriented_output_hu.md) vagy [Letöltés pdf-ben](https://github.com/kuhnandrasgabor/CV/raw/main/generated/graphics-oriented_output_hu.pdf)
 
- * [sok szöveg - online](generated/wall-of-text_output_hu.md) vagy [PDF letöltése](https://github.com/kuhnandrasgabor/CV/raw/main/generated/wall-of-text_output_hu.pdf)
 
- * [minden-egyben - online](generated/everything-included_output_hu.md) vagy [PDF letöltése](https://github.com/kuhnandrasgabor/CV/raw/main/generated/everything-included_output_hu.pdf)
+* **Általános célú önéletrajzok**
+  * [Rövid önéletrajz - online](generated/short_output_hu.md) vagy [Letöltés pdf-ben](https://github.com/kuhnandrasgabor/CV/raw/main/generated/short_output_hu.pdf)
+    * ha egy **felületes, tömör** áttekintést szeretnél a képességeimről és tapasztalataimról
+  * [Csak felsorolásokkal - online](generated/bulletpoints-only_output_hu.md) vagy [Letöltés pdf-ben](https://github.com/kuhnandrasgabor/CV/raw/main/generated/bulletpoints-only_output_hu.pdf)
+    * ha **gyors áttekintést** szeretnél arról, mit csináltam
+  * [Szövegfal - online](generated/wall-of-text_output_hu.md) vagy [Letöltés pdf-ben](https://github.com/kuhnandrasgabor/CV/raw/main/generated/wall-of-text_output_hu.pdf)
+    * ha **szeretsz olvasni** és nem szeretsz görgetni
+  * [Hosszú önéletrajz - online](generated/long-winded_output_hu.md) vagy [Letöltés pdf-ben](https://github.com/kuhnandrasgabor/CV/raw/main/generated/long-winded_output_hu.pdf)
+    * ha **részletes áttekintést** szeretnél a képességeimről és tapasztalataimról (személy szerint ezt preferálom)
 
-### De... miért markdown? Miért GitHubon?
 
-  * Belefáradtam, hogy a különböző önéletrajzaimat szinkronban tartsam.
-  * Egy egyszerű, szövegalapú formátumot akartam, amit verziókezelni tudok, frissíteni és változtatni, ha kedvem tartja.
-  * Szerettem volna ugyanabból a forrásból generálni angol és magyar verziókat, és specifikus állásokra szabott önéletrajzokat készíteni, különböző szekciók hozzáadásával vagy eltávolításával.
 
-Ez a hétvége alatt összedobott megközelítés az ennek az eredménye. Nem tökéletes, de nagyjából működik.
-Egyetlen igazságforrást biztosít az önéletrajzaimhoz, és olyan formátumban generálja őket, amely könnyen megosztható és olvasható, és viszonylag egyszerűen lehet a két nyelv tartalmát szinkronban tartani.
+### De... miért írtam önéletrajzot Markdown-ban a GitHubon?
 
-Eközben a GitHub automatikusan megjeleníti a Markdown fájlokat, így könnyen megoszthatom az önéletrajzaimat bárkivel, és ők egy szép, olvasható és naprakész formátumban tekinthetik meg.
+Ezt a repository-t néhány okból hoztam létre:
+
+Szerettem volna konkrét önéletrajzokat biztosítani konkrét álláshirdetésekre, az annak leírásához igazítva, és lehetőséget adni a HR személynek, hogy kiválassza azt a verziót amivel szívesen dolgozna, mind angolul, mind magyarul.
+
+* Ehhez **_sok_** különböző verzióra volt szükségem.
+* Belefáradtam abba, hogy próbáljam szinkronban tartani a különböző önéletrajzaimat.
+* Egy egyszerű, szövegalapú formátumot szerettem volna, amit verziókezelni, frissíteni és változtatni tudok, ha akarok.
+* Szerettem volna dinamikus oldalakra vagy letölthető PDF-ekre mutató linkeket, és könnyen kizárni a potenciálisan adatnehéz tartalmakat, mint például képek vagy videók az önéletrajzokból.
+
+Ez az megközelítés ennek az eredménye. Nem tökéletes, de nagyrészt rendben van.
+Lehetővé teszi számomra, hogy **egyetlen igazságforrásom** legyen az önéletrajzaimhoz, és olyan formátumban generáljam őket, amely könnyen megosztható, olvasható, és viszonylag egyszerűen tarthatom a két nyelv tartalmát szinkronban.
+
+Eközben a GitHub automatikusan megjeleníti a Markdown fájlokat, így könnyen megoszthatom az önéletrajzokat bárkivel, és ők szép, olvasható és naprakész formátumban tekinthetik meg.
 
 ### [Documentation](docs.md)
