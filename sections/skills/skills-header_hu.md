@@ -1,0 +1,1 @@
+# Késségek és kompetenciák

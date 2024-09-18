@@ -1,0 +1,1 @@
+Valós-idejű bejárható szimuláció Unreal Engine 4 használatával, interaktív elemekkel.

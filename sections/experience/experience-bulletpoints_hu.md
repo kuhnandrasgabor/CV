@@ -1,0 +1,11 @@
+- Több mint egy évtizedes szakmai tapasztalat különböző területeken:
+  - **Gépi tanulás**
+  - **Webfejlesztés**
+  - **3D vizualizáció**
+  - Profi **fotózás**
+- Tapasztalat vezetői szerepekben **kisebb csapatokban**, ideértve:
+  - Egy technológiai startup vezérigazgatója, amely egy bonyolult **online játékfejlesztési projektet** vezetett
+  - Egy startup technológiai vezérigazgatója, amely **AI-alapú adatkezelési** és SaaS megoldásokat nyújt a repülési és nehéziparok számára
+- A legjobb a **kreatív tervezésben és problémamegoldásban** vagyok
+- Kiválóan teljesítek **multikulturális környezetekben** erős angol nyelvtudásom miatt
+- Odafigyelek a részletekre, és érdeklődöm a technológia és az innováció iránt

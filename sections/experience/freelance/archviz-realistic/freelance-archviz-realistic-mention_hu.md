@@ -1,0 +1,1 @@
+Gyors és durva, de mégis realisztikusnak ható renderképek két kertről, kétnapos határidővel.

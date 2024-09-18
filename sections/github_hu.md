@@ -1,2 +1,2 @@
-###### _See the rest on my GitHub page:_
+###### _A többit megtekintheti GitHub-on:_
 ###### _[http://github.com/kuhnandrasgabor/cv ](http://github.com/kuhnandrasgabor/cv)_

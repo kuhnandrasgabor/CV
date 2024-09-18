@@ -1,0 +1,1 @@
+Dolgoztam egy többnyelvű checklist app-on iOS-re, egy PHP Magento alapú online áruházon, valós idejű interaktív 3D építészeti vizualizációs projekteken, 3D modellezésen és animáción, brandingen, reklámon, logó és web designon és szabadúszó fotósként.

@@ -1,0 +1,1 @@
+Lehetőségem volt dolgozni néhány 3D vizualizáción interaktív képzési anyaghoz természeti katasztrófákkal kapcsolatban.

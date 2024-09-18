@@ -1,0 +1,1 @@
+### Web alapú adatmanagement szoftver
