@@ -7,6 +7,7 @@
     "everything-included": {
     "content": [
       {"file": "cv-profile/everything-included"},
+      {"file": "github"},
       {"file": "personal-info"},
       {"file": "experience/experience-header"},
       {"file": "experience/experience-summary"},
@@ -95,6 +96,7 @@
     "long-winded": {
     "content": [
       {"file": "cv-profile/long-winded"},
+      {"file": "github"},
       {"file": "personal-info"},
       {"file": "experience/experience-header"},
       {"file": "experience/experience-summary"},
@@ -183,6 +185,7 @@
     "programming-oriented": {
       "content": [
         {"file":  "cv-profile/programming-oriented"},
+        {"file": "github"},
         {"file": "personal-info"},
         {"file": "experience/experience-header"},
         {"file": "experience/experience-summary"},
@@ -258,6 +261,7 @@
     "machine-learning-oriented": {
       "content": [
         {"file":  "cv-profile/machine-learning-oriented"},
+        {"file": "github"},
         {"file": "personal-info"},
         {"file": "experience/experience-header"},
         {"file": "experience/experience-summary"},
@@ -327,6 +331,7 @@
     "graphics-oriented": {
       "content": [
         {"file":  "cv-profile/graphics-oriented"},
+        {"file": "github"},
         {"file": "personal-info"},
         {"file": "experience/experience-header"},
         {"file": "experience/experience-summary"},
@@ -401,6 +406,7 @@
     "wall-of-text": {
       "content": [
         {"file":  "cv-profile/wall-of-text"},
+        {"file": "github"},
         {"file": "personal-info"},
         {"file": "experience/experience-header"},
         {"file": "experience/experience-summary"},
@@ -473,6 +479,7 @@
     "short": {
       "content": [
         {"file":  "cv-profile/short"},
+        {"file": "github"},
         {"file": "personal-info"},
         {"file": "experience/experience-header"},
         {"file": "experience/experience-mention"},
@@ -531,6 +538,7 @@
     "bulletpoints-only": {
       "content": [
         {"file":  "cv-profile/bulletpoints-only"},
+        {"file": "github"},
         {"file": "personal-info"},
         {"file": "experience/experience-header"},
         {"file": "experience/experience-bulletpoints"},
@@ -593,6 +601,7 @@
   "default": {
     "content": [
       {"file": "cv-profile/default"},
+      {"file": "github"},
       {"file": "personal-info"},
       {"file": "experience/experience-header"},
       {"file": "experience/experience-summary"},

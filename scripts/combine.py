@@ -315,19 +315,21 @@ def traverse_and_generate_pdfs(source_dir, target_dir, github_repo_url=None):
 
 # One-step process to combine sections and generate PDFs
 
+languages = ['en', 'hu']
+
 # clean generated folder
 shutil.rmtree('../generated', ignore_errors=True)
 
 # combine_index(profile='demo')
 # combine_index(profile='default', languages=['en', 'hu'])
-combine_index(profile="everything-included", languages=['en'])
-combine_index(profile="programming-oriented", languages=['en'])
-combine_index(profile="machine-learning-oriented", languages=['en'])
-combine_index(profile="graphics-oriented", languages=['en'])
-combine_index(profile="long-winded", languages=['en'])
-combine_index(profile="wall-of-text", languages=['en'])
-combine_index(profile="bulletpoints-only", languages=['en'])
-combine_index(profile="short", languages=['en'])
+combine_index(profile="everything-included", languages=languages)
+combine_index(profile="programming-oriented", languages=languages)
+combine_index(profile="machine-learning-oriented", languages=languages)
+combine_index(profile="graphics-oriented", languages=languages)
+combine_index(profile="long-winded", languages=languages)
+combine_index(profile="wall-of-text", languages=languages)
+combine_index(profile="bulletpoints-only", languages=languages)
+combine_index(profile="short", languages=languages)
 
 # Generate PDFs for all markdown files
 source_dir = '../sections'
