@@ -1,5 +1,6 @@
 # Kühn András Gábor
-### Everything-included CV
+### Everything-included CV for testing purposes
+
 ###### _See the rest on my GitHub page:_
 ###### _[http://github.com/kuhnandrasgabor/cv ](http://github.com/kuhnandrasgabor/cv)_
 
