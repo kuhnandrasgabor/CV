@@ -17,6 +17,18 @@
 <img src="../images/profile.jpg" alt="profile_picture" width="200">
 
 
+## Objectives & Aspirations
+
+I seek a company where I can build a long-term career and where hard work and dedication are rewarded. My goal is to find a role that engages my interests, provides opportunities for growth, and allows me to contribute meaningfully to the company's success. I want to leverage my skills in a challenging environment that values autonomy, yet fosters collaboration with passionate professionals. Ideally, I envision a workplace where I **_want to be_**, whether working remotely or on-site by choice. I value a healthy work-life balance, flexibility, and the opportunity to take pride in my work.
+
+* Long-term career in a field aligned with my passions
+* Clear opportunities for growth and advancement
+* Work-life balance with remote work or flexible hours
+* Competitive compensation
+* Involvement in meaningful and engaging projects
+* Opportunities for continuous learning and professional development
+* A balance of autonomy and collaborative teamwork
+
 # Professional experience
 
 I'm a professional with over a decade of diverse experience spanning various fields, ranging from **machine learning** and **web development** through **3D visualizations** to professional **photography**.
@@ -43,8 +55,6 @@ Committed to **continuous learning and improvement**, with an eye for detail and
 - Excel in multicultural environments due to strong English skills
 - Eye for detail and passion for technology and innovation
 
-
-<!-- PAGEBREAK -->
 
 ## 2020 – Present: Data Science, Machine Learning, Full-Stack Developer & Acting CTO at Pzartech Ltd.
 
@@ -92,8 +102,6 @@ a microservice architecture with a frontend server, core server, and various rec
   * Azure DevOps, Azure Portal, CI/CD
   * Version control with Git through Azure DevOps
 
-<!-- PAGEBREAK -->
-
 ### Machine learning and training
 
 I was tasked with improving the results and scope of the **image classifier network** we were using for **industrial part recognition**. The original idea proved to be too difficult to optimize in the long term, so with a little push from a consulting expert I began to train a new network from scratch, marking my foray into the world of machine learning.
@@ -126,8 +134,6 @@ While this project never got out of the prototype phase, the solution I came up 
   * FastAi, PyTorch, TensorFlow, Jupyter notebooks and Paperspace Gradient
   * Flask, seaborn, matplotlib, pandas, numpy
   * Docker, Docker-Compose
-
-<!-- PAGEBREAK -->
 
 ## 2011 – Present: Freelance Professional (Photography, 3D Graphics, Webdesign, Architectural Visualization)
 

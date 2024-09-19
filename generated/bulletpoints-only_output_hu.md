@@ -4,18 +4,28 @@
 ###### _A többit megtekintheti GitHub-on:_
 ###### _[http://github.com/kuhnandrasgabor/cv ](http://github.com/kuhnandrasgabor/cv)_
 
-# Personal info
+# Személyes információk
 
- * **Location:** [Szeged, Hungary](https://maps.app.goo.gl/HrTJQS68Pcr1mWZY9)
+ * **Hely:** [Szeged, Hungary](https://maps.app.goo.gl/HrTJQS68Pcr1mWZY9)
 
  * **Email:** [kuhnandrasgabor@gmail.com](mailto:kuhnandrasgabor@gmail.com)
 
  * **Social:** [LinkedIn](https://www.linkedin.com/in/andrew-k%C3%BChn-58251070/)
 
- * **Visuals:** [Gallery](https://drive.google.com/drive/u/1/folders/17BtC\_NqO1VWdKJ8OTOcvbAuNRcr1uOjr)
+ * **Képekben:** [Galéria](https://drive.google.com/drive/u/1/folders/17BtC\_NqO1VWdKJ8OTOcvbAuNRcr1uOjr)
 
 <img src="../images/profile.jpg" alt="profile_picture" width="200">
 
+
+## Célok
+
+* Hosszú távú karrier egy szenvedélyeimmel összhangban lévő területen
+* Világos lehetőségek a növekedésre és előrelépésre
+* Munka és magánélet egyensúlya távmunkával vagy rugalmas munkarenddel
+* Versenyképes jövedelem
+* Részvétel értékes és izgalmas projektekben
+* Folyamatos tanulási és szakmai fejlődési lehetőségek
+* Autonómia, illetve együttműködés és csapatmunka
 
 # Szakmai tapasztalatok
 
@@ -163,16 +173,14 @@
 
 ### [Galéria](../sections/experience/starsend/starsend-gallery_hu.md)
 
-<!-- PAGEBREAK -->
-
 # Tanulmányok
 * **Üzleti Tréning** *(2013 – 2014\)*
   Alapvető üzleti folyamatok és menedzsment képzés a Támop 2.3.6 pályázat keretében.
 * **Tripont Light Academy 1-2-3** *(2011 – 2013\)* 
     Képzés fényképezési technikákban, különbözö fotózási diszciplínákban és projektmenedzsmentben.
-* **SZTE JGYPK, Webprogramozó** *(2010 – 2011, Befejezetlen)*
+* **SZTE JGYPK, Webprogramozó** *(2010 – 2011, befejezetlen)*
     Alapvető készségek elsajátítása webfejlesztésben, beleértve az HTML, Java, SQL és grafikai tervezés alapjait. Elvesztettem az érdeklődést és átváltottam a fotózásra és az üzleti vállalkozásra.
-* **SZTE TTIK, Mérnök-informatikus BSc.** *(2008 – 2010, Befejezetlen)*
+* **SZTE TTIK, Mérnök-informatikus BSc.** *(2008 – 2010, befejezetlen)*
   Részt vettem programozás (C, Assembly), számítógép-architektúra, diszkrét matematika és algoritmusok kurzusokon. Fókszváltás miatt nem fejeztem be a diplomát.
 
 # Késségek és kompetenciák
@@ -226,7 +234,7 @@
 * **Adobe Creative Suite:**
   * Tapasztalt vagyok a Photoshop és Lightroom használatában
 
-### Kreatív design és játékfejlesztés
+### Kreatív dizájn és játékfejlesztés
 
 * 2D/3D tartalomkészítés, vektorgrafika, modellezés, textúrázás, világítás és renderelés
 * Web és alkalmazások UI/UX tervezése

@@ -4,30 +4,40 @@
 ###### _A többit megtekintheti GitHub-on:_
 ###### _[http://github.com/kuhnandrasgabor/cv ](http://github.com/kuhnandrasgabor/cv)_
 
-# Personal info
+# Személyes információk
 
- * **Location:** [Szeged, Hungary](https://maps.app.goo.gl/HrTJQS68Pcr1mWZY9)
+ * **Hely:** [Szeged, Hungary](https://maps.app.goo.gl/HrTJQS68Pcr1mWZY9)
 
  * **Email:** [kuhnandrasgabor@gmail.com](mailto:kuhnandrasgabor@gmail.com)
 
  * **Social:** [LinkedIn](https://www.linkedin.com/in/andrew-k%C3%BChn-58251070/)
 
- * **Visuals:** [Gallery](https://drive.google.com/drive/u/1/folders/17BtC\_NqO1VWdKJ8OTOcvbAuNRcr1uOjr)
+ * **Képekben:** [Galéria](https://drive.google.com/drive/u/1/folders/17BtC\_NqO1VWdKJ8OTOcvbAuNRcr1uOjr)
 
 <img src="../images/profile.jpg" alt="profile_picture" width="200">
 
 
+## Célok
+
+* Hosszú távú karrier egy szenvedélyeimmel összhangban lévő területen
+* Világos lehetőségek a növekedésre és előrelépésre
+* Munka és magánélet egyensúlya távmunkával vagy rugalmas munkarenddel
+* Versenyképes jövedelem
+* Részvétel értékes és izgalmas projektekben
+* Folyamatos tanulási és szakmai fejlődési lehetőségek
+* Autonómia, illetve együttműködés és csapatmunka
+
 # Szakmai tapasztalatok
 
-Több mint 10 évnyi tapasztalattal rendelkező szakember vagyok különböző területeken, a gépi tanulástól és a webfejlesztésen át a 3D vizualizációig a profi fotózásig, vezetői tapasztalattal és széles körű technikai készségekkel.
+Több mint 10 éves tapasztalattal rendelkező szakember vagyok különböző területeken, a **gépi tanulástól** és a **webfejlesztésen** át a **3D vizualizációig a profi fotózásig,** vezetői tapasztalattal és széles körű technikai készségekkel.
 
-Tapasztalatom van vezetői szerepekben kisebb csapatokban, beleértve a technológiai startupokat is, ahol egyik helyen egy bonyolult online játékfejlesztési projektet vezettem, majd egy másik startup technológiai vezetőjeként AI-alapú adatkezelési és SaaS megoldásokat építettem repülő- és nehézipari ügyfelek számára.
+Tapasztalatom van vezetői szerepekben **kisebb csapatoknál**, beleértve a technológiai startupokat is, ahol egyik helyen egy bonyolult **online játékfejlesztési** projektet vezettem, majd egy másik startup technológiai vezetőjeként **AI-alapú adatkezelési és SaaS megoldásokat** építettem repülőgép- és nehézipari ügyfelek számára.
 
-Van némi tapasztalatom üzleti tárgyalásokban és projektmenedzsmentben, de a legjobb a kreatív tervezésben és problémamegoldásban vagyok, ahol a széles körű technikai háttéremet tudom a legjobban kihasználni, amelyet a munkám és a hobbijaim során szereztem. Nagyon hiszek a pareto-elvben, és igyekszem különböző területeken szerzett tudással felszerelni magam, miközben szakértőkre támaszkodom azokban a kérdésekben, amelyekben nem mozgok kellőképpen otthonosan.
+Van némi tapasztalatom üzleti tárgyalásokban és projektmenedzsmentben, de a legjobb a **kreatív tervezésben** és **problémamegoldásban** vagyok, ahol a széles körű technikai háttéremet tudom a legjobban kihasználni, amelyet a munkám és a hobbijaim során szereztem. Erősen hiszek a pareto-elvben, és igyekszem különböző területeken szerzett tudással felvértezni magam, miközben szakértőkre támaszkodom azokban a kérdésekben, amelyekben nem mozgok kellőképpen otthonosan.
 
-Az angoltudásomnak köszönhetően kiválóan teljesítek multikulturális környezetekben.
+Az angoltudásomnak köszönhetően kiválóan boldogulok multikulturális környezetekben.
 
-Elhivatott vagyok a folyamatos tanulásban és fejlődésben, figyelek a részletekre, és szenvedélyesen érdeklődöm a technológia és az innováció iránt. Igyekszem a technológiát arra használni, hogy javítsam személyes és szakmai életem minden területét, például AI eszközök használatával, amikor az indokolt vagy megfelelő.
+Hiszek a **folyamatos tanulásban és fejlődésben**, figyelek a részletekre, és szenvedélyesen érdeklődöm a technológia és az innováció iránt. Igyekszem a technológiát arra használni, hogy javítsam személyes és szakmai életem minden területét, például AI eszközök használatával, amikor az indokolt vagy megfelelő.
 
 
 <!-- PAGEBREAK -->
@@ -35,8 +45,8 @@ Elhivatott vagyok a folyamatos tanulásban és fejlődésben, figyelek a részle
 ## 2020 – Jelen: Adattudomány, Gépi Tanulás, Full-Stack Fejlesztő & Technikai vezető Pzartech Ltd.
 
 
-Eredetileg szabadúszó fejlesztőként kezdtem, végül a cég CTO-jaként találtam magam, ahol minden fejlesztési és architekturális döntésért én voltam a felelős.
-Fel lettem kérve egy **adatkezelő szoftver** prototípusának **újrafejlesztésére** és az **SaaS megoldásként** való bevezetésére, amelyet a repülőgép ipari MRO-k és a nehézipar számára terveztek.
+Eredetileg szabadúszó fejlesztőként kezdtem, végül a cég CTO-ja lettem, ahol minden fejlesztési és architekturális döntésért én voltam a felelős.
+Felkértek egy **adatkezelő szoftver** prototípusának **újrafejlesztésére** és az **SaaS megoldásként** való bevezetésére, amelyet a repülőgép ipari MRO-k és a nehézipar számára terveztek.
 
 A cég stratégiai tervezésében, technikai döntéshozatalában és jövőbeli növekedésében is kollaboráltam, aminek köszönhetően részesedést ajánlottak a cégben a hozzájárulásomért.
 
@@ -50,9 +60,9 @@ Néhány nagyobb mérföldkő közé tartozik egy **SAP S4/HANA** integrációs 
 
 ### Web alapú adatmanagement szoftver
 
-A projektet **Azure DevOps**-ban kezeltük **CI/CD** folyamattal, amely Azure-ban volt hostolva.
+A projektet Azure DevOps-ban kezeltük CI/CD folyamatokkal, és az Azure-on hostoltuk.
 A **.Net Core**-t választottuk **Blazor Razor** oldalakkal, **MongoDB**-t adatbázisnak és **MAUI**-t Android és WebClient build targeteknek.
-A projekt egy teljes újraírása volt az eredeti szoftvernek, a hangsúly a **modularitáson** és **skálázhatóságon** volt, ezért mikroszolgáltatás architektúrát használtunk frontend szerverrel, core szerverrel és különböző felismerő modul szerverekkel.
+A projekt egy teljes újraírása volt az eredeti szoftvernek, a fő hangsúly a **modularitáson** és **skálázhatóságon** volt, ezért mikroszolgáltatás architektúrát használtunk frontend szerverrel, core szerverrel és különböző felismerő modul szerverekkel.
 
 
 * SaaS szoftver struktúra és design konzultáció ERP szoftverhez 
@@ -139,7 +149,7 @@ Vezettem egy szoftverfejlesztő csapatot egy kis cégben, amely egy ambiciózus 
 
 
 
-Én vezettem egy ambiciózus **többjátékos online játék** fejlesztését és tervezését, amely egy nagy méretű, űr témájú játék volt. Gyakorlatilag az összes **játéklogikát, a motor testreszabását (Unity 3D és Unreal Engine 4) az AI logikától a shader programozásig** én végeztem. Elkészült több mint 300 egyedi **ikon, volumetrikus effekt, moduláris 3D űrhajó modell, UI elem** és egy sor fejlesztői eszköz. A projekt önszorgalmú tanulást igényelt különböző készségek terén, közöttük a háttértörténet írásától a monetizációra vonatkozó üzleti modellek finomításáig, a tartalmi elemek legyártására való eszközök létrehozásától, az **összes grafikáig, mind a 2D, mind a 3D-t, a procedurális geometria generálási logikát, a VFX és a hangtervezést** beleértve.
+Egy kis szoftverfejlesztő csapatot vezettem, amely egy ambiciózus online játékot fejlesztett, amely egy nagy méretű, űr témájú játék volt. A játéklogika és a motor testreszabásának nagy részéért én feleltem (Unity 3D és Unreal Engine 4) az AI logikától a shader programozásig**. Elkészült több mint 300 egyedi **ikon, volumetrikus effekt, moduláris 3D űrhajó modell, UI elem** és egy sor fejlesztői eszköz. A projekt önszorgalmú tanulást igényelt különböző készségek terén, közöttük a háttértörténet írásától a monetizációra vonatkozó üzleti modellek finomításáig, a tartalmi elemek legyártására való eszközök létrehozásától, az **összes grafikáig, mind a 2D, mind a 3D-t, a procedurális geometria generálási logikát, a VFX és a hangtervezést** beleértve.
 
 
 * Kreatív vezető
@@ -189,9 +199,9 @@ Vezettem egy szoftverfejlesztő csapatot egy kis cégben, amely egy ambiciózus 
   Alapvető üzleti folyamatok és menedzsment képzés a Támop 2.3.6 pályázat keretében.
 * **Tripont Light Academy 1-2-3** *(2011 – 2013\)* 
     Képzés fényképezési technikákban, különbözö fotózási diszciplínákban és projektmenedzsmentben.
-* **SZTE JGYPK, Webprogramozó** *(2010 – 2011, Befejezetlen)*
+* **SZTE JGYPK, Webprogramozó** *(2010 – 2011, befejezetlen)*
     Alapvető készségek elsajátítása webfejlesztésben, beleértve az HTML, Java, SQL és grafikai tervezés alapjait. Elvesztettem az érdeklődést és átváltottam a fotózásra és az üzleti vállalkozásra.
-* **SZTE TTIK, Mérnök-informatikus BSc.** *(2008 – 2010, Befejezetlen)*
+* **SZTE TTIK, Mérnök-informatikus BSc.** *(2008 – 2010, befejezetlen)*
   Részt vettem programozás (C, Assembly), számítógép-architektúra, diszkrét matematika és algoritmusok kurzusokon. Fókszváltás miatt nem fejeztem be a diplomát.
 
 # Késségek és kompetenciák
@@ -245,7 +255,7 @@ Vezettem egy szoftverfejlesztő csapatot egy kis cégben, amely egy ambiciózus 
 * **Adobe Creative Suite:**
   * Tapasztalt vagyok a Photoshop és Lightroom használatában
 
-### Kreatív design és játékfejlesztés
+### Kreatív dizájn és játékfejlesztés
 
 * 2D/3D tartalomkészítés, vektorgrafika, modellezés, textúrázás, világítás és renderelés
 * Web és alkalmazások UI/UX tervezése
@@ -277,6 +287,8 @@ Vezettem egy szoftverfejlesztő csapatot egy kis cégben, amely egy ambiciózus 
   Erős analitikai készségekkel rendelkezem, amelyekkel bonyolult problémákat tudok megoldani és új kihívásokhoz tudok alkalmazkodni.
   Hajlamos vagyok új technológiák és eszközök használatának önálló tanulására.
 
+
+<!-- PAGEBREAK -->
 
 # Érdeklődési körök
 

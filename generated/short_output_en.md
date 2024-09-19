@@ -17,6 +17,10 @@
 <img src="../images/profile.jpg" alt="profile_picture" width="200">
 
 
+## Objectives & Aspirations
+
+I'm seeking a long-term career with opportunities for growth, working on meaningful projects, ideally in a remote or flexible work environment.
+
 # Professional experience
 
 I'm a professional with over a decade of diverse experience spanning various fields, ranging from **machine learning** and **web development** through **3D visualizations** to professional **photography**, leadership experience, and a wide range of technical skills.
@@ -39,6 +43,8 @@ I was tasked with improving the results and scope of the image classifier networ
 #### OCR
 
 Another task of mine was the prototyping of an OCR software solution, where we had to detect writing from stamped machine parts to hand-engraved dotmatrix serial numbers.
+
+<!-- PAGEBREAK -->
 
 ## 2011 – Present: Freelance Professional (Photography, 3D Graphics, Webdesign, Architectural Visualization)
 
@@ -88,6 +94,8 @@ We were developing a real-time Sci-Fi massively multiplayer online role-playing 
 * **SZTE TTIK, Computer Engineering BSc.** *(2008 – 2010, Incomplete)*
   Attended courses in programming (C, Assembly), computer architecture, discrete mathematics, and algorithms. Did not
   complete the degree, switched career focus.
+
+<!-- PAGEBREAK -->
 
 # Skills and competencies
 

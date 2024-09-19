@@ -17,6 +17,20 @@
 <img src="../images/profile.jpg" alt="profile_picture" width="200">
 
 
+## Objectives & Aspirations
+
+I seek a company where I can build a long-term career and where hard work and dedication are rewarded. My goal is to find a role that engages my interests, provides opportunities for growth, and allows me to contribute meaningfully to the company's success. I want to leverage my skills in a challenging environment that values autonomy, yet fosters collaboration with passionate professionals. Ideally, I envision a workplace where I **_want to be_**, whether working remotely or on-site by choice. I value a healthy work-life balance, flexibility, and the opportunity to take pride in my work.
+
+* Long-term career in a field aligned with my passions
+* Clear opportunities for growth and advancement
+* Work-life balance with remote work or flexible hours
+* Competitive compensation
+* Involvement in meaningful and engaging projects
+* Opportunities for continuous learning and professional development
+* A balance of autonomy and collaborative teamwork
+
+I'm seeking a long-term career with opportunities for growth, working on meaningful projects, ideally in a remote or flexible work environment.
+
 # Professional experience
 
 I'm a professional with over a decade of diverse experience spanning various fields, ranging from **machine learning** and **web development** through **3D visualizations** to professional **photography**.

@@ -17,6 +17,16 @@
 <img src="../images/profile.jpg" alt="profile_picture" width="200">
 
 
+## Objectives & Aspirations
+
+* Long-term career in a field aligned with my passions
+* Clear opportunities for growth and advancement
+* Work-life balance with remote work or flexible hours
+* Competitive compensation
+* Involvement in meaningful and engaging projects
+* Opportunities for continuous learning and professional development
+* A balance of autonomy and collaborative teamwork
+
 # Professional experience
 
 I'm a professional with over a decade of diverse experience spanning various fields, ranging from **machine learning** and **web development** through **3D visualizations** to professional **photography**.
