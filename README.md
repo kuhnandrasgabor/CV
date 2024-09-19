@@ -28,6 +28,11 @@
     * in case you want to get a **detailed overview** of my skills and experience (I prefer this one)
 
 
+* **Interactive CVs**
+  * [GPT-3 Chatbot - online](https://chatgpt.com/g/g-CwjQO2tT5-curriculum-virtuale)
+    * in case you want to chat with **_virtual-me_** about my CV
+
+
 ### But... why is my CV written in Markdown, on GitHub?
 
 I created this repository for a few reasons:

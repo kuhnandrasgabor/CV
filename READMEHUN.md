@@ -23,6 +23,10 @@ Ez a repository tartalmazza az önéletrajzomat angol és magyar nyelven is.
     * ha **részletes áttekintést** szeretnél a képességeimről és tapasztalataimról (személy szerint ezt preferálom)
 
 
+* **Interaktív önéletrajzok**
+  * [GPT-3 Chatbot, majdnem minden nyelven :) - online](https://chatgpt.com/g/g-CwjQO2tT5-curriculum-virtuale)
+    * ha szeretnél beszélni a **_virtuális másommal_** az önéletrajzomról
+
 
 ### De... miért írtam önéletrajzot Markdown-ban a GitHubon?
 

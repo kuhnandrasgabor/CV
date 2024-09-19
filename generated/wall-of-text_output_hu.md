@@ -2,8 +2,8 @@
 ### Könyvszerű önéletrajz a hagyományos megjelenés kedvelőinek
 
 
-###### _A többit megtekintheti GitHub-on:_
-###### _[http://github.com/kuhnandrasgabor/cv ](http://github.com/kuhnandrasgabor/cv)_
+###### _A többit megtekintheti GitHub-on: [http://github.com/kuhnandrasgabor/cv ](http://github.com/kuhnandrasgabor/cv)_
+###### _Vagy beszélhet velem / rólam a GPT chatrobotomon keresztül: [https://chatgpt.com/g/g-CwjQO2tT5-curriculum-virtuale](https://chatgpt.com/g/g-CwjQO2tT5-curriculum-virtuale)_
 
 # Személyes információk
 
