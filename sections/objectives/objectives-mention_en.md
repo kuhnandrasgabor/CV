@@ -1,0 +1,1 @@
+I'm seeking a long-term career with opportunities for growth, working on meaningful projects, ideally in a remote or flexible work environment.

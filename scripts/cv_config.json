@@ -9,6 +9,12 @@
       {"file": "cv-profile/everything-included"},
       {"file": "github"},
       {"file": "personal-info"},
+
+      {"file": "objectives/objectives-header"},
+      {"file": "objectives/objectives-summary"},
+      {"file": "objectives/objectives-bulletpoints"},
+      {"file": "objectives/objectives-mention"},
+
       {"file": "experience/experience-header"},
       {"file": "experience/experience-summary"},
       {"file": "experience/experience-bulletpoints"},
@@ -98,11 +104,15 @@
       {"file": "cv-profile/long-winded"},
       {"file": "github"},
       {"file": "personal-info"},
+
+      {"file": "objectives/objectives-header"},
+      {"file": "objectives/objectives-summary"},
+      {"file": "objectives/objectives-bulletpoints"},
+
       {"file": "experience/experience-header"},
       {"file": "experience/experience-summary"},
       {"file": "experience/experience-bulletpoints"},
 
-      {"file": "formatting/pdf-page-break"},
 
       {"file": "experience/pzartech/pzartech-header"},
       {"file": "experience/pzartech/pzartech-summary"},
@@ -113,14 +123,12 @@
       {"file": "experience/pzartech/pzartech-webdev-bulletpoints"},
       {"file": "experience/pzartech/pzartech-webdev-skills"},
 
-      {"file": "formatting/pdf-page-break"},
 
       {"file": "experience/pzartech/pzartech-ml-header"},
       {"file": "experience/pzartech/pzartech-ml-summary"},
       {"file": "experience/pzartech/pzartech-ml-bulletpoints"},
       {"file": "experience/pzartech/pzartech-ml-skills"},
 
-      {"file": "formatting/pdf-page-break"},
 
       {"file": "experience/freelance/freelance-header"},
       {"file": "experience/freelance/freelance-summary"},
@@ -187,6 +195,10 @@
         {"file":  "cv-profile/programming-oriented"},
         {"file": "github"},
         {"file": "personal-info"},
+
+        {"file": "objectives/objectives-header"},
+        {"file": "objectives/objectives-bulletpoints"},
+
         {"file": "experience/experience-header"},
         {"file": "experience/experience-summary"},
 
@@ -255,6 +267,8 @@
         {"file": "skills/skills-professional"},
         {"file": "skills/skills-soft"},
 
+        {"file": "formatting/pdf-page-break"},
+
         {"file": "interests/interests"}
       ]
     },
@@ -263,6 +277,10 @@
         {"file":  "cv-profile/machine-learning-oriented"},
         {"file": "github"},
         {"file": "personal-info"},
+
+        {"file": "objectives/objectives-header"},
+        {"file": "objectives/objectives-bulletpoints"},
+
         {"file": "experience/experience-header"},
         {"file": "experience/experience-summary"},
 
@@ -277,8 +295,6 @@
         {"file": "experience/pzartech/pzartech-ml-header"},
         {"file": "experience/pzartech/pzartech-ml-summary"},
         {"file": "experience/pzartech/pzartech-ml-bulletpoints"},
-
-        {"file": "formatting/pdf-page-break"},
 
         {"file": "experience/pzartech/pzartech-ml-skills"},
 
@@ -333,6 +349,10 @@
         {"file":  "cv-profile/graphics-oriented"},
         {"file": "github"},
         {"file": "personal-info"},
+
+        {"file": "objectives/objectives-header"},
+        {"file": "objectives/objectives-bulletpoints"},
+
         {"file": "experience/experience-header"},
         {"file": "experience/experience-summary"},
         {"file": "formatting/pdf-page-break"},
@@ -408,6 +428,10 @@
         {"file":  "cv-profile/wall-of-text"},
         {"file": "github"},
         {"file": "personal-info"},
+
+        {"file": "objectives/objectives-header"},
+        {"file": "objectives/objectives-summary"},
+
         {"file": "experience/experience-header"},
         {"file": "experience/experience-summary"},
 
@@ -481,6 +505,10 @@
         {"file":  "cv-profile/short"},
         {"file": "github"},
         {"file": "personal-info"},
+
+        {"file": "objectives/objectives-header"},
+        {"file": "objectives/objectives-mention"},
+
         {"file": "experience/experience-header"},
         {"file": "experience/experience-mention"},
 
@@ -492,6 +520,8 @@
 
         {"file": "experience/pzartech/pzartech-ml-header"},
         {"file": "experience/pzartech/pzartech-ml-mention"},
+
+        {"file": "formatting/pdf-page-break"},
 
         {"file": "experience/freelance/freelance-header"},
         {"file": "experience/freelance/freelance-mention"},
@@ -529,6 +559,8 @@
 
         {"file": "studies"},
 
+        {"file": "formatting/pdf-page-break"},
+
         {"file": "skills/skills-header"},
         {"file": "skills/skills-technical"},
         {"file": "skills/skills-professional"},
@@ -540,6 +572,10 @@
         {"file":  "cv-profile/bulletpoints-only"},
         {"file": "github"},
         {"file": "personal-info"},
+
+        {"file": "objectives/objectives-header"},
+        {"file": "objectives/objectives-bulletpoints"},
+
         {"file": "experience/experience-header"},
         {"file": "experience/experience-bulletpoints"},
 
@@ -588,8 +624,6 @@
           "link": {"_en": "### [Go to starsend gallery]", "_hu": "### [Galéria]"}
         },
 
-        {"file": "formatting/pdf-page-break"},
-
         {"file": "studies"},
 
         {"file": "skills/skills-header"},
@@ -598,246 +632,247 @@
         {"file": "skills/skills-soft"}
       ]
     },
-  "default": {
-    "content": [
-      {"file": "cv-profile/default"},
-      {"file": "github"},
-      {"file": "personal-info"},
-      {"file": "experience/experience-header"},
-      {"file": "experience/experience-summary"},
-      {"file": "experience/pzartech/pzartech-header"},
-      {"file": "experience/pzartech/pzartech-summary"},
-      {
-        "generate": "experience/pzartech/pzartech-webdev-project",
-        "link": {
-          "_en": "### [Go to web development project]",
-          "_hu": "### [webfejlesztési projekt]"
-        },
-        "content": [
-          {"file": "experience/pzartech/pzartech-webdev"},
-          {"file": "experience/pzartech/pzartech-webdev-skills"}
-        ]
-      },
-      {
-        "file": "experience/pzartech/pzartech-ml",
-        "link": {
-          "_en": "### [Go to machine learning projects]",
-          "_hu": "### [gépi tanulási projektek]"
-        }
-      },
-      {"file": "experience/freelance/freelance-header"},
-      {"file": "experience/freelance/freelance-summary"},
-      {
-        "generate": "experience/freelance/freelance-expanded",
-        "link": {
-          "_en": "### [Go to freelance projects]",
-          "_hu": "### [szabadúszó projektek]"
-        },
-        "content": [
-          {"file": "experience/freelance/freelance-3d-summary"},
-          {"file": "experience/freelance/3d/freelance-3d-header"},
-          {"file": "experience/freelance/3d/freelance-3d-summary"},
-          {
-            "file": "experience/freelance/3d/freelance-3d-gallery",
-            "link": {
-              "_en": "### [Go to gallery]",
-              "_hu": "### [Galéria]"
-            }
+
+    "default": {
+      "content": [
+        {"file": "cv-profile/default"},
+        {"file": "github"},
+        {"file": "personal-info"},
+        {"file": "experience/experience-header"},
+        {"file": "experience/experience-summary"},
+        {"file": "experience/pzartech/pzartech-header"},
+        {"file": "experience/pzartech/pzartech-summary"},
+        {
+          "generate": "experience/pzartech/pzartech-webdev-project",
+          "link": {
+            "_en": "### [Go to web development project]",
+            "_hu": "### [webfejlesztési projekt]"
           },
-          {"file": "experience/freelance/freelance-archviz-summary"},
-          {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-header"},
-          {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-summary"},
-          {
-            "file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-gallery",
-            "link": {
-              "_en": "### [Go to gallery]",
-              "_hu": "### [Galéria]"
-            }
-          },
-          {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-header"},
-          {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-summary"},
-          {
-            "file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-gallery",
-            "link": {
-              "_en": "### [Go to gallery]",
-              "_hu": "### [Galéria]"
-            }
+          "content": [
+            {"file": "experience/pzartech/pzartech-webdev"},
+            {"file": "experience/pzartech/pzartech-webdev-skills"}
+          ]
+        },
+        {
+          "file": "experience/pzartech/pzartech-ml",
+          "link": {
+            "_en": "### [Go to machine learning projects]",
+            "_hu": "### [gépi tanulási projektek]"
           }
-        ]
-      },
-      {"file": "experience/stoneglass/stoneglass-header"},
-      {"file": "experience/stoneglass/stoneglass-summary"},
-      {
-        "file": "experience/stoneglass/stoneglass-roles",
-        "link": {
-          "_en": "### [Go to Stoneglass roles]",
-          "_hu": "### [Ugrás a Stoneglass roles]"
-        }
-      },
-      {
-        "generate": "experience/starsend/starsend",
-        "link": {
-          "_en": "### [Go to Starsend project]",
-          "_hu": "### [Ugrás a Starsend projekthez]"
         },
-        "content": [
-          {"file": "experience/starsend/starsend-header"},
-          {"file": "experience/starsend/starsend-summary"},
-          {"file": "experience/starsend/starsend-roles"},
-          {"file": "experience/starsend/starsend-gallery"}
-        ]
-      },
-      {"file": "projects/projects-header"},
-      {
-        "file": "projects/projects-summary",
-        "link": {
-          "_en": "### [Go to projects]",
-          "_hu": "### [Ugrás a projektekhez]"
-        }
-      },
-      {"file": "studies/studies-header"},
-      {"file": "studies/studies-summary"},
-      {"file": "skills/skills-header"},
-      {"file": "skills/skills-technical"},
-      {"file": "skills/skills-professional"},
-      {"file": "skills/skills-soft"},
-      {"file": "interests/interests"}
-    ]
-  },
-  "demo": {
-    "content": [
-      {"file": "demo/included-file1"},
-      {
-        "file": "demo/included-file2",
-        "content": [
-          {"file": "demo/included-file3"},
-          {"file": "demo/included-file4"}
-        ]
-      },
-      {
-        "file": "demo/linked-file1",
-        "link": {
-          "_en": "### [Link to linked-file1]",
-          "_hu": "### [linked-file1 -re mutató link]"
-        }
-      },
-      {
-        "file": "demo/linked-file-with-included-content",
-        "link": {
-          "_en": "### [Link to linked-file-with-included-content]",
-          "_hu": "### [linked-file-with-included-content -re mutató link]"
-        },
-        "content": [
-          {
-            "file": "demo/included-file5"
+        {"file": "experience/freelance/freelance-header"},
+        {"file": "experience/freelance/freelance-summary"},
+        {
+          "generate": "experience/freelance/freelance-expanded",
+          "link": {
+            "_en": "### [Go to freelance projects]",
+            "_hu": "### [szabadúszó projektek]"
           },
-          {
-            "file": "demo/included-file6"
-          }
-        ]
-      },
-      {
-        "generate": "demo/generated-file1",
-        "link": {
-          "_en": "### [Link to generated-file1]",
-          "_hu": "### [generated-file1 -re mutató link]"
-        },
-        "content": [
-          {
-            "file": "demo/linked-file2",
-            "link": {
-              "_en": "### [Link to linked-file2]",
-              "_hu": "### [linked-file2 -re mutató link]"
-            }
-          },
-          {
-            "file": "demo/linked-file3",
-            "link": {
-              "_en": "### [Link to linked-file3]",
-              "_hu": "### [linked-file3 -ra mutató link]"
-            }
-          }
-        ]
-      },
-      {
-        "file": "demo/linked-file-with-linked-content-and-included-content",
-        "link": {
-          "_en": "### [Link to file with content and link text and included content]",
-          "_hu": "### [Fájlra mutató link tartalommal és link szöveggel és tartalommal]"
-        },
-        "content": [
-          {
-            "file": "demo/linked-file4",
-            "link": {
-              "_en": "### [Link to linked-file4]",
-              "_hu": "### [linked-file4 -re mutató link]"
-            }
-          },
-          {
-            "file": "demo/linked-file5",
-            "link": {
-              "_en": "### [Link to linked-file5]",
-              "_hu": "### [linked-file5 -re mutató link]"
-            }
-          },
-          {
-            "file": "demo/included-file6"
-          }
-        ]
-      },
-      {
-        "generate": "demo/inside/generated-file2",
-        "link": {
-          "_en": "### [Link to generated-file2 with content and link text and included content]",
-          "_hu": "### [generated-file2 -re mutató link tartalommal és link szöveggel és tartalommal]"
-        },
-        "content": [
-          {
-            "file": "demo/linked-file4",
-            "link": {
-              "_en": "### [Link to linked-file4]",
-              "_hu": "### [linked-file4 -re mutató link]"
-            }
-          },
-          {
-            "file": "demo/linked-file5",
-            "link": {
-              "_en": "### [Link to linked-file5]",
-              "_hu": "### [linked-file5 -re mutató link]"
-            }
-          },
-          {
-            "file": "demo/included-file6"
-          }
-        ]
-      },
-      {
-        "generate": "demo/inside/generated-file3",
-        "link": {
-          "_en": "### [Link to generated-file3 content]",
-          "_hu": "### [generated-file3 -ra mutató link]"
-        },
-        "content": [
-          {
-            "generate": "demo/generated-file4",
-            "link": {
-              "_en": "### [Link to generated-file4]",
-              "_hu": "### [generated-file4 -re mutató link]"
-            },
-            "content": [
-              {
-                "file": "demo/included-file6"
-              },
-              {
-                "file": "demo/included-file5"
-              },
-              {
-                "file": "demo/included-file4"
+          "content": [
+            {"file": "experience/freelance/freelance-3d-summary"},
+            {"file": "experience/freelance/3d/freelance-3d-header"},
+            {"file": "experience/freelance/3d/freelance-3d-summary"},
+            {
+              "file": "experience/freelance/3d/freelance-3d-gallery",
+              "link": {
+                "_en": "### [Go to gallery]",
+                "_hu": "### [Galéria]"
               }
-            ]
+            },
+            {"file": "experience/freelance/freelance-archviz-summary"},
+            {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-header"},
+            {"file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-summary"},
+            {
+              "file": "experience/freelance/archviz-interactive/freelance-archviz-interactive-gallery",
+              "link": {
+                "_en": "### [Go to gallery]",
+                "_hu": "### [Galéria]"
+              }
+            },
+            {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-header"},
+            {"file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-summary"},
+            {
+              "file": "experience/freelance/archviz-realistic/freelance-archviz-realistic-gallery",
+              "link": {
+                "_en": "### [Go to gallery]",
+                "_hu": "### [Galéria]"
+              }
+            }
+          ]
+        },
+        {"file": "experience/stoneglass/stoneglass-header"},
+        {"file": "experience/stoneglass/stoneglass-summary"},
+        {
+          "file": "experience/stoneglass/stoneglass-roles",
+          "link": {
+            "_en": "### [Go to Stoneglass roles]",
+            "_hu": "### [Ugrás a Stoneglass roles]"
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "generate": "experience/starsend/starsend",
+          "link": {
+            "_en": "### [Go to Starsend project]",
+            "_hu": "### [Ugrás a Starsend projekthez]"
+          },
+          "content": [
+            {"file": "experience/starsend/starsend-header"},
+            {"file": "experience/starsend/starsend-summary"},
+            {"file": "experience/starsend/starsend-roles"},
+            {"file": "experience/starsend/starsend-gallery"}
+          ]
+        },
+        {"file": "projects/projects-header"},
+        {
+          "file": "projects/projects-summary",
+          "link": {
+            "_en": "### [Go to projects]",
+            "_hu": "### [Ugrás a projektekhez]"
+          }
+        },
+        {"file": "studies/studies-header"},
+        {"file": "studies/studies-summary"},
+        {"file": "skills/skills-header"},
+        {"file": "skills/skills-technical"},
+        {"file": "skills/skills-professional"},
+        {"file": "skills/skills-soft"},
+        {"file": "interests/interests"}
+      ]
+    },
+    "demo": {
+      "content": [
+        {"file": "demo/included-file1"},
+        {
+          "file": "demo/included-file2",
+          "content": [
+            {"file": "demo/included-file3"},
+            {"file": "demo/included-file4"}
+          ]
+        },
+        {
+          "file": "demo/linked-file1",
+          "link": {
+            "_en": "### [Link to linked-file1]",
+            "_hu": "### [linked-file1 -re mutató link]"
+          }
+        },
+        {
+          "file": "demo/linked-file-with-included-content",
+          "link": {
+            "_en": "### [Link to linked-file-with-included-content]",
+            "_hu": "### [linked-file-with-included-content -re mutató link]"
+          },
+          "content": [
+            {
+              "file": "demo/included-file5"
+            },
+            {
+              "file": "demo/included-file6"
+            }
+          ]
+        },
+        {
+          "generate": "demo/generated-file1",
+          "link": {
+            "_en": "### [Link to generated-file1]",
+            "_hu": "### [generated-file1 -re mutató link]"
+          },
+          "content": [
+            {
+              "file": "demo/linked-file2",
+              "link": {
+                "_en": "### [Link to linked-file2]",
+                "_hu": "### [linked-file2 -re mutató link]"
+              }
+            },
+            {
+              "file": "demo/linked-file3",
+              "link": {
+                "_en": "### [Link to linked-file3]",
+                "_hu": "### [linked-file3 -ra mutató link]"
+              }
+            }
+          ]
+        },
+        {
+          "file": "demo/linked-file-with-linked-content-and-included-content",
+          "link": {
+            "_en": "### [Link to file with content and link text and included content]",
+            "_hu": "### [Fájlra mutató link tartalommal és link szöveggel és tartalommal]"
+          },
+          "content": [
+            {
+              "file": "demo/linked-file4",
+              "link": {
+                "_en": "### [Link to linked-file4]",
+                "_hu": "### [linked-file4 -re mutató link]"
+              }
+            },
+            {
+              "file": "demo/linked-file5",
+              "link": {
+                "_en": "### [Link to linked-file5]",
+                "_hu": "### [linked-file5 -re mutató link]"
+              }
+            },
+            {
+              "file": "demo/included-file6"
+            }
+          ]
+        },
+        {
+          "generate": "demo/inside/generated-file2",
+          "link": {
+            "_en": "### [Link to generated-file2 with content and link text and included content]",
+            "_hu": "### [generated-file2 -re mutató link tartalommal és link szöveggel és tartalommal]"
+          },
+          "content": [
+            {
+              "file": "demo/linked-file4",
+              "link": {
+                "_en": "### [Link to linked-file4]",
+                "_hu": "### [linked-file4 -re mutató link]"
+              }
+            },
+            {
+              "file": "demo/linked-file5",
+              "link": {
+                "_en": "### [Link to linked-file5]",
+                "_hu": "### [linked-file5 -re mutató link]"
+              }
+            },
+            {
+              "file": "demo/included-file6"
+            }
+          ]
+        },
+        {
+          "generate": "demo/inside/generated-file3",
+          "link": {
+            "_en": "### [Link to generated-file3 content]",
+            "_hu": "### [generated-file3 -ra mutató link]"
+          },
+          "content": [
+            {
+              "generate": "demo/generated-file4",
+              "link": {
+                "_en": "### [Link to generated-file4]",
+                "_hu": "### [generated-file4 -re mutató link]"
+              },
+              "content": [
+                {
+                  "file": "demo/included-file6"
+                },
+                {
+                  "file": "demo/included-file5"
+                },
+                {
+                  "file": "demo/included-file4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
 }

@@ -1,0 +1,1 @@
+Hosszú távú karriert keresek egy előrelépési lehetőségeket biztosító, értékes projekteken dolgozó munkahelyen, ideális esetben távmunkában vagy rugalmas munkarenddel.
