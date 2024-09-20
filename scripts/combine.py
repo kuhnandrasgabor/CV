@@ -342,6 +342,6 @@ target_dir2 = '../generated'
 with open('cv_config.json', 'r') as config_file:
     config = json.load(config_file)
     github_repo_url = config['github-repo-url']
-
-traverse_and_generate_pdfs(source_dir2, target_dir2, github_repo_url)
-traverse_and_generate_pdfs(source_dir, target_dir, github_repo_url)
+#
+# traverse_and_generate_pdfs(source_dir2, target_dir2, github_repo_url)
+# traverse_and_generate_pdfs(source_dir, target_dir, github_repo_url)

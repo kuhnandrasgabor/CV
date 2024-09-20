@@ -1,5 +1,6 @@
 import os
 import shutil
+from combine import generate_pdf_from_md
 
 
 def compile_gpt_files():
@@ -42,6 +43,10 @@ def compile_gpt_files():
                 writing_styles_samples_file.write(line)
 
     print("GPT files compiled successfully!")
+
+    # generate pdf from the markdown files
+    generate_pdf_from_md(structured_thoughts_filepath, structured_thoughts_filepath.replace(".md", ".pdf"), "https://github.com/kuhnandrasgabor/cv")
+    generate_pdf_from_md(writing_styles_samples_filepath, writing_styles_samples_filepath.replace(".md", ".pdf"), "https://github.com/kuhnandrasgabor/cv")
 
 
 compile_gpt_files()
