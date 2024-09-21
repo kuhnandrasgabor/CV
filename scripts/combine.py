@@ -313,35 +313,35 @@ def traverse_and_generate_pdfs(source_dir, target_dir, github_repo_url=None):
                 print(f"Converted {md_filepath} to {pdf_output_path}")
 
 
-# One-step process to combine sections and generate PDFs
+def compile_cv():
+    # One-step process to combine sections and generate PDFs
 
-languages = ['en', 'hu']
+    languages = ['en', 'hu']
 
-# clean generated folder
-shutil.rmtree('../generated', ignore_errors=True)
+    # clean generated folder
+    shutil.rmtree('../generated', ignore_errors=True)
 
-# combine_index(profile='demo')
-# combine_index(profile='default', languages=['en', 'hu'])
-combine_index(profile="everything-included", languages=languages)
-combine_index(profile="programming-oriented", languages=languages)
-combine_index(profile="machine-learning-oriented", languages=languages)
-combine_index(profile="graphics-oriented", languages=languages)
-combine_index(profile="long-winded", languages=languages)
-combine_index(profile="wall-of-text", languages=languages)
-combine_index(profile="bulletpoints-only", languages=languages)
-combine_index(profile="short", languages=languages)
+    # combine_index(profile='demo')
+    # combine_index(profile='default', languages=['en', 'hu'])
+    combine_index(profile="everything-included", languages=languages)
+    combine_index(profile="programming-oriented", languages=languages)
+    combine_index(profile="machine-learning-oriented", languages=languages)
+    combine_index(profile="graphics-oriented", languages=languages)
+    combine_index(profile="long-winded", languages=languages)
+    combine_index(profile="wall-of-text", languages=languages)
+    combine_index(profile="bulletpoints-only", languages=languages)
+    combine_index(profile="short", languages=languages)
 
-# Generate PDFs for all markdown files
-source_dir = '../sections'
-target_dir = '../generated/sections'
+    # Generate PDFs for all markdown files
+    source_dir = '../sections'
+    target_dir = '../generated/sections'
 
-source_dir2 = '../generated'
-target_dir2 = '../generated'
+    source_dir2 = '../generated'
+    target_dir2 = '../generated'
 
+    with open('cv_config.json', 'r') as config_file:
+        config = json.load(config_file)
+        github_repo_url = config['github-repo-url']
 
-with open('cv_config.json', 'r') as config_file:
-    config = json.load(config_file)
-    github_repo_url = config['github-repo-url']
-#
-# traverse_and_generate_pdfs(source_dir2, target_dir2, github_repo_url)
-# traverse_and_generate_pdfs(source_dir, target_dir, github_repo_url)
+    traverse_and_generate_pdfs(source_dir2, target_dir2, github_repo_url)
+    traverse_and_generate_pdfs(source_dir, target_dir, github_repo_url)
