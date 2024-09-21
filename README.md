@@ -7,7 +7,7 @@
 * **Interactive CVs**
 
     * [GPT-3 Chatbot - online](https://chatgpt.com/g/g-CwjQO2tT5-curriculum-virtuale)
-        * in case you want to chat with **_virtual-me_** about my CV
+        * in case you want to chat with **_virtual-me_** about my CV on ChatGPT (requires a free account, in case you don't have one yet)
 
 * **Focused CVs**
 

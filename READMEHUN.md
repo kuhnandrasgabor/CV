@@ -6,7 +6,7 @@
 
 * **Interaktív önéletrajzok**
     * [GPT-3 Chatbot, majdnem minden nyelven :) - online](https://chatgpt.com/g/g-CwjQO2tT5-curriculum-virtuale)
-        * ha szeretnél beszélni a **_virtuális másommal_** az önéletrajzomról
+        * ha szeretnél beszélni a **_virtuális másommal_** az önéletrajzomról (ingyenes fiók szükséges, ha még nincs)
 
 
 * **Fókuszált önéletrajzok**
