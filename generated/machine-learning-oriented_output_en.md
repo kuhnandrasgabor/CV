@@ -56,13 +56,14 @@ A few bigger milestones iclude an **SAP S4/HANA** integration prototype, **Elast
 
 * Full-stack web development on .Net Core, Blazor, Razor, MongoDB, MAUI
 * ML/AI development with Python
+* Local LLM and RAG prototype
 * Image classifier and OCR system training and deployment
 * CI/CD with Azure DevOps, Azure Portal
 * Version control with Git through Azure DevOps
 
 ### Web based data management software
 
-I was in charge of developing a web-based data management system, focusing on MRO and industrial clients, enhanced by Ai search tools.
+I was in charge of developing a web-based data management system, focusing on MRO and industrial clients, enhanced by Ai vision search tools and chatbots.
 
 #### Skills used/developed
   * C#, Python, HTML
@@ -172,6 +173,9 @@ We were developing a real-time Sci-Fi massively multiplayer online role-playing 
   * **Machine Learning Frameworks and Tools:**
     * **Familiar:** FastAI, PyTorch, TensorFlow, Scikit, Jupyter Notebooks, Paperspace Gradient
 
+  * **Running LLMs locally, building agents:**
+    * **Familiar:** n8n, ollama, open webui 
+
   * **DevOps and Containerization:**
     * **Experienced:** Azure DevOps
     * **Proficient:** CI/CD pipeline implementation
@@ -183,7 +187,7 @@ We were developing a real-time Sci-Fi massively multiplayer online role-playing 
 ### Databases and Data Management
 
 * **Proficient:** MongoDB, SQL databases (e.g., MySQL, SQL Server)
-* **Familiar:** ElasticSearch
+* **Familiar:** ElasticSearch, QDrant vector database
 
 ### Cloud Services and DevOps
 

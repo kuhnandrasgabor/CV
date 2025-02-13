@@ -74,6 +74,7 @@ Néhány nagyobb mérföldkő közé tartozik egy **SAP S4/HANA** integrációs 
 
 * Full-stack webfejlesztés .Net Core, Blazor, Razor, MongoDB, MAUI 
 * ML/AI fejlesztés Pythonnal
+* Lokális LLM és RAG prototipus
 * Képosztályozó és OCR rendszer tanítás és telepítése
 * CI/CD Azure DevOps, Azure Portal-al
 * Git verziókövetés az Azure DevOps-on keresztül
@@ -104,7 +105,7 @@ A projekt egy teljes újraírása volt az eredeti szoftvernek, a fő hangsúly a
   * SAP integrációs prototípus SAP HANA S/4 Product Master Adatokhoz
 
 
-Én voltam a felelős egy webes adatkezelő rendszer fejlesztéséért, amelyet MRO és ipari ügyfelek számára terveztek, Ai keresőeszközökkel tűzdelve.
+Én voltam a felelős egy webes adatkezelő rendszer fejlesztéséért, amelyet MRO és ipari ügyfelek számára terveztek, Ai kép alapú keresőeszközökkel és chatbotokkal tűzdelve.
 
 
 #### Használt és elsajátított képességek
@@ -340,6 +341,9 @@ Egy valós-idejű Sci-Fi többjátékos online szerepjátékot fejlesztettünk.
 
   * **Gépi tanulással kapcsolatos keretrendszerek:**
     * **Ismer:** FastAI, PyTorch, TensorFlow, Scikit, Jupyter Notebooks, Paperspace Gradient
+  
+  * **Lokális LLM futtatás és agent építés:**
+    * **Ismer:** n8n, ollama, open webui
 
   * **DevOps and Konténerizáció:**
     * **Tapasztalt:** Azure DevOps

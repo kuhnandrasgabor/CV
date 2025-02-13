@@ -36,7 +36,7 @@ Eredetileg szabadúszó fejlesztőként kezdtem, végül a cég CTO-jaként tal�
 
 ### Web alapú adatmanagement szoftver
 
-Én voltam a felelős egy webes adatkezelő rendszer fejlesztéséért, amelyet MRO és ipari ügyfelek számára terveztek, Ai keresőeszközökkel tűzdelve.
+Én voltam a felelős egy webes adatkezelő rendszer fejlesztéséért, amelyet MRO és ipari ügyfelek számára terveztek, Ai kép alapú keresőeszközökkel és chatbotokkal tűzdelve.
 
 
 ### Gépi Tanulás és Adattudomány
@@ -122,6 +122,9 @@ Egy valós-idejű Sci-Fi többjátékos online szerepjátékot fejlesztettünk.
 
   * **Gépi tanulással kapcsolatos keretrendszerek:**
     * **Ismer:** FastAI, PyTorch, TensorFlow, Scikit, Jupyter Notebooks, Paperspace Gradient
+  
+  * **Lokális LLM futtatás és agent építés:**
+    * **Ismer:** n8n, ollama, open webui
 
   * **DevOps and Konténerizáció:**
     * **Tapasztalt:** Azure DevOps

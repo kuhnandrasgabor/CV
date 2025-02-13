@@ -71,6 +71,7 @@ A few bigger milestones iclude an **SAP S4/HANA** integration prototype, **Elast
 
 * Full-stack web development on .Net Core, Blazor, Razor, MongoDB, MAUI
 * ML/AI development with Python
+* Local LLM and RAG prototype
 * Image classifier and OCR system training and deployment
 * CI/CD with Azure DevOps, Azure Portal
 * Version control with Git through Azure DevOps
@@ -302,6 +303,9 @@ Led development and design of an ambitious **multiplayer online game** involving
   * **Machine Learning Frameworks and Tools:**
     * **Familiar:** FastAI, PyTorch, TensorFlow, Scikit, Jupyter Notebooks, Paperspace Gradient
 
+  * **Running LLMs locally, building agents:**
+    * **Familiar:** n8n, ollama, open webui 
+
   * **DevOps and Containerization:**
     * **Experienced:** Azure DevOps
     * **Proficient:** CI/CD pipeline implementation
@@ -313,7 +317,7 @@ Led development and design of an ambitious **multiplayer online game** involving
 ### Databases and Data Management
 
 * **Proficient:** MongoDB, SQL databases (e.g., MySQL, SQL Server)
-* **Familiar:** ElasticSearch
+* **Familiar:** ElasticSearch, QDrant vector database
 
 ### Cloud Services and DevOps
 

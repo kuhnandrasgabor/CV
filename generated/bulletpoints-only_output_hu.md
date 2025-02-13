@@ -47,6 +47,7 @@
 
 * Full-stack webfejlesztés .Net Core, Blazor, Razor, MongoDB, MAUI 
 * ML/AI fejlesztés Pythonnal
+* Lokális LLM és RAG prototipus
 * Képosztályozó és OCR rendszer tanítás és telepítése
 * CI/CD Azure DevOps, Azure Portal-al
 * Git verziókövetés az Azure DevOps-on keresztül
@@ -200,6 +201,9 @@
 
   * **Gépi tanulással kapcsolatos keretrendszerek:**
     * **Ismer:** FastAI, PyTorch, TensorFlow, Scikit, Jupyter Notebooks, Paperspace Gradient
+  
+  * **Lokális LLM futtatás és agent építés:**
+    * **Ismer:** n8n, ollama, open webui
 
   * **DevOps and Konténerizáció:**
     * **Tapasztalt:** Azure DevOps

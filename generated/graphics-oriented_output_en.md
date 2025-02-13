@@ -51,7 +51,7 @@ Initially a freelance developer, ended up as acting CTO, in charge of all develo
 
 ### Web based data management software
 
-I was in charge of developing a web-based data management system, focusing on MRO and industrial clients, enhanced by Ai search tools.
+I was in charge of developing a web-based data management system, focusing on MRO and industrial clients, enhanced by Ai vision search tools and chatbots.
 
 ### Machine learning and training
 
@@ -218,6 +218,9 @@ Led development and design of an ambitious **multiplayer online game** involving
   * **Machine Learning Frameworks and Tools:**
     * **Familiar:** FastAI, PyTorch, TensorFlow, Scikit, Jupyter Notebooks, Paperspace Gradient
 
+  * **Running LLMs locally, building agents:**
+    * **Familiar:** n8n, ollama, open webui 
+
   * **DevOps and Containerization:**
     * **Experienced:** Azure DevOps
     * **Proficient:** CI/CD pipeline implementation
@@ -229,7 +232,7 @@ Led development and design of an ambitious **multiplayer online game** involving
 ### Databases and Data Management
 
 * **Proficient:** MongoDB, SQL databases (e.g., MySQL, SQL Server)
-* **Familiar:** ElasticSearch
+* **Familiar:** ElasticSearch, QDrant vector database
 
 ### Cloud Services and DevOps
 
